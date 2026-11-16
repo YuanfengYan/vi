@@ -1,0 +1,38 @@
+{
+  "artifacts": {
+    "AR-PILOT-CONFIG": {
+      "acceptance": {
+        "at": "2026-11-16T07:46:03.247008Z",
+        "decision": "accepted",
+        "note": "",
+        "outputs": {
+          "创作者决策/制作配置.jsonl": "538208b5d227e939fc4bb5e13f2ab9d291ec22cd1707849dc76efb9a50be3248"
+        }
+      },
+      "inputs": {},
+      "outputs": [
+        "创作者决策/制作配置.jsonl"
+      ],
+      "owner": "short-drama",
+      "review": null,
+      "updated_at": "2026-11-16T07:46:03.247023Z"
+    }
+  },
+  "authority": {
+    "/creator_authority/production_profile/choices": {
+      "decision": "创作者决策/制作配置.jsonl#CD-H3",
+      "set_at": "2026-11-16T07:46:03.409090Z",
+      "value_sha256": "7cf8f9635bc0ae62f3f0460689297fed5f994bbed5b946c67ad553969fc7de21"
+    },
+    "/format/target_seconds_per_episode": {
+      "decision": "创作者决策/制作配置.jsonl#CD-SERIES-DURATION",
+      "set_at": "2026-11-16T07:46:03.559298Z",
+      "value_sha256": "39fa9ec190eee7b6f4dff1100d6343e10918d044c75eac8f9e9a2596173f80c9"
+    }
+  },
+  "last_action": "authority_set",
+  "project_id": "SD-59A58D4C5CE7",
+  "project_layout_mode": "canonical",
+  "schema_version": "2.0",
+  "updated_at": "2026-11-16T07:46:03.559321Z"
+}

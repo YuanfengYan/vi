@@ -1,0 +1,7 @@
+interface:
+  display_name: "MiniMax 视频人物替换"
+  short_description: "保留原视频场景、动作和运镜，按人物图片编写MiniMax替换提示词"
+  default_prompt: "使用 $minimax-character-replace，保留原视频的场景、动作和运镜，用提供的人物图片替换指定人物，生成MiniMax可复制提示词。"
+
+policy:
+  allow_implicit_invocation: true

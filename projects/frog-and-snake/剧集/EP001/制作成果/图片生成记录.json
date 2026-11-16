@@ -1,0 +1,56 @@
+{
+  "images": [
+    {
+      "shot": "SHOT-001",
+      "path": "剧集/EP001/制作成果/images/SHOT-001-start.png",
+      "tool": "image_gen.imagegen",
+      "sha256": "f436f21a9207b39b86acdd0ad4e82b158a2bb52762de7935cff4fab27e9f3376",
+      "status": "generated",
+      "reference": null
+    },
+    {
+      "shot": "SHOT-002",
+      "path": "剧集/EP001/制作成果/images/SHOT-002-start.png",
+      "tool": "image_gen.imagegen",
+      "sha256": "09815452bcfaf8b9d5e98ed37a5ef8a0a09b701e35e768dcb774d2137d7c0424",
+      "status": "generated",
+      "reference": "SHOT-001-start.png"
+    },
+    {
+      "shot": "SHOT-003",
+      "path": "剧集/EP001/制作成果/images/SHOT-003-start.png",
+      "tool": "image_gen.imagegen",
+      "sha256": "9d62060d6fd10d88d12e23e27c0c923ca9eab68b3078eee9b2cf30331d4fd5ea",
+      "status": "generated",
+      "reference": "SHOT-001-start.png"
+    },
+    {
+      "shot": "SHOT-004",
+      "path": "剧集/EP001/制作成果/images/SHOT-004-start.png",
+      "tool": "image_gen.imagegen",
+      "sha256": "e0a699e0166e07b698408a6b05f5052840603ac485f3b72f03abdade58d85c73",
+      "status": "generated",
+      "reference": "SHOT-001-start.png"
+    },
+    {
+      "shot": "SHOT-005",
+      "path": "剧集/EP001/制作成果/images/SHOT-005-start.png",
+      "tool": "image_gen.imagegen",
+      "sha256": "7d93e7ec908b6e5babf9512b442edcfb3c71e1b11bf1097f6a9a9375d3d86506",
+      "status": "generated",
+      "reference": "SHOT-001-start.png"
+    },
+    {
+      "shot": "SHOT-006",
+      "path": "剧集/EP001/制作成果/images/SHOT-006-start.png",
+      "tool": "image_gen.imagegen",
+      "sha256": "4cebd2737557cac60a8ac93eb42e378e3e631da6aa9c455f4ed735c9bdac15be",
+      "status": "generated",
+      "reference": "SHOT-001-start.png",
+      "correction": "保持角色和构图，将鬣狗手中的唯一蜜罐移到其右侧地面、巨爪落点之外，鬣狗双爪改为空爪。已检查修正结果。"
+    }
+  ],
+  "video_generated": false,
+  "inspection": "6张图已逐张查看；第6张修正了蜜罐持物连续性。视频尚未生成，动作效果待生成后检查。",
+  "prompt_source": "项目开发/EP001-创作方案.md"
+}

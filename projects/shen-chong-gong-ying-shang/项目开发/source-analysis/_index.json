@@ -1,0 +1,29 @@
+{
+  "chapter_count": 1,
+  "chapter_unit": "\u7ae0",
+  "chapters": [
+    {
+      "char_count": 5738,
+      "heading": "\u7b2c\u4e00\u7ae0\uff1a\u6d77\u6d0b\u65f6\u4ee3",
+      "line_end": 352,
+      "line_start": 1,
+      "sequence": 1,
+      "source_number": 1,
+      "title": "\uff1a\u6d77\u6d0b\u65f6\u4ee3",
+      "unit": "\u7ae0"
+    }
+  ],
+  "contents_entries_dropped": 0,
+  "ignored_heading_units": {},
+  "long_heading_lines_skipped": 0,
+  "problems": [],
+  "record_type": "novel_chapter_index",
+  "schema_version": "1.0.0-draft",
+  "source": {
+    "artifact": "\u7b2c\u4e00\u7ae0\uff1a\u6d77\u6d0b\u65f6\u4ee3.txt",
+    "char_count": 5738,
+    "line_count": 352
+  },
+  "volume_count": 1,
+  "volume_numbering_restarts": false
+}
