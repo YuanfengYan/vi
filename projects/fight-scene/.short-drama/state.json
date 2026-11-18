@@ -1,0 +1,25 @@
+{
+  "artifacts": {},
+  "authority": {
+    "/creator_authority/production_profile": {
+      "decision": "direct:configure",
+      "set_at": "2026-11-17T09:21:26.498520Z",
+      "value_sha256": "ee4c09b13c68f13acfa4030589610ffe164ea718e31417e8cfaab30ba275916b"
+    },
+    "/creator_authority/visual_direction": {
+      "decision": "direct:configure",
+      "set_at": "2026-11-17T09:21:26.498520Z",
+      "value_sha256": "250566f26de9b0bd45ca98d684b6052d7a50fd58bfffe23f683a3c0ee7e8edf1"
+    },
+    "/format/target_seconds_per_episode": {
+      "decision": "direct:configure",
+      "set_at": "2026-11-17T09:21:26.498520Z",
+      "value_sha256": "db58b6c40698d7371bbcff35d085e1bac5fa439d0de31eb8e0da7c47d27cb2a7"
+    }
+  },
+  "last_action": "configured",
+  "project_id": "SD-43E747D6EBDC",
+  "project_layout_mode": "auto",
+  "schema_version": "2.0",
+  "updated_at": "2026-11-17T09:21:26.508899Z"
+}

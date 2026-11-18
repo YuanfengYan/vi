@@ -1,89 +1,37 @@
-# Remotion 叠层
+# Remotion 图文叠加层
 
-`$short-drama-edit` 用它画两样东西：剪辑单里的**画面文字**（只有这一条路线），以及**可选的**
-字幕排版（默认字幕路线是 ffmpeg + libass，无需 Node 依赖）。两者在同一遍里渲进一段透明叠层。
-使用前需安装 Node 依赖；逐帧渲染的时间与内存开销见「代价」。
+用于渲染剪辑单中的**画面文字**（唯一渲染路线）以及**可选的**动态字幕排版（默认字幕路线为 `ffmpeg` + `libass`；两条字幕路线的字号与边距标准见 [声音字幕与响度](../../references/editing-guide.md#声音字幕与响度)）。
 
-## 为什么走这条路
+## 安装与运行
 
-这里用 CSS 调整字号、描边、行距、安全区和折行，可在 `npx remotion studio` 中预览。
-系统面板、逐条入场和倒计时分别由组件维护；两条字幕路线的尺寸口径见[声音、字幕与音乐](../../references/sound-and-subtitles.md)。
-
-## 装一次
-
-工作区在**项目之外**（默认 `~/.cache/short-drama-edit/remotion`）。`edit_tool.py` 每次运行都会
-把本目录的源码同步过去，所以要改排版就改这里的 `src/`，不要改工作区里的副本——它会被覆盖。
+运行工作区位于项目目录之外（默认 `~/.cache/short-drama-edit/remotion`）。`edit_tool.py` 每次渲染都会把本目录源码同步过去，调整样式只需修改本目录下的 `src/`：
 
 ```bash
 cd ~/.cache/short-drama-edit/remotion && npm install
 ```
 
-`node_modules` 不进项目也不进本仓库。字体也在这一步装上：`@fontsource/noto-sans-sc`
-（思源黑体，用 700 与 900）和 `@fontsource/jetbrains-mono`（数字，用 800）。升级本技能后
-`package.json` 多了依赖时，render 会点名缺的包并给出同一条命令。
-
-## 用
-
-剪辑单里有画面文字时，`render` 自动走这一遍。只想换字幕排版时：
+剪辑单含有 `画面文字` 时，`render` 会自动调用 Remotion；若只需切换字幕渲染路线，显式传入 `--subtitles remotion`：
 
 ```bash
 python3 <本技能目录>/scripts/edit_tool.py render <剧集/EP001> --project-root <project> --subtitles remotion
 ```
 
-它渲染出一段**透明**叠层（VP8 + alpha），再由 ffmpeg 合成到画面上；浏览器只绘制叠层，不解码或重绘视频。
-字幕走 ffmpeg 路线时，Remotion 只画画面文字，字幕在合成后烧在上面。
+Remotion 先渲染出带透明通道的视频层（VP8 + alpha），再由 `ffmpeg` 叠合到成片画面上；字幕走默认 `ffmpeg` 路线时，烧录层级位于画面文字之上。
 
-## 画面文字的样式
+## 字体、性能与许可证
 
-每种样式是 `src/screen/` 里的一个组件，接收同样的 `{ text }`；颜色、入场、淡出、
-面板位置这些共用的值在 `src/screen/tokens.ts`，系统类面板共用的框与部件在 `src/screen/chrome.tsx`。换一种样式的外观只改它自己的文件，
-不碰剪辑单解析与时间换算。所有尺寸以画面高度的百分之一为单位。
+- **内置字体包**：随 `npm install` 安装 `@fontsource/noto-sans-sc`（700/900 字重）与 `@fontsource/jetbrains-mono`（800 字重，SIL OFL 1.1），开渲前对常规汉字、拉丁字母与标点逐一核验所需内置字重已加载就绪（加载失败立即报错退出），Emoji 与特殊图形符号则自然回退系统字体渲染，不再中断整片导出。
+- **逐帧开销与并发**：无头浏览器按整片总帧数逐帧截屏并编码透明通道。`edit_tool.py` 默认传 `--concurrency=2` 防止撑爆内存；调高并发数前先运行 `cd ~/.cache/short-drama-edit/remotion && npx remotion benchmark` 实测本机负载。
+- **许可证**：正式使用前请对照 [官方许可证](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md) 核对 Remotion 商用与授权条款；本套件的 MIT 许可证不涵盖 Remotion 本身。
 
-倒计时由帧号直接算出：同一帧每次渲染显示同样的数字。
-
-## 字体
-
-字体随叠层打包，不依赖本机。字体按字符区段拆成许多小文件，浏览器只在排到某段文字时才去取，
-那时这一帧可能已经截走了。所以叠层挂载时先按整部片子要画的字逐个字重调用
-`document.fonts.load`，全部就绪、组件树提交之后才放出第一帧；十秒内没加载完、某个字重没有声明、
-或加载后仍未就绪，渲染直接报错。等待按挂载注册并设上限。
-
-画每段字之前再测一次宽：把字体栈分别接在 `serif` 与 `monospace` 两个兜底之前，与只有兜底时的
-宽度相比，两边都一样才算字体没到位，这时同样报错，不悄悄换字体出片。
-
-## 代价
-
-叠层**逐帧**渲，长度等于整部成片：一分钟竖屏片一千多帧 1080×1920，每帧一次无头浏览器
-截图，没字的帧照渲。透明还要求 PNG 抓帧加 VP8 编码，Remotion 的性能文档把这两样都列为
-慢环节；实际耗时取决于成片时长、画幅和机器性能。
-
-每个浏览器实例都占用内存，按 CPU 核数提高并发可能耗尽内存。`edit_tool.py` 显式传入
-`--concurrency`，默认 2；提高前先在本机测量：
-
-```bash
-cd ~/.cache/short-drama-edit/remotion && npx remotion benchmark
-```
-
-## 许可证
-
-使用 Remotion 前，按其[官方许可证](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md)
-核对适用授权；本套件的 MIT 许可证不覆盖 Remotion。剪辑单没有画面文字且字幕走默认路线时，无需安装 Remotion。
-
-思源黑体（Noto Sans SC）与 JetBrains Mono 都是 SIL Open Font License 1.1：可以随成片使用、
-嵌入和再分发，不能单独出售字体文件。许可证文本在各自的 `node_modules/@fontsource/*/LICENSE`。
-
-## 文件
+## 源码结构
 
 | 文件 | 作用 |
 |---|---|
-| `src/schema.ts` | 叠层的输入形状：字幕（文字、来源、重点词）、画面文字（各项与稀有度）、画幅、fps |
-| `src/Overlay.tsx` | 合成本身：引入字体、等字体就绪，画面文字在下，字幕在上 |
-| `src/Subtitles.tsx` | 字幕排版。所有尺寸都是画面高度的比例，同一组数值对 768×1344 和 1080×1920 都成立 |
-| `src/screen/ScreenText.tsx` | 把每条画面文字放到成片时间上，按样式分派 |
-| `src/screen/tokens.ts` | 字幕与各样式共用的字体、颜色、稀有度色、入场、淡出与位置 |
-| `src/screen/chrome.tsx` | 系统类面板共用的框、角标括号、扫描线、标题行、打字机与奖励行 |
-| `src/screen/Card.tsx` 等 | 每种样式一个组件：卡片、系统面板、任务面板、角标 |
-| `src/rules.mjs` | 不需要浏览器的判断：要加载的字、加载结果是否可用、字体族是否缺失、打字进度、进度条、倒计时读数与脉冲。纯 JavaScript，测试直接用 Node 跑 |
-| `src/font.ts` | 在渲染页里执行上面的字体判断 |
-| `src/Root.tsx` | 合成注册；画幅、帧率、时长由调用方通过 `--props` 传入 |
-| `remotion.config.ts` | 固定成带 alpha 的输出，叠层必须透明 |
+| `src/schema.ts` | 图文层输入参数结构（字幕、画面文字、画幅尺寸、帧率） |
+| `src/Overlay.tsx` / `src/Root.tsx` | 字体就绪校验、图层上下关系（画面文字在下、字幕在上）与工程注册 |
+| `src/Subtitles.tsx` | 按画面高度比例自适应排版的字幕组件 |
+| `src/screen/ScreenText.tsx` / `tokens.ts` / `chrome.tsx` | 画面文字时间段分发、共用配色与动效参数及系统面板外框组件 |
+| `src/screen/Caption.tsx` / `Card.tsx` 等 | `字卡`、`卡片`、`系统面板`、`任务面板`、`角标` 五种画面文字组件 |
+| `src/rules.mjs` / `src/font.ts` | 字体加载检查、打字机逐字进度、进度条与按帧倒计时纯函数 |
+| `remotion.config.ts` | 透明 alpha 通道输出配置 |

@@ -33,13 +33,16 @@
     },
     "visual_direction": {
       "choices": {
-        "look_development": null
+        "look_development": null,
+        "production_form": "3d",
+        "style_reference": "输入/参考图/电影CG画风参考.png",
+        "visual_style": "cinematic realistic CG animation"
       },
-      "status": "unset"
+      "status": "accepted"
     }
   },
   "format": {
-    "aspect_ratio": "9:16",
+    "aspect_ratio": "16:9",
     "episode_count": null,
     "pacing": {
       "seconds_per_action_paragraph": null,

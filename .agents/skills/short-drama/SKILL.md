@@ -1,172 +1,94 @@
 ---
 name: short-drama
-description: 基于文件系统初始化和继续短剧或漫剧项目，提供 creator-first 五文档路由、本地 Dashboard、制作形态与 Look Development 决策。用户提出“创建/继续短剧项目”“看进度/下一步”“做 Look Development”“打开 dashboard/短剧创作台”“导出制作资料”，或任务跨多个创作阶段时使用；明确的写作、资产、提示词、分镜、剪辑或审查请求由对应子 skill 直接处理。
+description: 创建或继续本地短剧、漫剧项目，围绕五份核心创作文档衔接各创作环节，提供本地短剧创作台（Dashboard）、全局配置更新、制作形态选型与视觉风格定调（Look Development）。用户提出“创建/继续短剧项目”“看进度/下一步”“做视觉风格定调 / Look Development”“打开 dashboard/短剧创作台”“打包/导出制作资料”，或任务跨多个创作环节时使用；明确的写作、设定、提示词、分镜、剪辑或审查请求由对应子技能直接处理。
 license: MIT
 ---
 
 # 短剧创作路由
 
-本技能负责项目初始化、跨阶段路由、制作形态与 Dashboard。各阶段正文由对应技能完成。
+本技能负责项目初始化与全局配置、跨环节路由、制作形态选型、交付打包与本地短剧创作台（Dashboard）。
 
-## Quick Start
+## 快速开始
 
-当前创作统一使用 [creator-first 工作流](references/creator-workflow.md)：每集按需维护
-`剧本.md`、`视觉设定.md`、`分镜.md`、`图片提示词.md`、`视频提示词.md`，不建立并行的结构化创作真相。
-具体写法见 [五份创作文档](references/creator-documents.md)。
+每集按需直接维护五份核心 Markdown 文档（`剧本.md`、`视觉设定.md`、`分镜.md`、`图片提示词.md`、`视频提示词.md`），不另存重复的结构化副本；具体格式、阶段归属与输出语言规则见 [五份创作文档](references/creator-documents.md)。安装或排障时运行自检（需 Python 3.9+）：
 
-## 路由
+```bash
+python3 {技能目录}/scripts/selftest.py
+```
 
-| 用户要做什么 | owner / 行为 |
+## 环节分工与路由
+
+| 用户要做什么 | 负责技能与产出 |
 |---|---|
-| 开发点子、系列承诺、改编和分集地图 | `$short-drama-develop`，仅在用户需要时 |
-| 已有多集完整剧本/散稿识别分集 | `$short-drama-develop` 按实际边界建立临时索引 |
-| 分析长篇原著 | `$short-drama-novel-analyze`，仅在用户需要时 |
-| 写或改单集剧本 | `$short-drama-write` → `剧本.md` |
-| 拆人物、造型、地点、道具 | `$short-drama-assets` → `视觉设定.md` |
-| 写资产图片提示词 | `$short-drama-image-prompts` → `图片提示词.md` |
-| 做镜头和冻结关键帧 | `$short-drama-storyboard` → `分镜.md` |
-| 写视频/时间线音乐提示词 | `$short-drama-video-prompts` → `视频提示词.md` |
-| 实际生成媒体 | `$short-drama-produce`，先预览，再显式确认，最后运行 |
-| 把已生产的素材剪成成片 | `$short-drama-edit` → `剪辑单.md` 与 `制作成果/成片/` |
-| 审稿或校验 | `$short-drama-review`，仅在用户点名时 |
-| 初始化、Dashboard、归档点名文档 | 本技能 |
+| 开发创意、核心看点、改编方案与分集大纲 | `$short-drama-develop` |
+| 拆解长篇原著、抽样快评与分集候选 | `$short-drama-novel-analyze` → `项目开发/source-analysis/` |
+| 拆解对标剧、同尺比对差距、视频反推剧本与成片还原 | `$short-drama-breakdown` → `项目开发/对标拆解.md` 或 `输入/对标/<REF-ID>/还原/` |
+| 写或改单集剧本 | `$short-drama-write` → `剧集/<EP>/剧本.md` |
+| 整理人物、造型、地点、道具与声线设定 | `$short-drama-assets` → `剧集/<EP>/视觉设定.md` |
+| 写静态设定图提示词 | `$short-drama-image-prompts` → `剧集/<EP>/图片提示词.md` |
+| 做分镜与首尾帧提示词 | `$short-drama-storyboard` → `剧集/<EP>/分镜.md` |
+| 写视频动态提示词或配乐提示词 | `$short-drama-video-prompts` → `剧集/<EP>/视频提示词.md` |
+| 调用外部模型生成图、视频、配音或配乐 | `$short-drama-produce`（先看预览，确认后执行） |
+| 编排剪辑单并渲染成片 | `$short-drama-edit` → `剧集/<EP>/剪辑单.md` 与 `制作成果/成片/` |
+| 独立审稿或出片问题归因 | `$short-drama-review`（按需启用） |
+| 初始化与修改全局配置、打开创作台、导出或打包 | 本技能 |
 
-`项目开发/` 中的长材料分析与分集索引是可选分析工作区，不参与单集布局判定；写任何一集仍只维护
-该集的五份 creator-first Markdown。
+## 执行与写入约定
 
-现成剧本可直接拆资产；已有视觉事实可直接写图片提示词或分镜；已有分镜可直接写视频提示词。
-不要为补齐名义流水线伪造上游。
+1. **按需切入与连续推进**：优先使用用户指定的目录，只读取当前任务直接用到的输入文件，不预建空白前序文档。用户交代做到哪一步就完整做到哪一步；分批处理只用于控制单次篇幅，跑通一批直接继续。
+2. **合并补问（最多一次）**：立项或配置缺省时先用合理默认值建项推进；仅在缺少关键信息且不同选法会明显改变剧情走向或画面风格时，在单轮内合并提出不超过 1 次精简补问。下一步要调用外部模型生成素材时，必须先展示预览并等创作者明确确认。
+3. **安全保存与跨文档检查**：直接读写 Markdown 时采用原子保存，若发现文件刚被外部编辑器或创作台修改，先重读合并再写入；`.short-drama/`、`输入/` 中的内部记录与密钥绝不写入创作正文。每完成一份文档运行 `creator_markdown_check.py <剧集目录> --partial`，五份齐备后跑全量检查。
+4. **参考图挂接分流**：项目内已有匹配图片时挂 `REF-...`；尚无现成图片且创作者未要求暂停等图时，默认按 `PLAN-...` 写出外部挂图计划，或按创作者意图直接写 `- 输入参考图：无` 走文生视频；仅在创作者明确要求等图进项目时写 `无（待补参考图：……）` 并暂停。
 
-五份创作文档记录剧本、视觉与提示词；剪辑单在素材生产后记录取舍和后期处理。
-修改故事、镜头职责或上游时长声明时，回到负责该内容的文档。
+## 项目初始化与全局配置
 
-## 执行请求
-
-1. 定位用户给出的项目或资料，只读当前任务的直接输入。
-2. 把用户点名的完整范围交给相应技能；批次只控制上下文，自动续跑。
-3. 只有真实创作分叉才询问；不要拿 schema、目录、事务或检查器询问创作者。
-4. 范围完成后一次回报完成内容、关键决定、真实未决项和可选下一步。
-5. 不自动开始用户没点名的审查、归档或生产。
-6. 请求横跨视觉设定、图片提示词、分镜或视频提示词时，结束前核对当前已有文档的视觉依赖；
-   图片提示词和分镜并行完成时，也要同步两支的引用。每写完一份文档就带 `--partial` 运行跨文档检查，只核对已有文档；五份齐备后再运行完整检查。不为检查补造文件。
-7. 视频提示词请求遇到「输入参考图：无」或仍带「待补参考图」时，先路由分镜 owner 检查项目已有图片并刷新绑定。有匹配图就同请求续跑；有必要图缺失就列表停下。
-   停下时把三条路一起给出：把已有图片放进项目绑成 `REF-...`；由创作者在自己的工具里出图、本轮先用
-   `PLAN-...` 写出逐镜挂图计划并照常产出视频提示词；或者明确改走文生视频。用本套件生产参考图需要项目外的
-   adapter 与凭据，只是第一条路的一种做法，不要把它说成唯一入口，也不要只给「生成参考图 / 文生视频」两个选项。
-   不把“没有手工指定”当成明确选择文生视频。这一轮如果镜头还缺「视觉依据」，
-   同时按已成稿的冻结关键帧回填；两条依据描述同一格画面，不要只补一条。
-8. 用户在会话里点名目标视频模型（“按 MiniMax H3 写”“用 Seedance 2.5”）而 `short-drama.json` 的
-   `production_profile` 还是 `unset` 时，先把这个选择连同它带来的原生时长、参考方式和正文语言写进档案，
-   再继续下游阶段。把已确认选择写入档案，后续请求才能沿用同一方言、语言和时长边界。
-
-## 初始化与 Dashboard
-
-需要项目配置时运行：
+创建项目时将已知参数一次传入，未定项直接留默认（不反复追问）：
 
 ```bash
-python3 {技能目录}/scripts/project_tool.py init ./my-drama --title "示例短剧"
+python3 {技能目录}/scripts/project_tool.py init ./my-drama --title "示例短剧" --aspect-ratio 9:16
 ```
 
-直接输入已经确认创作者说明语言、提示词语言、画幅、集数或单集目标时长时，首次 `init` 就带上对应的
-`--language`、`--prompt-language`、`--aspect-ratio`、`--episode-count`、`--target-seconds`；只省略
-未确认项，不让 Brief 中的确定事实留成配置里的 `null`。写入已确认的生产档案时，状态统一为
-`accepted`；`unset` 只表示尚未决定，不另造中间状态。
-`init` 只建立配置和空目录；第一次创作时再把文档写入 `剧集/<EP>/`，不预建空文件。
-项目已经建好、用户之后才定下目标视频模型时，把选择写进档案，并同时展示它对时长区间、参考方式和
-正文语言的影响。档案只能从已发布、已接受的创作者决策写入。先在 `输入/profile.jsonl` 写一行决策记录
-（`accepted_value` 就是要落进 `choices` 的对象本身，不要再包一层 `choices`）：
-
-```jsonl
-{"decision_id":"CD-H3","status":"accepted","target_locators":[{"src":"short-drama","field":"/creator_authority/production_profile/choices"}],"accepted_value":{"target_video_model":"minimax-h3","video_prompt_dialect":"minimax-h3","video_prompt_language":"en","native_duration_seconds":{"min":4,"max":15},"supported_generation_modes":["text","first_frame","first_last_frame","reference"],"audio_generation":"same_pass"}}
-```
-
-再发布、接受、写入：
+后续在对话中确定或修改画幅、集数、单集时长、语言、语速、视觉方向、目标视频模型配置（`production_profile`）或节奏目标（`rhythm_profile`）时，直接用 `configure` 增量写入 `short-drama.json` 并标记为已确认（无需手写中间台账文件）：
 
 ```bash
-python3 {技能目录}/scripts/project_tool.py publish <project> --owner short-drama \
-  --artifact-id AR-PROFILE --output "创作者决策/production-profile.jsonl=输入/profile.jsonl"
-python3 {技能目录}/scripts/project_tool.py accept <project> --artifact-id AR-PROFILE --decision accepted
-python3 {技能目录}/scripts/project_tool.py set-authority <project> \
-  --field /creator_authority/production_profile/choices \
-  --decision-ref "创作者决策/production-profile.jsonl#CD-H3"
+python3 {技能目录}/scripts/project_tool.py configure <project> \
+  --aspect-ratio 16:9 --episode-count 24 --target-seconds 90 \
+  --pacing-json '{"spoken_characters_per_second":4.2,"seconds_per_action_paragraph":2.5}' \
+  --production-profile-json '{"target_video_model":"seedance-2.5","video_prompt_language":"zh-CN","native_duration_seconds":{"min":4,"max":15},"supported_generation_modes":["text","first_frame","reference"],"audio_generation":"same_pass"}' \
+  --rhythm-profile-json '{"form":"国漫二次元","first_hook_seconds":5}'
 ```
 
-各字段取值由命中的模型方言给出：`$short-drama-video-prompts` 的 MiniMax H3 / Seedance / Wan 3.0 方言文件都写了
-推荐档案。写完用 `status` 复核 `video_model_profile` 是否已经出现。
+- **模型配置（`--production-profile-json`）**：用户在对话中点名目标视频模型（如 Seedance 2.5、MiniMax H3）时，先用 `configure` 写入模型参数、提示词语言、是否启用多镜合生（`multi_shot_containers`）及接力路线（`continuation_route`），再开展下游提示词编写。
+- **节奏目标（`--rhythm-profile-json`）**：支持实拍、二维动态漫、风格化三维、水墨笔触、Q 版表达、国漫二次元等全部制作形态名称，按需填写已敲定的部分指标即可，不必凑齐全部字段。可用 `status` 查看当前生效配置。
 
-语速 `format.pacing` 和集数 `format.episode_count` 走同样的决策写入：`--field /format/pacing`，
-`accepted_value` 写 `{"spoken_characters_per_second": <每秒可发声字数>, "seconds_per_action_paragraph": <每段动作秒数>}`，
-两项都要给；画面文字多、要按读字时间计时的项目，可再加 `"on_screen_text_characters_per_second"`。
-`--field /format/episode_count`，`accepted_value` 写正整数。没有语速时写作阶段算不出秒数。
-`status` 的 `profile_notes` 会列出各自有效、合在一起却做不到的设定，例如平均镜长低于目标模型原生最短时长，
-或设了单集目标时长却没有语速；看到就交创作者决定，不要等到分镜才发现。创作者选择用多镜容器解决镜长冲突时，
-在生产档案 `choices` 里加 `"multi_shot_containers": true`（同一条决策写入），这条提示随之消失。
+## 短剧创作台（Dashboard）
 
-项目定位与安全写入见 [运行预检](references/runtime-preflight.md)。用户明确要求 Dashboard 时运行：
+用户要求打开创作台时运行：
 
 ```bash
 python3 {技能目录}/scripts/dashboard_server.py --workspace <workspace> --port 0 --detach --open
+python3 {技能目录}/scripts/dashboard_server.py --workspace <workspace> --status
+python3 {技能目录}/scripts/dashboard_server.py --workspace <workspace> --stop
 ```
 
-`--detach` 让服务进程脱离当前 shell 独立运行，无需保持当前会话或终端开启。运行中的地址、端口和 pid 记录在
-`<workspace>/.short-drama/dashboard.json`（仅本人可读），日志在同目录 `dashboard.log`：
+`--detach` 在后台运行并把会话信息记入 `<workspace>/.short-drama/dashboard.json`（更换端口或令牌加 `--restart`）。创作台以只读卡片展示五份文档、素材与成片，可在「编辑原文」中直接保存 Markdown。
 
-```bash
-python3 {技能目录}/scripts/dashboard_server.py --workspace <workspace> --status   # 打印当前链接
-python3 {技能目录}/scripts/dashboard_server.py --workspace <workspace> --stop     # 停止
-```
-
-同一 workspace 已有在跑的 Dashboard 时，再次启动只会打印同一个链接，不再开第二个端口；确实要换
-端口或换令牌时加 `--restart`。不加 `--detach` 时行为不变：前台运行，Ctrl-C 结束。
-
-Dashboard 按阶段展示项目：全剧页给出下一步和分集进度，每集分剧本、设定、分镜、提示词、成片、审查
-六个视图，⌘K 搜索全剧。结构视图只读，改动在「编辑原文」里保存 Markdown。画面只认文档里的绑定：
-缩略图是分镜里 `用途：起始帧` 的 `REF-...`，每镜素材是剪辑单的「来源」，成片是剪辑输出；没有绑定
-就显示空位，不按文件名配图。它不负责工作流编排或媒体生产，需要写作或生成的地方只复制一句请求交回对话。
-每集目标时长取自 `status` 的 `format`，节奏对照只用已接受的 `rhythm_profile`。
-
-## 项目级创作决定
-
-制作形态、视觉方向、播放面和集长目标确实约束多个阶段时，展示选择及影响后由用户决定。
-Look Development 是可选分支，不是进入图片提示词或分镜的固定门槛。
-
-节奏数值（首钩秒数、情绪触点间隔、反转次数、VO 占比、平均镜长等）记录在
-`creator_authority.rhythm_profile`。字段与默认值由 `$short-drama-develop` 按制作形态提出，
-创作者接受或改写后，按上文三步写入：决策的 `accepted_value` 是不含 `status` 的完整档案值，`--field`
-写 `/creator_authority/rhythm_profile`；档案已接受后，单改一个值时 `--field` 指向该字段。
-`set-authority` 对节奏档案校验字段、类型与范围，缺字段、越界或多出未知字段都拒绝写入。下游只按 `status` 为 `accepted` 的档案做算术核对，缺失、`unset` 或
-`proposed` 都表示「未声明，不核对」。写完用 `status` 复核 `rhythm_profile`；手改后档案不合法时
-它返回空档案，问题列在 `rhythm_profile_problems`。
-
-按问题只读取一份相关知识：
-
-- 规则分级与 owner 路由：[规则与路由索引](references/knowhow-index.md)
-- 输出语言、稳定 ID、所有权与安全边界：[契约与所有权](references/contract-and-ownership.md)
-- 实拍、二维、三维、水墨、Q 版、国漫的形态差异：[制作形态](references/production-form-profiles.md)
-- 需要比较代表帧时：[Look Development](references/look-development.md)
-- 参考图能控制什么：[参考角色](references/reference-roles.md)
-- 遮挡、延迟揭示和观众知情时机：[观众揭示](references/audience-reveal.md)
-- 母版、补拍和替代版的职责：[补拍与替代](references/pickup-and-alternate.md)
-
-## 生产与交付边界
-
-外部生产永远保留 `preview -> explicit confirm -> run`。归档只复制用户点名的当前文档和成品，排除
-私有输入、凭据、绝对路径与隐藏运行状态；不为归档补造审批、哈希或第二套内容。
-
-用户问“做完了怎么导出/交付给我”时，用 `export` 打包当前状态：
+## 导出与交付打包
 
 ```bash
 python3 {技能目录}/scripts/project_tool.py export <project> --out <项目外目录>
+python3 {技能目录}/scripts/project_tool.py package <project> --episode EP001
+python3 {技能目录}/scripts/project_tool.py verify <project> --episode EP001
 ```
 
-它把每集现有的五份创作文档、`剪辑单.md` 和 `剧集/<EP>/制作成果/` 复制到 `--out`，附 `manifest.json` 与
-`checksums.sha256`，并排除 `输入/`、`交付/` 和 `.short-drama/`。只要一部分时加
-`--episode EP001`（可重复）；只要文字时加 `--no-media`；覆盖旧目录加 `--overwrite`。
-`--out` 必须在项目之外。
+- `export`：将各集现有创作文档、`剪辑单.md` 与 `制作成果/` 备份到项目外目录（可选 `--episode EP001`、`--no-media`、`--overwrite`）。
+- `package` / `verify`：直接按集打包项目当前的创作者文档与有效交付文件（也可用 `--include` 指定子集），生成 `交付/<EP>/manifest.json` 与 `checksums.sha256`（不含 `输入/` 与 `.short-drama/`，自动拦截符号链接与越界路径；旧式台账项目需强核审稿状态时可加 `--strict-ledger`）。
 
-`export` 是**当前状态快照**，manifest 里 `asserts_approval` 恒为 `false`：它不声称任何审查或
-创作者接受。需要带审批证据的正式交付包仍然只有 `package`/`verify` 那条路径。
+## 按问题查阅参考文档
 
-## 安装维护
-
-只有安装、升级或排障时运行 `python3 scripts/selftest.py`。
+- 阶段问题路由与四级规则说明：[规则与路由索引](references/knowhow-index.md)
+- 五份文档格式、文档归属与输出语言：[五份创作文档](references/creator-documents.md)
+- 六种制作形态差异与视觉风格定调（Look Development）试片：[制作形态](references/production-form-profiles.md)
+- 参考图十种用途（含原生多模态 `主体` 参考）与控制边界：[参考图用途](references/reference-roles.md)
+- 按悬念类型交代遮挡与揭晓动作：[信息揭晓时机](references/audience-reveal.md)
+- 母版、局部补拍与替代版的返工归属：[母版、补拍与替代版](references/pickup-and-alternate.md)

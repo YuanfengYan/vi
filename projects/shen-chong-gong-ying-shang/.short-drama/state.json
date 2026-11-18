@@ -16,6 +16,25 @@
       "owner": "short-drama",
       "review": null,
       "updated_at": "2026-11-16T07:46:03.247023Z"
+    },
+    "AR-VISUAL-DIRECTION": {
+      "acceptance": {
+        "at": "2026-11-16T08:37:20.604331Z",
+        "decision": "accepted",
+        "note": "",
+        "outputs": {
+          "创作者决策/视觉方向.jsonl": "beda0ddcacb4764c04c6501398ab5197a824977e80a4b1544b340698bd0a25cc"
+        }
+      },
+      "inputs": {
+        "输入/参考图/电影CG画风参考.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f"
+      },
+      "outputs": [
+        "创作者决策/视觉方向.jsonl"
+      ],
+      "owner": "short-drama",
+      "review": null,
+      "updated_at": "2026-11-16T08:37:20.604398Z"
     }
   },
   "authority": {
@@ -23,6 +42,11 @@
       "decision": "创作者决策/制作配置.jsonl#CD-H3",
       "set_at": "2026-11-16T07:46:03.409090Z",
       "value_sha256": "7cf8f9635bc0ae62f3f0460689297fed5f994bbed5b946c67ad553969fc7de21"
+    },
+    "/creator_authority/visual_direction/choices": {
+      "decision": "创作者决策/视觉方向.jsonl#CD-VISUAL-CINEMATIC-CG",
+      "set_at": "2026-11-16T08:37:20.768977Z",
+      "value_sha256": "9c92f6f51bd82d72f92d8d6b05013739831294aebc61f3f9f82dbc2099865f6e"
     },
     "/format/target_seconds_per_episode": {
       "decision": "创作者决策/制作配置.jsonl#CD-SERIES-DURATION",
@@ -34,5 +58,5 @@
   "project_id": "SD-59A58D4C5CE7",
   "project_layout_mode": "canonical",
   "schema_version": "2.0",
-  "updated_at": "2026-11-16T07:46:03.559321Z"
+  "updated_at": "2026-11-16T08:37:20.769011Z"
 }

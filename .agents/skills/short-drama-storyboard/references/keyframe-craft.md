@@ -1,169 +1,46 @@
-# Frozen Keyframe Craft
+# 首尾帧构图、受光与漫剧定格写法
 
-## 目录
+首帧与尾帧提示词用于定格镜头开场（`起点`）或收尾（可选 `终点`）那一瞬间的静态画面，并与本帧实际入画的人物与造型、地点与视角、道具与状态保持一致（`SHT-05`、`SHT-06`、`SHT-21`）。
 
-- [Boundary and instant tests](#boundary-and-instant-tests)
-- [Purpose](#purpose)
-- [Ordered recipe](#ordered-recipe)
-- [尾帧：什么时候可以有，以及它换来什么代价](#尾帧什么时候可以有以及它换来什么代价sht-17)
-- [Start-only drafting discipline](#start-only-drafting-discipline)
-- [Static test](#static-test)
+## 1. 五步编写顺序与连戏垫图策略
 
-## Boundary and instant tests
+按画面可见要素依次组织正文（不写「机位架在轴线左侧」「反打镜」等生图模型看不懂的分镜调度黑话）：
 
-- `SHT-05` — Project exactly one accepted shot boundary and bind the exact
-  Character/Look, Location/View, and Prop/State variants visible there.
-- `SHT-06` — Describe one freezeable instant. Ordered action, expression arcs,
-  camera movement, and transforming weather belong to motion, not the keyframe.
+1. **画幅、取景与焦段透视**：画幅比例、景别切点、俯仰高度、精准焦段与透视感（如 `9:16 vertical medium close-up, 50mm lens at chest height, slight low angle`）及视觉焦点。
+2. **空间层次与陈设尺度**：所在房间与观看朝向、同框 `固定陈设`、前中后景关系、人物步距与家具落在人身上的高度参照（如木柜台齐成年人腰带）。
+3. **人物落位与身体朝向**：入画角色站坐位置、**胸口身体朝向与转头方向分开写清**、四肢姿态、视线落点与手中物件。跨镜延续姿态直接写出具体画面，不写“同上”。
+4. **定格神态与肢体细节**：写当前景别看得见的静态神态（下颌绷紧、指节攥白、目光钉在鞋尖），不写空泛心理词或连续变化过程。
+5. **实景光线、画风与排除项**：沿用本场主光方向、道具字迹规则与全集统一画风词，只针对易抢跑终点或画错处的隐患写具体排除项。
 
-## Purpose
+### 连戏垫图与同机位派生策略（`craft_default`）
 
-Describe one frame that can exist at a single instant and accurately anchors the
-accepted shot. A keyframe is not a compressed video prompt.
+- **同机位切景或微调优先基于上一镜首帧派生**：相邻镜头处于同一机位朝向（如双人中景推切单人近景、固定机位微调表情手势或接续下一拍动作）时，**允许且推荐直接拿已确认的上一镜首帧（或定调帧）配合指令改图模型派生下一镜首帧**，最大限度锁死人物脸型、衣褶与背景陈设连戏。
+- **反打翻面或大换背景朝向时改挂场景图**：一旦正反打越过桌面换到对面背景、或大角度更换观看方向，不再拿上一镜反面首帧硬改背景（否则门窗桌椅极易扭曲错位），改挂对应观看朝向的场景空镜图（`用途：空间布局`）配角色设定图（`用途：外貌`）。近景被全景场景图拉远成全身时，把取景切点（如 `framed from mid-chest up`）提前写硬，或撤掉全景图改写浅景深虚化背景色块。
+- **按本镜入画范围裁剪共用段落**：把整场共用的比例、连戏或视角说明拼进每镜正文前按本镜裁剪，删掉本镜不在场的人和看不到的陈设，并写明本镜只有哪些人（模型会把段落里顺带提到的旁人画进画面）；**特写和道具插入镜不带比例与房间描述**。
 
-## Ordered recipe
+英文首帧正例（暴雨初歇的公交候车亭，科室主任陈默站在长凳前劝实习医生林舒顶锅签字，默认 `prompt_language: en`）：
 
-1. **Purpose:** what the audience must notice now.
-2. **Focal subject:** exact asset and variant IDs.
-3. **Frame:** shot size, angle, lens intent, aspect-aware composition.
-4. **Geography:** Location/View, fixed anchors, foreground/background zones.
-5. **Boundary projection:** exact start position, body facing, pose, gaze, hands,
-   held props. Give body facing for every person — it fixes which screen side they
-   hold and which side the next reverse cuts from; `gaze` does not cover it. Add
-   head facing only when it differs from body facing.
-6. **Performance instant:** one visible expression/tension state, not an arc.
-   Pick a channel the current shot size can actually read — gaze, breath, body
-   set, object handling, or a held decision. A wide shot cannot carry an eyelid;
-   a close-up cannot carry a full-body retreat. Naming only the emotion ("愤怒")
-   leaves the translation to a downstream stage, and the keyframe is the first
-   frame — a mistranslation there is wrong from frame one.
-7. **Light and atmosphere:** inherit accepted direction/time/weather; add only
-   frame-relevant detail.
-8. **Text policy:** readable/symbolic/blank/postproduction for visible surfaces.
-9. **Exclusions:** contradictions or drift likely for this frame.
-
-Identity and boundary facts remain source references. The keyframe owns focal,
-composition, camera/lens, frame-only staging, and exclusions.
-
-### 写完之后过一遍可渲染检查
-
-检查接手的人能否读出当前帧必须保持的可见事实。按构图和镜头职责核对下表，
-只补本帧实际需要的内容：
-
-| 检查内容 | 信息缺失时的风险 |
-|---|---|
-| 每个人在哪、彼此距离多少（"站在他正前方约两步"） | 人物间距逐镜漂移，观众读成换了场地 |
-| 构图需要纵深时，前景、中景、背景分别承载什么 | 层次不明，主体与背景混在一起 |
-| 视线该落在哪（本镜的视觉重点） | 画面平均用力，观众不知道该看谁 |
-| 构图方式与景别 | 同一场每镜构图随机，剪不到一起 |
-| 机位在轴线哪一侧、俯仰角度、焦段意图 | 越轴；正反打方向对不上 |
-| 光从哪来、什么质感 | 同场光位逐镜跳变 |
-| 每个在场者的姿态、朝向、手部、持物 | 下一镜接不住，道具凭空易手 |
-| 与上一镜连续的关键状态在本帧具体是什么 | 只写“同上”，当前正文无法独立说明状态 |
-
-连续性核对时可以与上一镜比较；可复制正文仍须写出当前帧的位置、持物和其他必要状态，
-不能用“与上一镜相同”代替执行端本次需要的事实。
-
-**`craft_default`：一件事只说一次。** 合并能自然衔接的句子，删除重复事实和不帮助确定画面的铺垫。
-不设通用字数门槛；保留当前帧所需的身份、空间、构图、光线、文字和连续性事实。
-
-以下合成片段示意构图与静态事实的组织方式：
-
-```text
-竖屏 9:16 中近景。机位在轴线左侧、高约一米二，平视略低约五度，中焦 50mm。前景是长凳
-扶手与半张湿报纸（占下缘约六分之一）；中景是两人对峙；背景是虚焦的候车牌。三分构图，
-她落在右三分线上。她：坐长凳右端，双手交叠压膝，身体朝向正前，视线落在对方鞋尖，
-无持物。人物乙：站她正前方约两步、略偏画面左，双手插袋，身体朝向她，头略偏向出口。
-光自画面右上顶棚缝隙斜下为主光（硬），左侧留暗，无补光。视觉重点在她压膝的双手。
-排除：无动作过程，无雨丝拖影。
+```markdown
+### 首帧提示词
+> 9:16 vertical two-person medium close-up, 50mm lens at chest height with a subtle five-degree low angle. Under a rain-wet bus shelter at night, the wet metal bench armrest and half a damp folded newspaper sit in the lower foreground, a blurred illuminated route lightbox in the background. Linshu sits on the right end of the bench on the right third line, torso facing forward, hands folded tight over her knees, gaze lowered onto Chenmo's leather shoe tips, a closed black long-handled umbrella leaning against the right armrest. Chenmo stands two steps in front of her on frame left, hands in his dark suit trouser pockets, body squared toward Linshu while his head turns slightly toward the street. A hard cool-white streetlight beam cuts down from upper frame right through the canopy seam, leaving the left side in deep shadow, realistic motion-comic keyframe, crisp silhouette separation, no hand-reaching motion, no rain streaks, no text, no watermark.
 ```
 
-Every visible entry the finished frame carries is listed in the shot's required
-`视觉依据` field, resolving to a real `视觉设定.md` entry; an `IMG-...` prompt item
-in `图片提示词.md` is a separate axis and does not stand in for it, and
-`视觉设定.md` itself does not define `IMG-...` IDs. Write that list from the
-finished frame, not from the shot's intent — the subject that gets missed is the
-one that entered the composition while the frame was being written. A frozen frame may determine whether the surface
-is legible in this composition; it may not replace the exact wording or policy
-with an untraceable prose instruction. If the policy is still undecided, say so
-instead of inventing a hidden candidate state.
+## 2. 实景受光方向与漫剧专属视觉词条
 
-## 尾帧：什么时候可以有，以及它换来什么代价（`SHT-17`）
+### 光源来向与受光面连起来写
 
-默认每镜一张首帧，冻结「起点」。交付工作流需要首尾帧时，再补一张投影
-「终点」的尾帧；两帧之间的运动仍按分镜边界和运动提示词实现。
+- `视觉设定.md` 地点条目定好窗户与灯具方位后，同一场连续戏跨镜守住统一的主光方向与冷暖主次。角色设定图采用中性平柔光只是为了展示五官衣着，进场入镜后人物面部的明暗交界宜改按房间真实光源方向落笔——直接写明主光从画面哪一侧打来、亮哪半边脸、暗部保不保留眼神光（如 `cool window light from frame left lighting the left side of his face, soft shadow across the right cheek with clear catchlights`），不用“氛围感拉满”等空话顶替光位。
+- 暂不露真容的悬念镜，顺着房间原有窗光或门缝光把人物摆进逆光剪影或背光暗区，不临时乱改房间主光源位置。
 
-**`structural_invariant`**：《分镜.md》的首帧与收尾关键帧分别指向同一镜头已接受的起点与终点。
-**尾帧是「终点」的投影，
-不是新的终点事实**——它与首帧对「起点」的关系完全一样：可以决定这一帧怎么构图、
-用什么景别镜头、光怎么落，不能决定人在哪、手里有什么、看着谁。尾帧与镜头终点不一致时，
-错的是尾帧。
+### 漫剧专属画面词条（`taste_option`）
 
-每镜的关键帧数量**不是固定的**。默认一张首帧；只有当交付工作流真的要消费尾帧时才加一张，
-不为凑齐而画。补尾帧不改变 `SHT-10`：首帧仍然只能写 start 事实，尾帧只能写 end 事实，
-两张各自守自己的边界，不互相借用。
+项目采用二维漫剧或条漫视觉方向时，除常规构图光影外，可按画风底子选配以下漫剧专属表现词（正文中只写具体视觉效果，不写分类标签）：
 
-**代价要说清楚：交出一对首尾帧，等于把两帧之间的运动交给了执行端插值**。 而运动路径本来
-是运动规格拥有的东西。所以选了首尾帧接续的镜头，其运动规格不是"照旧再写一遍"，而是被
-两端夹住了：它仍然要写清中间必须发生什么（动作顺序、对白落点、摄影机行为），但要意识到
-执行端会优先满足两端的画面一致性。因此——
+- **线稿与平涂色阶**：清晰闭合线稿（`clean closed line art`）、赛璐璐硬边二分阴影（`cel-shaded hard-edge two-tone shadows`）、精简平涂色阶（`flat color blocks with simplified tonal steps`，弱化琐碎写实毛孔杂纹）。
+- **国风墨韵与港漫颗粒**：毛笔墨线粗细顿挫与衣摆水墨飞白（`expressive brush-ink line weight with dry-brush feibai strokes`）、分层水色罩染留白、复古网点纸颗粒与密集排线暗部（`halftone screentone shading and dense cross-hatching`）。
+- **定格张力与前后分离**：起手蓄力或击中瞬间的顺向速度线残影（`directional speed lines`）、大透视张力伸展与飞溅碎屑定格；遇浓密雨雾、剑气或电弧光效时，写明光效粒子不糊住人物五官轮廓、手部与器械剪影干净分离。
 
-- 中间必须被看到的动作**不要只靠插值兑现**。如果一个动作是本镜存在的理由，两端之间没有
-  任何东西保证它会发生，就该拆镜，或者让该动作落在其中一端。
-- 两端差异越大，插值越自由，中间越不可控。首尾帧接续适合"状态改变清楚、路径无所谓"的
-  镜头（转身、递交完成、坐下），不适合"路径本身是戏"的镜头。
-- 终点报告仍然对照镜头「终点」，不对照尾帧。尾帧只是它的投影，不能自证到达。
+## 3. 尾帧适用情形与防串戏守则（`SHT-03` / `SHT-06` / `SHT-10` / `SHT-17`）
 
-## Start-only drafting discipline
-
-**`SHT-10 · reviewed_invariant`**: rendered keyframe prose may contain only facts
-from the boundary that frame declares. 首帧写进任何由运动或终点首次产生的事实是漂移；
-尾帧写进在它之前就已经消耗掉的事实同样是漂移。两帧各守各的边界，不互相借用。
-
-关键帧默认投影镜头起点，不能直接选取“本镜最有戏的时刻”。为避免提前写入终点事实：
-
-1. 先明确本帧冻结 `SHOT-...` 的起点，草拟正文时暂不读终点与运动描述；
-2. 只填起点已成立的位置、姿态、目光、双手、持物和可见状态；
-3. 再对照终点，找出动作后才产生的事实，确保它们未进入起始关键帧正文；
-4. 写完 Markdown 后从自然语言反向提取手位、持物、目光和可见状态，与镜头起点再比一次；
-   不能只看条目说明而忽略真正交付的正文。
-
-反例：start 是“右手空置、看对方”，end 是“右手握铃绳、看门”。冻结帧写
-“手已握铃绳”会提前写入终点事实，属于边界漂移。
-
-## Static test
-
-Ask: could a still photographer capture every described fact at once?
-
-Move these to motion:
-
-- ordered verbs (先、再、随后、最终);
-- expression changing from A to B;
-- camera push/pan/track over time;
-- entering/leaving/turning/reaching sequences;
-- dialogue delivery arc or sound progression;
-- light/weather transforming during the shot.
-
-A single held pose may imply tension, but it must not require several moments.
-
-## Prompt economy
-
-Do not restate full character or location 设定集s. Bind accepted variants and
-repeat only facts the frame needs to prevent ambiguity: distinguishing anchor,
-current Look, crucial spatial anchor, held prop, light direction, text state.
-
-Generic “cinematic, 8K, masterpiece” language cannot replace subject identity,
-geography, composition, or continuity.
-
-## Failure examples
-
-- incompatible Looks appear in the same frame;
-- “turns, runs, then looks back” appears in a still;
-- the start hand/prop differs from the shot boundary;
-- background changes location identity or orientation;
-- light direction resets without source change;
-- readable evidence is paired with no-text;
-- prompt lists subjects but not their spatial relationship;
-- framing has no focal hierarchy.
-- structured projection matches start but rendered prompt describes a fact that
-  first appears in the shot end or motion.
+- **子标题格式与插值取舍（`SHT-17`、`SHT-03`）**：每镜使用 `### 首帧提示词` 小节定格镜头 `起点`，仅在后续视频生成确需锁死收尾构图时另设可选的 `### 尾帧提示词` 小节定格镜头 `终点`，小节内只保留顶格 `>` 引用行（`SHT-17 · structural_invariant`）。同时挂载首尾双帧由模型自动插值过渡，适合转身站定、递物落定、落座完毕等起止清晰的镜头；中间过程含复杂招式或精细手法的镜头，优先用单首帧配动作提示词或拆镜处理，少靠首尾两帧自动插值硬猜中间过程（`SHT-03 · craft_default`）。
+- **单帧定格防串戏（`SHT-06`、`SHT-10`）**：`### 首帧提示词` 只画 `起点` 已到位的姿态与物件状态，绝不提前画入半途或 `终点` 才发生的结果（如起点手垂身侧、终点握住铜铃绳，首帧严禁写成已握绳）；`### 尾帧提示词` 同样删净开场已消失的旧姿态。带先后顺序的过程词（先、随后、接着）、神情渐变与推拉摇移运镜一律留给 `$short-drama-video-prompts`。

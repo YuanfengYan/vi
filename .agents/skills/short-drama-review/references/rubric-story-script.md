@@ -1,342 +1,58 @@
-# Story And Script Rubric
+# 故事大纲与剧本核查清单
 
-## 目录
+## 1. 全剧看点、单集骨架与跨集连戏
 
-- [Promise](#story-promise-and-engine)
-- [Episode](#episode-shape)
-- [Entry and serial memory](#entry-character-and-serial-memory)
-- [Adaptation fidelity](#adaptation-fidelity)
-- [Scene](#scene-test)
-- [Action](#action-and-production-meaning)
-- [Dialogue](#dialogue)
-- [Rhythm profile](#rhythm-profile-rev-12)
-- [Local passes](#local-passes-rev-13)
-- [Findings](#common-findings)
+- **核心看点、冲突推进与反转伏笔（`STY-01`–`STY-06`、`STY-09`）**：主角诉求、核心阻力与每集看点具体可感，不靠贴题材标签敷衍；冲突或调查每推进一轮都须带来真实的处境变化（知情范围扩大、关系洗牌、把柄易手、风险迫近或代价累加），不把同一套误会或同一股压迫换个大嗓门原地车轱辘重演（`STY-03 · reviewed_invariant`）；上下集承接、伏笔埋设与回收引用均须指向已知记录，未定项明确标出（`STY-05 · reviewed_invariant`）；揭秘与反转须从前文已埋好的事实里顺理成章推出来，并真正推翻原有盘算、改写旧认知、扭转关系或逼出高代价抉择（`STY-09 · reviewed_invariant`）。
+- **单集进展、主角行动与两难抉择（`STY-11`、`STY-13`、`SCR-02`、`SCR-13`、`SCR-15`）**：
+  - 人物前史只梳理足以推演当下抉择的部分，并优先从冲突或情绪拐点已显现的一刻切入故事（`STY-11 · craft_default`）；常规连载集内部宜立住开场处境、本集行动推进、阶段性结果落定与集尾留钩，少靠半截动作无故硬断集（`STY-13 · craft_default`，单元舒缓收尾或刻意悬置结构可按题材调整）。
+  - 关键破局与局势转折优先靠主角自身抉择及其后果推动，少靠巧合解围，配角有各自相称的立场算计而非木头背景板（`SCR-02 · craft_default`）。
+  - 剧本明确作为重大两难抉择主打的节点（`SCR-13 · craft_default`），两条路宜各有真实得失并在选定后落地相应后果与新代价；日常决定或单一目标追查到底的戏不套用两难公式。
+  - **高潮与阶段结算形态随题材调性而定（`SCR-15 · craft_default`）**：强冲突对抗剧在爆发后展现硬代价、连锁反应与人物状态变化属常规有效做法，但**不拿“高潮三要素缺一不可”作一刀切扣分门槛**——悬疑剧揭开关键拼图即收、规则怪谈留白寒意收束、生活流以克制日常动作落点同样成立；仅当后文动作公然推翻前文已写死的硬代价或伤病后果时，才按前后吃书硬伤报错（`CON-02 · reviewed_invariant`）。
+- **金手指规则、人物转变与物证边界（`STY-12`、`STY-15`、`STY-17`、`SCR-14`）**：
+  - 重生预知或系统异能分清底表规则与剧中揭晓进度：层层揭秘属正常悬念，仅拦截毫无铺垫临时加挂、无故违背前文已亮明规则，或要求生成画面直出系统面板真字（未走后期叠加）却与画面禁字设定正面冲突的穿帮。
+  - 人物性格或立场大转弯有受压经历与取舍铺垫（`STY-12`）；物证交锋分清“当场坐实的事实”与“尚待核实的推论”，不破坏后文验真假所依赖的封存或原位前提（`STY-15`、`SCR-14`）。
 
-## Story promise and engine
+## 2. 原著改编忠实度、多集导入索引与新增项登记（`STY-07`、`STY-18`、`STY-23`、`STY-29`、`STY-30`、`REV-03`）
 
-- Can the creator state protagonist, pursuit, costly opposition, and recurring
-  audience payoff without relying on a genre label?
-- Can the conflict produce varied pressure, or does every episode repeat the same
-  misunderstanding, humiliation, rescue, or reveal?
-- Does escalation change power, knowledge, relationship, exposure, cost, or time?
-- Do setups/payoffs and episode handoffs resolve to explicit records?
+在原著改编或导入多集现成剧本的项目中核查（含在 `项目开发/creative-brief.md` 记录改编说明的项目，以及按需建立 `项目开发/adaptation-map.jsonl` 对照表的项目）：
 
-## Episode shape
+- **守住核心人物立场与主线脉络（`STY-07 · reviewed_invariant`）**：未经创作者明确拍板，不得擅自颠倒原著主要人物的善恶立场、处事路数与核心关系，合并人物或场景时须保住原有戏剧作用、信息差与因果衔接（违背时按 `REV-03` 并列原著依据与剧本行号报错）。
+- **必保原著事实与重排因果衔接（`STY-23`、`STY-29` · `reviewed_invariant`）**：立项简报列为原著必保的关键事实，在本轮覆盖集数内须落地为具体画面动作或明确标出延后集号，靠前后反差成立的细节须把前后两头交代清楚（`STY-23`）；标为 `move_earlier` 或 `cold_open` 的改编重排，须交代所依赖的前置铺垫在哪一集补足（或观众靠什么认清时间线）及原位置如何调整，避免高潮前移后因果断桥（`STY-29`）。
+- **多集剧本导入索引与回写边界（`STY-18 · structural_invariant`）**：导入多集现成剧本拆分或改写时，核查是否通过精确字节索引按集读取，并经 `verify` 校验当前原稿总长度、区间合法性、集号递增序与行号/字节对应关系（原稿变动须重建索引，且 `merge` 严禁本轮写入不在当前索引声明集合内的未知集号）。
+- **原著外新增项说明与确认（`STY-30 · craft_default`）**：原著没有的重要新增角色、场次或支线宜说明戏剧作用与不冲突依据并列入立项简报请创作者确认（建有改编对照表时如实单列 `add`，不藏入其他改编类别），单集阻力优先从原著既有角色与处境中挖掘，不为凑反转次数硬塞工具人反派或强行把友方黑化。
 
-- What pressure is active at the opening?
-- What does the protagonist want now, and what resists it?
-- Which choice/action causes the directional turn?
-- If the episode frames that turn as a consequential choice, what live value does each
-  executable direction protect, and what cost is newly caused by the action (`SCR-13`)?
-  If it is an ordinary decision or single-path pursuit, leave this test inactive rather
-  than manufacturing a dilemma.
-- Conditional does not mean cursory: when the episode itself foregrounds a choice,
-  evidence carrier, deadline, or rule, does resistance, action, and consequence dramatize
-  it, rather than merely naming it in dialogue?
-- Could a viewer identify those stakes from the screenplay alone, without access to
-  the upstream brief or episode planning?
-- Do explicit brief facts, must/forbid constraints, genre contract, and required exit state
-  outrank craft defaults, or did the screenplay invent precision, records, resources,
-  procedures, relationships, or mechanisms merely to display a rule?
-- When a choice cost or deadline is essential, was it perceptible before the decision,
-  or invented at decision time by a convenient new condition?
-- What part of the promised experience is delivered before the outgoing hook?
-- What exact state enters the next episode?
-- Before the outgoing hook, what local dramatic result has already landed?
-- Which behavior, relationship history, line, silence, spatial choice, or object makes the
-  protagonist's private reason legible? Do not require a recurring object when another
-  carrier already does the work.
-- Does the ending fulfill the episode's viewing contract through consequence, relationship,
-  irony, afterimage, atmosphere, or intentional openness? A new external event is optional.
-- If the ending declares a path closed or a consequence irreversible, do later beats
-  accidentally contradict that claim without presenting an intentional new change?
-- Whose choice caused that result (`STY-13`)? If it arrived by outside force, cite the
-  protagonist's earlier action that made it arrive now, and what they did with it.
-  A protagonist who only endures until rescue is this episode's audience, not its lead.
+## 3. 场次推进、制作标记与对白交锋（`SCR-01`–`SCR-24`）
 
-A capacity estimate (`STY-16`) is informational, never a blocking finding. If a
-planned episode's shot/duration magnitude is far from the project's own accepted
-ratios, note it as an advisory observation with the sampled basis, and leave the
-resolution to the creator. Do not derive a word, line, or shot quota from it. Rhythm
-comparisons use only an accepted profile ([below](#rhythm-profile-rev-12)); explicit
-numbers already required by the brief, such as a literal deadline, still need their own consistency checks.
+- **场次推进按类型适配评估（`craft_default`）**：
+  - 正面交锋与爽剧打脸场次通常以筹码互换、强弱易位或当面反转立住戏剧张力（`craft_default` 参考）；
+  - **不把“每场戏必有正面对手翻转”当成跨题材死门槛**——悬疑推理的线索勘验、规则怪谈的异常铺垫与试探、情感与生活流的暗流拉扯及过场呼吸戏，只要实打实推进了信息增量、悬念压迫感、关系分寸或连戏状态即完全合格，绝不误杀非爽剧场次。
+- **可演外化、制作标记与倒计时/限次核对（`SCR-03`、`SCR-05`、`SCR-16`、`SCR-17`）**：关键转折处的心理变化须外化为可见动作、物证状态变化或明确标注的 `[VO]`/`[OS]`，不拿大段无法拍摄的纯心理说明替代戏剧行动（`SCR-03 · reviewed_invariant`）；必读 `[画面文字]`、`[VO]`/`[OS]`、`[SFX]`、`[连续性]`、`[转场]` 须使用规定的固定语法且指代清晰，`[连续性]` 只记录前文动作已演出的状态变化、不得靠一行备注空口抹除事实边界或断言镜头外“从未发生某事”（`SCR-05 · structural_invariant`），正文不混入镜头景别或生图咒语；台面亮出的精确倒计时（`SCR-16 · craft_default`）与限定回合次数（`SCR-17 · craft_default`）宜在动作量与可见结果上前后自洽。
+- **对白、具体演法与括注版式（`SCR-08`、`SCR-09` · `craft_default`）**：台词宜推动局面或带出潜台词，少复述刚演完的动作；笼统的情绪形容词若让演员难以抓准演法，优先落成具体动作、手头物件操作、站位远近、停顿留白或说话口气（`SCR-08 · craft_default`）；对白括注只放能与台词同步完成的语气分寸或顺手微动作，独立成拍的肢体动作与道具交接归入动作段（版式返修交 `$short-drama-write`）；长台词中段有说话意图或打法转折时宜结合可见动作自然切分，无内部转折的冗长台词优先精简而非硬塞“顿了顿、看了一眼”假拆句（`SCR-09 · craft_default`）。
 
-When the premise grants foreknowledge or externally authorized ability (`STY-17`), keep
-two layers apart and cite each from its own place:
+## 4. 节奏设定核对（REV-12）
 
-- **Contract layer** (creator-accepted, in the story engine): is the device contract
-  accepted before the device first takes effect, recording scope, failure conditions,
-  cost, and whether the device's own declarations are reliable?
-- **Disclosure layer** (per episode, in the information-permission field): what do the
-  characters and the audience know right now?
+仅当 `short-drama.json#/creator_authority/rhythm_profile` 为 `status: "accepted"` 时启用（缺失、`unset` 或 `proposed` 一律跳过）。对照项目确认的目标值做算术核对，超出区间处记为不阻断交付的 `craft_default` 提醒项（写明指标名、目标值、实测值与位置）：
 
-Never report partial disclosure as a defect. An audience that does not yet know every
-boundary is the normal case, and late-discovered limits are often the intended suspense.
-What is reportable:
-
-- A later device ability or exemption that traces to no contract clause—cite the episode
-  and the missing clause. This is retroactive widening whether or not it was announced
-  in-fiction.
-- A disclosed rule violated later, unless the contract marks the device as unreliable
-  and the setup is traceable.
-- Strip the device out—does the episode still contain a choice? If not, cite what
-  resistance was removed and never replaced.
-- What did the opposition learn once the device was in play?
-- For foreknowledge: does the information change according to the accepted timeline rules,
-  or does the author invent new limits to weaken the protagonist? Can changes in audience
-  knowledge be traced to information released in the episodes?
-- For authorized ability: when the contract establishes a cost, is it visible and consequential
-  to the protagonist? When the genre places pressure on the opponent, does that opposition
-  remain active without inventing a new cost to dilute the reward? Does the device offer options,
-  or decide for the protagonist?
-- If the device uses an on-screen readable carrier, is the `exact-readable` obligation
-  stated instead of coexisting with a global no-text policy?
-
-## Entry, character, and serial memory
-
-- What prior-world fact does the writer need in order to predict present choices?
-  Which visible evidence does the audience need now, and which backstory is
-  correctly withheld?
-- Why is this the useful entry window? Would an earlier start become setup work,
-  or a later start remove a consequential choice?
-- For each claimed character change, where are the pressure test, choice or
-  retreat, local result, cost, and changed visible strategy (`STY-12`)?
-- Do world truth, character beliefs, and audience knowledge remain separate?
-- For each evidence carrier, what claim does it directly support, and which identity,
-  cause, motive, or mechanism remains an unresolved inference (`STY-15`)?
-- When a major belief change hinges on contested evidence, is the response limited to
-  what was proved, or does the story intentionally preserve/delay uncertainty (`SCR-14`)?
-  Leave this test inactive for uncontested facts, comic misunderstanding, subjective
-  narration, or clues whose ambiguity is the intended effect.
-- When contested evidence is a primary episode engine, does at least one visible state
-  change alter which explanations remain live or alter the next action, rather than
-  leaving every increment to verbal report? Photographing, bagging, numbering, or logging
-  is not a dramatic turn by itself. Once the required inference changes, does testing stop
-  unless another live counter-explanation would genuinely change the next action?
-- If a proof claim depends on continuity such as connection, sealing, position, time, or
-  lack of contact, did preceding action preserve that exact property? A continuity label
-  may carry forward a shown state; it cannot prove that an unseen event or contact never occurred.
-- Does active serial memory preserve character/relationship state, information
-  permissions, setup debt, rhythm direction, and the exact physical handoff?
-- Do external pressure and emotional load rise, fall, or diverge for a reason?
-  A breathing scene should process a consequence rather than suspend the story.
-
-Do not require a fixed hook type, beat count, reversal, climax timestamp, or
-dialogue quota beyond what an accepted rhythm profile declares.
-
-## Adaptation fidelity
-
-Active only when the project adapts a source. Read the source span each mapping in
-`项目开发/adaptation-map.jsonl` cites, then the episode record and screenplay.
-
-- For each core source character: is their stance toward the protagonist, their way of
-  acting, and their relationships the same on screen as in the source (`STY-07`)?
-  Pressure made louder or spoken aloud is fine; a supportive figure turned oppressor,
-  or a relationship reversed, is a finding unless the creator accepted the change.
-  Cite the source fact and the conflicting screenplay line (`REV-03`).
-- Are the main line and invented details consistent with source facts, except for changes
-  the creator has explicitly accepted?
-- Is every character, scene, or opponent the source lacks registered as its own `add`
-  mapping, with the function it serves, why existing source material cannot carry it,
-  the source facts checked against it, and a line in the brief for the creator (`STY-30`)?
-  An addition hidden inside `change_carrier`, `merge`, or `move_earlier` notes is a
-  `craft_default` finding; an unregistered addition that also contradicts the source
-  is a `STY-07` finding.
-- When an episode's opponent was manufactured to meet `opposed_reversals_per_episode_min`,
-  say so: the profile deviation is the honest outcome, not a new antagonist.
-
-## Scene test
-
-For a scene organized around active pursuit or conflict, ask:
-
-1. Why must it exist?
-2. Whose agenda organizes it?
-3. What force opposes that agenda?
-4. What traceable fact, leverage change, cost, authority, or choice makes the prior
-   strategy fail? An opponent merely becoming silent or leaving is not enough.
-5. What exit state pressures the next scene?
-
-A quiet scene can pass when pressure and change are legible. Atmospheric, ritual,
-montage, transition, and consequence-processing scenes may instead justify their
-function through a necessary change in knowledge, relationship, pressure, rhythm,
-or production state; do not invent an opponent or strategy failure merely to make
-them fit this checklist. A loud scene can fail when nothing changes.
-
-## Action and production meaning
-
-- Are internal states expressed through playable behavior, evidence, or deliberate
-  VO/OS?
-- Are actions spatially coherent and consequential?
-- Are exact on-screen text, prop text, SFX, VO/OS, and transitions tagged?
-- Does prose avoid camera/prompt boilerplate while retaining production-critical
-  facts?
-- Do supporting characters who receive substantial dramatic emphasis have a goal, judgment,
-  or strategy of their own? Incidental, transactional, choral, and environmental roles need
-  not all alter the main plot.
-- Does a central participant who supplies the main leverage, opposition, or cost remain
-  strategically present through the turn and response, rather than becoming a passive prop
-  once the protagonist acts?
-- If that participant's leverage disappears, what already-established action, spatial fact,
-  authority, relationship, or choice made it disappear? Do not infer neutralization merely
-  from the protagonist completing one step.
-- When a literal precise deadline is foregrounded and audience-auditable, does its action
-  chain fit, or does the screenplay make compression, changed method, changed objective,
-  or failure legible (`SCR-16`)? Qualitative urgency must not be upgraded into invented
-  minutes, timestamps, notifications, or records. Do not apply a real-time test to montage,
-  ellipsis, subjective time, or declared stylization.
-- When the brief defines a limited number of attempts, turns, breaths, beats, or other units,
-  does each unit end with its required visible state (`SCR-17`)? Labels, counts, requests,
-  authorization, preparation, and cleanup after the boundary do not substitute for completion;
-  an intentional failure or partial result may count when it is legible at that boundary.
-- When exact timestamps share one literal continuity, are they mutually consistent?
-- When the current date is necessary to a conclusion, is it supported by a current source?
-- Does a compressed process retain only the steps that change strategy, relationship,
-  risk, or result, instead of listing interchangeable operations?
-- When multiple carriers repeat one pressure or fact, does each add rhythm, viewpoint,
-  irony, misdirection, or consequence? If not, which one is redundant?
-- Does a solution use established resources and still confront the core obstacle, rather
-  than erase it with a newly invented convenience?
-- Even when a resource is established, does it change the problem without conveniently
-  performing the character's hardest dramatic work for them?
-- Does an outside response increase or transform pressure in a way grounded in the work's
-  established world, rather than suddenly forgiving, rewarding, or rescuing the character
-  to make the ending easy?
-- After a mechanism becomes visually clear, does dialogue change the relationship or
-  narrow the claim instead of explaining the same mechanism again?
-- When the brief gives a target duration but the project has no pacing rates, has the
-  writer still performed a real-time read/action pass and removed obviously excessive
-  repeated verification, date exposition, or equivalent closing beats?
-
-## Dialogue
-
-- What does each speaker want from the other now?
-- What is withheld, reframed, threatened, bargained, accused, or proven?
-- Does the line respond to the prior move and alter the next?
-- Are voices distinct by worldview, status, relationship, vocabulary, and rhythm?
-- Does exposition enter through conflict/evidence/consequence rather than a
-  neutral information dump?
-- When a long speech is split, does the inserted action change the speaker's tactic
-  and give downstream a sourced cut point, rather than pad with a glance or a pause
-  (`SCR-09`)? When a long speech carries no internal turn, was it shortened instead
-  of split?
-
-Silence, interruption, slang, narration, and sentence length are creator options,
-not universal scoring ratios.
-
-## Rhythm profile (`REV-12`)
-
-Active only when `short-drama.json#/creator_authority/rhythm_profile` has `status`
-`accepted`. A missing, `unset`, or `proposed` profile means nothing here is checked.
-The review does arithmetic on the accepted values against the current screenplay and
-nothing else:
-
-| Field | What the reviewer measures |
+| 指标字段 | 核对标准 |
 |---|---|
-| `first_hook_seconds` | Seconds from the episode start to the first hook: crisis, conflict, anomaly, or promised spectacle already happening on screen. |
-| `beat_interval_seconds_max` | The longest gap between consecutive emotional touchpoints: a conflict line, a situation-changing action, or new information. |
-| `opposed_reversals_per_episode_min` | Reversals driven or suffered by a human opponent with an agenda; changes completed by a system, a number, or the environment alone do not count. |
-| `end_on_peak` | Whether the last beat sits on or just before the peak, with no afterglow, summary, or quiet coda after it. |
-| `reprise_previous_last_beat` | Whether the opening replays the previous episode's last beat. Not applicable to the first episode. |
-| `vo_share_max` | `[VO]` characters as a share of all dialogue characters under the write estimate's convention: whitespace and parenthetical directions removed, punctuation retained; `[OS]` belongs only in the denominator. `$short-drama-write` reports the share with the project file when the accepted ceiling is valid and dialogue is present. |
-| `first_major_payoff_by_episode` | Series review only: the episode in which the first major payoff lands. |
+| `first_hook_seconds` | 开集起算到首个危机、反常现象、冲突交锋或核心悬念落地的秒数。 |
+| `beat_interval_seconds_max` | 相邻两处有效戏剧触点（冲突推进、关键动作或新信息揭晓）之间的最大间隔秒数。 |
+| `opposed_reversals_per_episode_min` | 本集由带自身诉求的对手推动或受挫的反转次数。 |
+| `end_on_peak` | 全集末拍是否收在高潮点或悬念引爆瞬间，未拖沓平缓总结。 |
+| `reprise_previous_last_beat` | 开场是否重演衔接上一集末拍（`EP001` 不适用）。 |
+| `vo_share_max` | `[VO]` 字数占总台词字数比例（去空白与括注、留标点；`[OS]` 仅计入分母）。 |
+| `first_major_payoff_by_episode` | 全剧联审时核对首次重大看点兑现落在第几集。 |
 
-Seconds come from the project's declared pacing, or from a real-time read-through
-labelled as a text estimate; state which. A deviation is a `craft_default` finding that
-cites the field, the accepted value, the measured value, and the location. Severity
-follows audience impact and is never `blocker`; the creator may keep the episode with a
-stated reason. Storyboard fields (`target_avg_shot_seconds`, `close_shot_share_min`)
-are measured in the [visual rubric](rubric-visual-motion.md#rhythm-profile-shots).
+分镜层面的 `target_avg_shot_seconds` 与 `close_shot_share_min` 见 [分镜与视频动态核查清单](rubric-visual-motion.md#2-镜头节奏指标核对)。
 
-## Local passes (`REV-13`)
+## 5. 三轮局部专项抽查（`REV-13`）
 
-After the whole-episode read, run three passes that each read one part only, so each
-segment is assessed on what it delivers at that point.
+通读全集后，结合本项目题材调性做三轮局部抽查：
 
-1. **Opening hook**: read only the first segment, up to `first_hook_seconds` or, with
-   no accepted profile, the first scene. Would a viewer who saw only this stay? Name
-   the hook and say whether it is happening or only being set up. Then read the first
-   beat alone, the opening frame: does it raise a question by itself,
-   or does it need on-screen text read, a character recognized, or the next line heard
-   first (`SCR-22`)? A still image that poses its own question passes. For a first
-   episode, also check that the brief compared the entry candidates on that same image
-   (`STY-25`).
-2. **Ending suspense**: read only the final scene's closing beats. Do they fulfill the
-   episode's accepted ending function? When suspense is intended, what question remains
-   open, and does it grow out of this episode's result? A line hook (an unfinished question,
-   an identity hint) or an image hook (a door half open, an envelope half torn) may stop
-   before the answer. A resolved, quiet, ironic, or intentionally open ending is judged
-   by its own contract; an accepted `end_on_peak` profile takes precedence.
-3. **Mid-episode reversal density**: read only the middle. List each reversal with its
-   location and the person driving or suffering it; flag long stretches with no
-   touchpoint and reversals bunched at the end.
+1. **开场钩子抽查（`SCR-22`、`STY-25`，`craft_default`）**：单读开场前几拍，核查是否迅速切入情境而未堆砌冗长背景。强视觉快切题材优先评估开场首帧定格画面的反常视觉冲击与悬念张力（`craft_default`），但**全面放行契合题材的文字钩子与声音钩子**——规则怪谈的诡异告示字卡、悬疑剧的黑屏画外求救声/电话录音、生活流一句刺破假象的冷开场台词，只要当场立住悬念或戏剧张力即予认可，绝不因首拍依赖文字或声音一刀切判不过。
+2. **集尾收束抽查**：单读末场最后几拍，核查集尾钩子、反转余震或情绪落点是否干脆利落。
+3. **中段推进抽查**：单读全集中段，对抗爽剧排查对手交锋反转是否头轻脚重，悬疑/怪谈/生活流排查线索递进、规则试探或人物关系拉扯是否存在原地踏步的水戏。
 
-Each finding cites its own segment. The passes apply with or without a profile; only
-the numeric comparisons need one.
+## 6. 备选拍法与核心冲突保真核查（`SCR-10`、`REV-03`）
 
-## Replaceable realization (`SCR-10`)
-
-Only for beats the creator marked. **An unmarked beat leaves this section
-inactive**: do not raise a finding for the absence of a mark or choose marks for
-the creator. The suite carries no platform approval standard and predicts no approval outcome.
-
-On a marked beat:
-
-- Is the dramatic function written as *who is proven or changed*, rather than an
-  emotion word? A function stated as "高潮" cannot be used to judge equivalence.
-- Does the fallback deliver that same function — same person affected, cost still
-  paid, downstream payoffs and the next episode's entry state still satisfied?
-  Existing structured material may locate those payoffs through `payoff_refs`; no new record is required.
-- Does the fallback need a setup the script has not established? Then it is a
-  rewrite, not a fallback.
-- Is "delete the scene" being offered as the fallback? Deletion removes the
-  function itself; the only acceptable variant is an explicit handover naming
-  which existing beat now carries it and what that beat must absorb.
-- Is the fallback concrete enough to become scene action, or is it "酌情处理"?
-
-When a depiction was weakened to avoid a risk nobody stated, cite the lost dramatic
-function and the absence of a creator requirement. A marked fallback preserves the
-current choice until a concrete need for replacement arises.
-
-## Common findings
-
-- genre label substituted for a dramatic promise;
-- alternatives differ only in wording;
-- coincidence carries a major turn with no prepared cause;
-- scene repeats known information and leaves state unchanged;
-- cliffhanger withholds all payoff;
-- episode pauses an unfinished action without producing a local result (`STY-13`);
-- first episode dumps the backstory reservoir instead of selecting an active entry;
-- an adaptation hardens a source character or invents an opponent without an `add` mapping or creator acceptance;
-- a declared character arc has no pressure test, choice, cost, or changed strategy;
-- serial summary omits an information permission or unpaid setup obligation;
-- generic emotion adjectives replace visible performance;
-- every character explains the plot in the same voice;
-- downstream production requirement was never marked in screenplay truth.
-- a redundant `[连续性]` tag repeats an exit state already explicit in the final action;
-- a story-critical ending state appears without a prior transition;
-- the script uses atmosphere, silence, or a black frame to avoid landing a result the episode
-  promised, rather than as an intentional ending form;
-- a beat is sold as a consequential choice after one direction has already become valueless
-  or impossible (`SCR-13`);
-- contested evidence produces a broader conclusion than the evidence or intentionally
-  incomplete verification supports (`SCR-14`);
-- a claimed proof relies on a continuity property the preceding action already destroyed,
-  or on a continuity label asserting an unseen negative event;
-- a local payoff erases its established residue or replaces meaning with a slogan (`SCR-15`);
-- a cost framed as central pressure automatically resets at success, leaving no material
-  effect on ability, body, resource, relationship, or next action;
-- a central participant supplies the opening leverage or cost but becomes a passive prop
-  through the decisive action;
-- the core opposing force disappears only because its holder becomes silent, stops acting,
-  or leaves, without a traceable loss of leverage, accepted cost, or changed strategy;
-- a literal, audience-auditable deadline succeeds only through unexplained speed, or
-  qualitative urgency is upgraded into invented precise timing (`SCR-16`);
-- a limited unit is counted before its required state completes, with the completion moved
-  outside the boundary (`SCR-17`);
-- a newly invented resource, permission, or ability removes the central obstacle;
-- a limited result is renamed as a broader success or truth than the scene demonstrated;
-- repeated carriers restate one pressure without adding viewpoint, rhythm, irony, or consequence;
-- a second same-direction decision, closing line, or maxim merely translates a change,
-  punchline, or metaphor that the preceding action already completed;
-- post-result action unintentionally contradicts a consequence the screenplay called irreversible.
+仅在创作者主动标注需预留备选拍法的节点核查备选方案（未标注处不查，不替平台臆测审核尺度）：核对备选方案是否写清受影响人物、保持同等的人物关系冲击、所付代价、伏笔回收与下集交接局面且具体可拍；`SCR-10 · craft_default` 下的稳妥替代拍法或保守调度选择最高仅记为 `minor` / `note` 建议，不据此直接判回。但若创作者并未提出限制，执笔人却擅自删改或磨平上游已拍板的核心冲突原意，则按 `REV-03 · reviewed_invariant` 成对并列上下游原文指明打回。
