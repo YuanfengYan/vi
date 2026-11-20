@@ -1,0 +1,100 @@
+{
+  "updated_at": "2026-11-19T11:46:46+08:00",
+  "episode": "EP001",
+  "script_target_seconds": 90,
+  "aspect_ratio": "16:9",
+  "style": "写实奇幻CG",
+  "assets": [
+    {
+      "id": "IMG-LUOYU-TEEN",
+      "operation": "adopt_user_canonical",
+      "source": "D:\\workspace-new\\my2\\video\\projects\\shen-chong-gong-ying-shang\\输入\\参考图\\电影CG画风参考.png",
+      "output": "images/luo-yu-teen.png",
+      "sha256": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+      "status": "complete"
+    },
+    {
+      "id": "IMG-LUOYU-ADULT",
+      "operation": "builtin_imagegen",
+      "input_images": [
+        "D:/workspace-new/my2/video/projects/shen-chong-gong-ying-shang/输入/参考图/电影CG画风参考.png"
+      ],
+      "prompt": "Create one full-bleed 16:9 character reference sheet of adult past-life Luo Yu. The supplied character sheet is the FACIAL IDENTITY source only: same recognizable eye spacing, dark brown eyes, straight nasal bridge, natural eyebrows, tousled black hair structure. Age him naturally into his late twenties, slightly longer face, firmer jaw and broader shoulders, lean working man's build. He wears a worn charcoal canvas work jacket over a plain faded gray cotton shirt, dark work trousers and matte dark work shoes, bare hands. Remove all island-costume items: no ivory coat, jewelry, fingerless gloves, belt kit or vial. One large head-and-shoulders portrait on the left and matching equal-scale front, side, back full-body views on the right, complete feet within frame and generous separation. Realistic cinematic fantasy CG matching supplied image's skin pores, modeled face, separated strands, woven cloth and material precision. Cool gray studio backdrop, soft side-front key and fine hair rim. One consistent adult identity and costume across all views. No words, logos or watermark.",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-c0ca8d32-c2b3-4b9a-b4ca-7d2bebd22d7e.png",
+      "output": "images/luo-yu-adult.png",
+      "sha256": "aca593b4bd40596706573bb2899c633569db7539ae221e2ebbe6a5bbd8f06be5",
+      "status": "complete"
+    },
+    {
+      "id": "IMG-YUWAN-SHEET",
+      "operation": "builtin_imagegen",
+      "input_images": [
+        "D:/workspace-new/my2/video/projects/shen-chong-gong-ying-shang/输入/参考图/电影CG画风参考.png"
+      ],
+      "prompt": "Create one full-bleed 16:9 character design reference sheet for Yu Wan, an East Asian woman aged 28-29, a courteous practical island administrative clerk who formerly taught swimming. Use supplied image ONLY for realistic fantasy cinematic CG rendering quality, skin realism, hair detail and neutral sheet layout. Create a DISTINCT woman's face, mature natural oval face, alert dark brown eyes, neat natural brows, calm professional expression, black hair tied into a practical low bun with discreet side strands. Slim athletic adult build, natural human proportions. Understated professional clothing: tailored slate-navy jacket with simple lapels, ivory shirt, charcoal straight trousers, low black leather shoes. Small antique brass buttons harmonize with coastal fantasy world; no tactical armor, weapons, insignia or decorative jewelry. A plain dark navy document folder carried tucked against forearm in front view, clear bare hands. Large face close-up left and equal-scale front, side and back full body views right, feet inside image. Match same face, bun and suit in every view. Cool gray studio background, soft side-front lighting, subtle rim, detailed woven cloth and natural skin. No lettering, view labels, logos, watermark.",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-78c07f0d-b36a-437b-8932-922c1f868f3d.png",
+      "output": "images/yu-wan-sheet.png",
+      "sha256": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+      "status": "complete"
+    },
+    {
+      "id": "IMG-INSTITUTE-ENTRANCE",
+      "operation": "builtin_imagegen",
+      "input_images": [
+        "D:/workspace-new/my2/video/projects/shen-chong-gong-ying-shang/剧集/EP001/制作成果/images/institute-courtyard-wide.png"
+      ],
+      "prompt": "Create one 16:9 full-bleed EMPTY environment reference plate of the FRONT ENTRANCE of Luo Shui Research Institute in a realistic cinematic fantasy CG film. Supplied image is the existing REAR COURTYARD: retain its weathered pale limestone, dark timber double door style, tall lattice windows, muted blue-gray tile roof, warm coastal sun and low gray-teal pond. Design the matching opposite FRONT facade, seen from a mildly off-center eye-height camera on the stone front porch. Show full open front double doors, broad clear stone threshold and usable standing space for two people to talk. Through the doors, a short straight sparse stone-floored central hall leads to the REAR open door and its three shallow steps into the supplied sunny backyard; show only a convincing partial glimpse of the curved low pale-stone pond edge beyond. The hall establishes one continuous walkable route between entry and rear courtyard, with no pond inside it. Simple restrained institute, no palace, readable paperwork or extra rooms. Physically grounded stone bevels, dark wood grain, tile texture, soft warm sunlight at front, cooler shaded hall and bright sea-bounced courtyard depth. No humans, animals, signs, readable text, contemporary office machines, labels, watermark.",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-f88236b8-38b0-40f6-b178-d02a1bae4831.png",
+      "output": "images/institute-entrance.png",
+      "sha256": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+      "status": "complete"
+    },
+    {
+      "id": "IMG-RECOVERY-NOTICE",
+      "operation": "builtin_imagegen",
+      "input_images": [],
+      "prompt": "Create a full-bleed 16:9 cinematic realistic CG prop reference sheet. One single warm ivory paper notification centered face-on, fully visible, laid over an unmarked open dark navy document folder on a cool neutral gray tabletop; leave breathing room around paper. Credible fine paper fibers, slightly softened corners, subdued physical material and soft studio illumination. The document is plain administrative stationery for a coastal fantasy island. Exact readable Simplified Chinese, title in two centered lines: first line “回收洛水研究所”, second line “使用权通知书”. Beneath in smaller clean type one exact line “七天内处置自有资产”. Generous whitespace; the remaining lower page is BLANK, no other text, body paragraphs, stamps, signatures, dates, agencies or invented regulations. The two title lines together name the document 回收洛水研究所使用权通知书. All Chinese glyphs crisp and accurately formed, dark charcoal ink. No modern brand, pen, extra objects, graphics or watermark.",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-84c81fd1-8f69-4889-b4fe-e1b905f953fc.png",
+      "output": "images/recovery-notice.png",
+      "sha256": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795",
+      "status": "complete"
+    },
+    {
+      "id": "IMG-INK-BREEDER",
+      "operation": "builtin_imagegen",
+      "input_images": [
+        "D:/workspace-new/my2/video/projects/shen-chong-gong-ying-shang/剧集/EP001/制作成果/images/ink-octopus-comparison.png"
+      ],
+      "prompt": "Create one full-bleed 16:9 creature reference sheet of a THIRD individual of the exact palm-sized ink octopus species in the supplied reference. Use supplied image for species anatomy, believable small scale, wet ink-black skin, slightly lighter gray-black arm undersides, fine suction cups and shallow gray-teal pool lighting. This third individual has a modest pear-shaped rounded mantle with a very subtle naturally gray-speckled upper back; keep mantle edge black, without the existing purple or teal bands. Its hidden talent is Breeding Champion; this is a hidden property and MUST NOT manifest as a crown, golden color, magical glow, eggs, symbols or altered anatomy. One large three-quarter view on left, one smaller side view on right of SAME individual, each with exactly eight tapering natural arms arranged with individually traceable tips and generous margins. Complete body in both views, no extra limbs. Soft warm natural pond key, narrow wet highlights, real shallow-water refraction, muted gray-teal background consistent with reference. Cinematic realistic fantasy CG creature modeling and texture. No text, UI, humans, extra creatures, rulers or watermark.",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-943db4f4-8386-4a5b-ba2e-1c2bc916db99.png",
+      "output": "images/ink-octopus-breeder.png",
+      "sha256": "71361b139d4e5127984a71fa66785bfafdf6545b872ed91ed0a64a6694f4aff6",
+      "status": "complete"
+    },
+    {
+      "id": "IMG-MEMORY-SHIPWRECK",
+      "operation": "builtin_imagegen",
+      "input_images": [
+        "D:/workspace-new/my2/video/projects/shen-chong-gong-ying-shang/剧集/EP001/制作成果/images/mirror-moon-harbor.png"
+      ],
+      "prompt": "Create one full-bleed 16:9 brief-memory environment reference plate for a cinematic realistic fantasy CG film. Use supplied harbor image ONLY for the black-brown wooden warship construction: planked hull, subdued iron edging, wooden mast and worn ropes. Place one such ship badly capsized out at open sea in cold desaturated gray weather. Low sea-level three-quarter view, broad overturned hull side and damaged mast angled through violent gray-blue foam, broken rigging partly submerged; wet dark wood and continuous waves establish physical weight. No shore or town, no modern metal vessel. This is a fragmentary memory of parents lost at sea after a sea-beast attack: show only damaged vessel and disturbed ocean, without showing any beast, identifiable people or victims. Restrained atmospheric haze and soft cool light, physically grounded water, storm-scale foam around hull, matching feature-film CG material detail. Single coherent frame, no flashback borders, collage, text, readable emblems, gore, logo or watermark.",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-7bbdd674-35a3-4c5e-bfb9-ac4261f80667.png",
+      "output": "images/memory-shipwreck.png",
+      "sha256": "3a5311f1152fdc7c7a5912c5ba446c6a7e5abb1136de2a4d7d349d1e175feaf8",
+      "status": "complete"
+    },
+    {
+      "id": "IMG-TALENT-PANEL",
+      "operation": "builtin_imagegen",
+      "input_images": [
+        "D:/workspace-new/my2/video/projects/shen-chong-gong-ying-shang/剧集/EP001/制作成果/images/ink-octopus-comparison.png",
+        "D:/workspace-new/my2/video/projects/shen-chong-gong-ying-shang/剧集/EP001/制作成果/images/ink-octopus-breeder.png"
+      ],
+      "prompt": "Create one full-bleed 16:9 widescreen visual-effects comparison reference sheet for THREE underwater talent cards in a realistic cinematic fantasy CG film. Image 1 controls first two octopus designs: left round broad dark mantle with dark-violet mantle rim, center narrow oval mantle with slate-teal mantle rim. Image 2 controls the third individual, pear-shaped black mantle with subtle gray dorsal flecks, black mantle edge; show only its larger three-quarter individual, not both reference views. All three are palm-sized, at equal scale, wet ink-black skin, eight natural arms. Arrange THREE equal-width vertical columns across a soft gray-teal shallow-water background, each fish wholly visible in lower half, one slim translucent smoky-teal rectangular card directly above it in upper half. Consistent fine pale-cyan outline, warm ivory Simplified Chinese sans-serif, good padding, subtly heavier talent row, no icons, beams, halos or ornament. Exact text on LEFT card, two lines: “种族　墨水鱼” then “个体天赋　剧毒”. Exact text on CENTER card, two lines: “种族　墨水鱼” then “个体天赋　喷射战士”. Exact text on RIGHT card, three lines: “个体天赋　繁育标兵” then “高级天赋，更容易繁衍出” then “优秀的后代”. All glyphs accurate, crisp, large enough to read. Right card can have taller height, same width and type styling. Text is a postproduction style reference; 3 cards coexisting ONLY for design comparison. Leave lower edge clear for subtitles. No further words, labels, quote marks, title, watermark or border.",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-6c22a3d7-59c7-426a-8002-06a19b7c512d.png",
+      "output": "images/talent-panel-layout.png",
+      "sha256": "0951428517f7761e73469484db9fbd9d9e8f5e744e8fc5e7fc82c9eea8597f76",
+      "status": "complete"
+    }
+  ]
+}

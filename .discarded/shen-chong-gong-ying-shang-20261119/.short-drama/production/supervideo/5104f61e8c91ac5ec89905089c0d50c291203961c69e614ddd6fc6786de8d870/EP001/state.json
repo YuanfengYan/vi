@@ -1,0 +1,1495 @@
+{
+  "schema_version": 1,
+  "identity": {
+    "base": "https://api.isupervideo.com",
+    "channel": "172c1482-00b4-4bb2-89e4-e8bde879c77c",
+    "user_id": "3a7e3571-0145-4437-afec-8688540a5275"
+  },
+  "uploads": {
+    "753ffb9d278b9b0bb5342a947a94fb472ae82a5e4db2ab0b2c82bd2420ba72c2": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/17bddab0bf736ae5f92e0e86b1e337d254b22794d943672de9f4fcd719cad342",
+      "sha256": "06c9463ca08b1fcbaa6551b2fe7bb879818f284e03299c6c0418a49ed6f7e6e6"
+    },
+    "c3aab71ee6d0ff18a609a2dd20afa55c995a19707fd15074af3852098f638c0d": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/c81347314cb03eab799b65d5a166ce57cdf4611eecea8e7301ad1e4c15432153",
+      "sha256": "ef829327cbcee127956d7e7640fa014bd6e66c752fe0cf96cefc11caf92dd264"
+    },
+    "ce900b2b0cd19e112c17c67e006bb7e501808e1a59969ed3fef51a0135bee0de": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/eae322284bf460c9b216bd0cbeb4f92b432135995eb039e05a78597c28c20afb",
+      "sha256": "b6553c2bb59435805472f433ee02524c894c2c845da7d3961a2a859d0b35d317"
+    },
+    "12d7042c44bdf67901d4f130f97d499456489d48079a740a8488058dae0b7118": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/a7226ec5be2cc6cb845198d5b4d3ce11a4fdc7e802b93d31f86778b9114b3c9f",
+      "sha256": "de7063a9707677d26a17dcedd3891821d873bc40d13df88e2312ca300221f550"
+    },
+    "1f86c2c19617471fd809cf10722172679d9ff2b40e9c9388fa502fe3fb22a1ca": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/45f96bc0eef0524aaa54622eebdd58a16f2e90be16d41ff1475e5aaddbc01028",
+      "sha256": "828044c6bcf982551d5bddd99f1bda1ba4487a71ea73199b80accc1fb5063792"
+    },
+    "792acfcddb674f918095b300f984f1c2e2a22d249c639b8ac66ea54e560abdad": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/99b23fa6c6ace627b5e5f0c26f57724362c7d0b4d62966a5e892bdcbbacf650b",
+      "sha256": "c2d12dea15dc38070656db548f8077e8d2260993b2fe6f46ad28940198c21be3"
+    },
+    "bd1640ef54e7786734b49665ca72c1c0b36803480c13df92c44915fe7b09b963": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778",
+      "sha256": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f"
+    },
+    "8d3089580dc86649c08cfb5dc1705bf3cdd5edfef6c4eab1c5f4de2f8d598ea5": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d69a8eee400d7bac3f6a0e30e5c0be3ca0961ebb974cb53916adc5f6f69b777d",
+      "sha256": "3873950a220f64df2ebe954938c56fc38cd42a478be69a43c4c6932d12622f8a"
+    },
+    "f8b3331d2510f4b111df496183c55f1c2f6adc851cb11218035d7ec2725f570e": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/fc351f900ea0cd2dcae0088a6fee84c9a1a641fc5bd27342b9b1f7c9a9486ec2",
+      "sha256": "4eddd99831a99515a20de9b21c4b09986cb99dd1e6ec36f55bb8a950bdddf47d"
+    },
+    "eddbf14c71ae07c048d30602e156869c56ddbb229cf9046a9780ab8785a126de": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/81660f1fed61bca9c17d80d451aeea0c43d2694478b8a7438d8980ba5b519909",
+      "sha256": "31e34df85656ccf0b48c5f5acfdcd8f9341f8dc8a266bdd30d5904e6f17c97e9"
+    },
+    "ba55e47dbdb5fc172cc60268eaafa67883ee18fcbb46ec0cf21c8c365adf851b": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/912e967e2dfcc86b6bd83b54a9f96c503358fa921a6a7435f0e33454655b3bf9",
+      "sha256": "0a67370b248b3ba23a7416bfe7e8ce40487bf039fb8af1ee52a1f4aa8f2ee815"
+    },
+    "0245559f85a52b5e5dc1a8a8bd99f6a211af90c1aa01bd2d36a61824629e1eaa": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/4f90f780f66de38b8efe766d47a8343a32a31f98e5deafe652e646bb354f48ee",
+      "sha256": "aca593b4bd40596706573bb2899c633569db7539ae221e2ebbe6a5bbd8f06be5"
+    },
+    "d085e769bacda82e961f316446b2385c1ba48f8d0aeac8a4e728eb5c2d388dde": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/4bb066ca9af2fa5325de63135fb67a86586b2062f957249365212c58a3ae717f",
+      "sha256": "5dcce344341c3280c9370a1bbe068c814be8f7cc4a176572ea41819087b78a0e"
+    },
+    "bb4ce598200562d43178094133509f8a3777d4ce8902c11f0eea9ac5cb99d29d": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/c67fa844cb7d1a37ccd9eb55237837c6006f72492dd17e278b99bdf643a7539a",
+      "sha256": "6b5f1ea0602d9d4534d4c4b67aa2210258b8e38fd9d81be92842d28fce9ef9fd"
+    },
+    "6120b12cb57e8e941bb3787793ba6463e8627349839527e67763767e35fa15c2": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/2da4cf8e1ae67b6b253c1f583385658aa2370fe4fa8ffa7a11404c8bef4f6832",
+      "sha256": "9addf9b0208ee6c4749302d48b11d66ed7989c64f4b8448a386aa3b91585371b"
+    },
+    "7a481925beedc380efc29bd41f76c89b19e8afebaf2544f55211ede82d532d4d": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/6d4fd1ea6812f30635916031c509a03c39719f29e72a3a4e638f82cf03c328df",
+      "sha256": "826c5469e4c5b7456f746219251dea5bf93f97795bea54eecc801f97c18b538f"
+    },
+    "ace0a34d927a8bd5837b022961eadedd5abbd9ac13941f3c97e1c396c9692966": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/9897102654a1ddc88b662b2ab60dc8d4bd5862ddfc29bc4e7f686feeadae4bcc",
+      "sha256": "ddfacd1cd9297d2aab5dc1e7bf62b150c10eacc05b6ca9919ad5a9f53d9fce75"
+    },
+    "39173d69ff71cf487795ad7f91a0fd4dfd01e24829e5efb1c78be641edf40c52": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/8ed19fc2f572d851086e98a79f15dfd68a22b0478b6c79e566cc9aeb0cb7f6b4",
+      "sha256": "2cf2231634d861bdde0560bb323cbec8eb6db9e1d3e4bbe1b1e5290945b3fca6"
+    },
+    "18a08ef87e2280304e6b5625f676047fe4d284c20af8078f8c975ba255756f75": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/78c4a724e7bf3382543394493ace654b47eadaa7d0aa4b7a58df6eaf46801ba9",
+      "sha256": "13e4e594e0ca5908f618cae0b67bb2b1fb0153b5dd61d2513e9467b2b8e87f19"
+    },
+    "756e1c4389d55d82aca5f93bcb6f4c25cf4ec4028ec71c3bff1045dd5ad0c6ec": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/f79c9cad2ac76df9a8d8d6c62449adfcefa9e493de3d4e9f074bdd58c72d85c9",
+      "sha256": "3a5311f1152fdc7c7a5912c5ba446c6a7e5abb1136de2a4d7d349d1e175feaf8"
+    },
+    "8df8b9183e76d8b306ea51a988fcbe42a7cbd8aa85471c78f8e973ff16f72f51": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/f79c9cad2ac76df9a8d8d6c62449adfcefa9e493de3d4e9f074bdd58c72d85c9",
+      "sha256": "3a5311f1152fdc7c7a5912c5ba446c6a7e5abb1136de2a4d7d349d1e175feaf8"
+    },
+    "47f96c2eaf033ca2a7b5837bc1b62791db513eefce8a302b08a9f444dfa2924a": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/0b70a71133a469c1f2f7cdafb1749b0a6f0ee297bfa19d5a88c556d4f957ff9c",
+      "sha256": "3e73356fa52789a933f7232aac0001d9e3ba7f340168bf8099d8b5113f6c1096"
+    },
+    "ed51b40b5b9c004ab3c8ae765f751bfbe9e2a257383979ec3a81929562b3e20f": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/8df2b3196c7ab4eab992e78593c75f3fd618bf369f2e7e6a77b034c1eddaf04a",
+      "sha256": "71361b139d4e5127984a71fa66785bfafdf6545b872ed91ed0a64a6694f4aff6"
+    },
+    "be28e680f063522c5fe4b758a26dd3b437ee45d3ebeb27a200d7997794ec850f": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7537c7b9cad502359a68cee08c23bf7ea415b28133a8a6166a0d499051599431",
+      "sha256": "902d633a2ffab7428ceb58aa19ac1ff7b06c17ae41489f264f7bea513bb3a7be"
+    },
+    "1345d68f3a85324a0dd1663dc000682d7e9c9e5ec604f83ff0c626ec41a93f56": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/04dc7cfb3fb03703f6f0e3bf1c24481ae8603773ae36341c5cb83d0287bbbf5f",
+      "sha256": "413a51fbfa074bbfa181c0ba523eeb83a9f010632ce975099cea4ffe8fc71c23"
+    },
+    "4af571a7c2a1346213ae340cc2443de77cdea7c82cfe16a9a0b72a63e08bf742": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b",
+      "sha256": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c"
+    },
+    "d13c19c749533f6ffb657bc25344b4143013915f5c14b6b87549540cc96aeac1": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/e18c48b24b1ff0746a0d48d29f466f42cb658e8a27b59a7143cc230c09479cb6",
+      "sha256": "41da3a4c23946752c155d02a213de194b44390699e8549e72279de1fbd46dfef"
+    },
+    "35bd9906c1bd71d21794a57723f6d62b92d4415b3f09cd16982643512d25b97c": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27",
+      "sha256": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5"
+    },
+    "e659bd52eb7bb117b864d976e9b5c842c33cfd550faada49b768c0f617b2bfd9": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/047338f262d3f8bfec5faea7834f12e9ecc1cd594247232851f772cd71772aac",
+      "sha256": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795"
+    },
+    "641a63fe47b822711d3e3c9fee3d0a0b677e84816cd3d1635a1f17fe37d59681": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/bfba0d2760ed61aefacd4b39e788f4b385874be0def427cdcfbe95701b06fb14",
+      "sha256": "d79946e1183ef938d07c4e86aeafbdedc95dd2f4481410c78d33bbf1751088e3"
+    },
+    "4ed2c43c101cc504bb3d35bcaa0aa696a6a0c521dd819f7b0147ba9df49906d9": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/340fa65fc6e03e6779b449e4724b73386bdbc794acab5419c6acee0087bf0a79",
+      "sha256": "97715e4d7d8dc9f857005f43dff46fcb38ebd9d968a0f31b73163e39e22c28db"
+    },
+    "7b6a3c905c033c13121a772b82aa1ac53dd1b5f5e2e628e828f6b47fdf5151dd": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/fdb31683a24c3bf02487f12760ab610bfe3aca4d7770bdd84d1f0c6ec1a6d4db",
+      "sha256": "f54a3934a72d236c54394df98e928e66039a9ab373aefab2e004876055812611"
+    },
+    "18b5a10ac40338f9ae7f4515f9853c0fc76f84683ff98ed42390a3d1c67b992a": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/b4c704765b360d20cd2e415ebed2bde0e71281ad03645e3872acd0b709c954ec",
+      "sha256": "cbba2b1a1038ac10dc4cc75c6c7d64d06baa425f4a8833492bdb6dd6fae56c31"
+    }
+  },
+  "tasks": {
+    "GROUP-EP001-01": {
+      "fingerprint": "fd47e87beed071723bd7d7f0f7891d615495044aa4c450e6816dbb88dad0594b",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "51f001335582ab0b56b51dd102cf1d5b1153156adb8055f73365ecacd247a7ca",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-012.png": "06c9463ca08b1fcbaa6551b2fe7bb879818f284e03299c6c0418a49ed6f7e6e6",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-013.png": "ef829327cbcee127956d7e7640fa014bd6e66c752fe0cf96cefc11caf92dd264",
+        "剧集/EP001/制作成果/images/mirror-moon-harbor.png": "b6553c2bb59435805472f433ee02524c894c2c845da7d3961a2a859d0b35d317",
+        "剧集/EP001/制作成果/images/courier-gull-and-satchel.png": "de7063a9707677d26a17dcedd3891821d873bc40d13df88e2312ca300221f550"
+      },
+      "prompt_sha256": "303605bf4e7b12ad9e5db9fac3166474f824d2123102e6831f693b2e911aca82",
+      "status": "downloaded",
+      "output": "剧集/EP001/制作成果/video/GROUP-EP001-01.mp4",
+      "quote_key": "quote:d062f83c85554352bc1794621da9aded",
+      "submit_key": "generation:78659d632afa4d8abaa4cd6536fa9ddd",
+      "input": {
+        "title": "GROUP-EP001-01.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1> is the opening composition of shot 1, not a final-frame target. <Picture 2> is the opening composition of shot 2, not a final-frame target. <Picture 3> defines the Mirror Moon Island waterfront: dark wet reef, sheltered stone berths, black-brown wooden warships, pale limestone town and muted blue-gray roofs. <Picture 4> defines courier gulls with white-gray bodies, exactly two teal wings, fitted navy uniforms and one tan canvas mail satchel per bird; use the bird design, not the reference board layout.\n\nsummary: The opening of the ocean age: exactly 6 seconds and two shots. Realistic fantasy CG, 16:9, 24fps.\n\nretention_analysis: <Picture 1>: partially_preserved - use only the corresponding opening composition, visible placement, light and starting pose; motion and shot timing are directed below. <Picture 2>: partially_preserved - use only the corresponding opening composition, visible placement, light and starting pose; motion and shot timing are directed below. <Picture 3>: partially_preserved - preserve the named character identity, costume, anatomy or location design; ignore sheet layout and reference pose. <Picture 4>: partially_preserved - preserve the named character identity, costume, anatomy or location design; ignore sheet layout and reference pose.\n\ndetailed_description: [Shot 1] 0.0-3.0s: start from the composition of <Picture 1>. Track low with the courier gulls from left to right. In the first second the lifted gray swell strikes the dark reef and explodes into white foam beneath the teal wings. The lead gull makes one small wing correction, keeping the tan canvas mail satchel on its fixed chest attachment; the others continue shoreward. Finish beyond the reef with the harbor opening ahead. Keep ships and stone buildings stationary. Hard cut at the stated time; no dissolve between these two shots. [Shot 2] 3.0-6.0s: start from the composition of <Picture 2>. Continue the same left-to-right flight. Track past the stationary wooden warships and stone berths as the lead courier gull glides toward town. Give its tan canvas mail satchel one restrained pendulum movement; maintain body and wing anatomy. End with the gull flock entering screen-right rooftops while the ships remain docked.  Keep character identities, costume attachments, handedness and physical contacts stable. No additional speech, subtitles, captions or watermark.\n\noverall_soundscape: Surf impact at the start, foam retreat, continuous left-to-right gull flight rush and natural gull cries; harbor rope creaks at the end. Absolutely no dialogue or music.\n\nnon_diegetic_music: N/A",
+        "duration": 6,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-012.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2725160,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/17bddab0bf736ae5f92e0e86b1e337d254b22794d943672de9f4fcd719cad342"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "SHOT-EP001-013.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2978047,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/c81347314cb03eab799b65d5a166ce57cdf4611eecea8e7301ad1e4c15432153"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "mirror-moon-harbor.png",
+            "mimeType": "image/png",
+            "sizeBytes": 3190457,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/eae322284bf460c9b216bd0cbeb4f92b432135995eb039e05a78597c28c20afb"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "courier-gull-and-satchel.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2012103,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/a7226ec5be2cc6cb845198d5b4d3ce11a4fdc7e802b93d31f86778b9114b3c9f"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "f6cb4de9-09d8-4e94-9532-c371f9bcd002",
+      "credits": 0,
+      "job_id": "0c196a66-4dc9-5849-a907-cdbd845891f5",
+      "sha256": "9964a6d80362aba5f1aeb11e2a82c6dc060df40595f5df72c114dd6b8af219f8",
+      "current_source_matches": false
+    },
+    "GROUP-EP001-02": {
+      "fingerprint": "a0b5f416f6c3bbc930e2ab9415b58f69239e99ada943c074251c0c5aada43b9f",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "d3ad83d8a9c0e94ab4269f047356c927a78b945c48f67939fad3383b5ff946d8",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-014.png": "828044c6bcf982551d5bddd99f1bda1ba4487a71ea73199b80accc1fb5063792",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-015.png": "c2d12dea15dc38070656db548f8077e8d2260993b2fe6f46ad28940198c21be3",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/institute-courtyard-wide.png": "3873950a220f64df2ebe954938c56fc38cd42a478be69a43c4c6932d12622f8a",
+        "剧集/EP001/制作成果/images/courier-gull-and-satchel.png": "de7063a9707677d26a17dcedd3891821d873bc40d13df88e2312ca300221f550",
+        "剧集/EP001/制作成果/images/cloud-leviathan.png": "4eddd99831a99515a20de9b21c4b09986cb99dd1e6ec36f55bb8a950bdddf47d"
+      },
+      "prompt_sha256": "a6b67e0c803e206d3b1436a5dd0de665a51223dd3c2f1c5fe6076654e1bc2ba1",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/GROUP-EP001-02.mp4",
+      "quote_key": "quote:78ec5702737f43b28b5d791bd18d3cdd",
+      "submit_key": "generation:74d7681416b345cea46eaa1a0caf6ef2",
+      "input": {
+        "title": "GROUP-EP001-02.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第14镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：第15镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 3>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 4>：洛水研究所后院：浅灰石墙、深木双门、三道浅阶、外侧干铺地、低矮平石池沿；海侧低墙外见海，暖光从右上方来，阴面带冷蓝反光。 <Picture 5>：邮差海鸥群与海鸥邮袋：白灰身体、两只细长青翼、海蓝短制服、胸腹侧一只棕褐帆布邮袋，依照真实羽毛层次、挂点与扣件。 <Picture 6>：云中巨兽：乳白白鲸状头身、银色鳞羽胸鳍及水平鲸尾，体量依靠云层遮挡建立。\n\nsummary: 苏醒与云中巨兽，8 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：巨兽隐入云后，洛羽左手指尖在石面上收紧。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 5>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 6>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 0–5 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 3> 的洛羽与洛羽少年常服、<Picture 4> 的洛水研究所后院、<Picture 5> 的邮差海鸥群与海鸥邮袋的限定使用。 0–1.4 秒，鸥鸣让洛羽睁眼，他翻转并撑稳左掌，将上身支起为半坐，身体不在石面上滑移。1.4–3.7 秒，他追看邮袋，带着刚醒的困惑念出本镜对白，第一短句后稍停。3.7–5 秒，右手抬到眉上遮阳，左掌继续承重，视线停在右上天空。衣摆随重心受力折叠，露指手套保留裸露指尖。 洛羽（普通话，少年清亮中音，呼吸自然、表演克制）：<d>[Chinese] 起猛了……海鸥送信？</d> 在明确切点直接切到下一镜，保持同场声音连续，不作叠化。 [Shot 2] 5–8 秒，开场采用 <Picture 2> 的构图。人物、动物、场景与关键道具按<Picture 3> 的洛羽与洛羽少年常服、<Picture 4> 的洛水研究所后院、<Picture 6> 的云中巨兽的限定使用。 从洛羽左后方轻抬仰角，巨兽钝额与银色鳞羽从云缝中逐渐显露；鳞羽只擦亮一次，宽阔柔和的阴影掠过院子。后方云层依次遮住巨兽，使它隐入云中。洛羽保持半坐、右手遮眉、左掌撑地；最后左手指尖轻轻收紧。  固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 后院海风、微弱池水声及手掌、衣料与石面的接触声；敲门只出现在育种思路说完后的镜头末段。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 8,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-014.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2895126,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/45f96bc0eef0524aaa54622eebdd58a16f2e90be16d41ff1475e5aaddbc01028"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "SHOT-EP001-015.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2859253,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/99b23fa6c6ace627b5e5f0c26f57724362c7d0b4d62966a5e892bdcbbacf650b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "institute-courtyard-wide.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2950782,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d69a8eee400d7bac3f6a0e30e5c0be3ca0961ebb974cb53916adc5f6f69b777d"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 4,
+            "filename": "courier-gull-and-satchel.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2012103,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/a7226ec5be2cc6cb845198d5b4d3ce11a4fdc7e802b93d31f86778b9114b3c9f"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 5,
+            "filename": "cloud-leviathan.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2172683,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/fc351f900ea0cd2dcae0088a6fee84c9a1a641fc5bd27342b9b1f7c9a9486ec2"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "1fa2917a-a627-46e1-9490-71d2bc982cde",
+      "credits": 0,
+      "job_id": "7185995c-19d2-5bd4-8bee-3b570f9c4042",
+      "current_source_matches": true
+    },
+    "GROUP-EP001-03": {
+      "fingerprint": "ddbc30df003b931a7a3484dd883ece7813f0a0f642ae2689e061a530598c2214",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "724a5493e272d94897fe522a382c62d2049328df4fbdcff816a9678617eeba61",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-016.png": "31e34df85656ccf0b48c5f5acfdcd8f9341f8dc8a266bdd30d5904e6f17c97e9",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-017.png": "0a67370b248b3ba23a7416bfe7e8ce40487bf039fb8af1ee52a1f4aa8f2ee815",
+        "剧集/EP001/制作成果/images/luo-yu-adult.png": "aca593b4bd40596706573bb2899c633569db7539ae221e2ebbe6a5bbd8f06be5",
+        "剧集/EP001/制作成果/images/flood-flashback-interior.png": "5dcce344341c3280c9370a1bbe068c814be8f7cc4a176572ea41819087b78a0e",
+        "剧集/EP001/制作成果/images/roasted-fish-states.png": "6b5f1ea0602d9d4534d4c4b67aa2210258b8e38fd9d81be92842d28fce9ef9fd"
+      },
+      "prompt_sha256": "fbc164ca5d96bc51641019a5b44ff8b5c01f64d160f4690b8fc4b22a05bc09d3",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/GROUP-EP001-03.mp4",
+      "quote_key": "quote:0da82181f0504fff884c987ff0e640ed",
+      "submit_key": "generation:ea565353f8024275a240fcf6fb2e9680",
+      "input": {
+        "title": "GROUP-EP001-03.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第16镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：第17镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 3>：洛羽前世成年形象：同源五官自然长到二十多岁，炭灰旧帆布夹克、褪色灰内衫、深色工装裤，双手裸露，不沿用海岛饰品。 <Picture 4>：末世楼房室内：裸灰混凝土、单一金属框雨窗和地面小火盘，低位暖火与冷灰雨光并存。 <Picture 5>：一条烤过的丧尸鱼：焦褐卷曲鱼身、残缺背鳍；先完整，撕肉后只在背鳍下留同一缺口，落地仍保留此缺口。\n\nsummary: 末世进食与中毒，6 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，混凝土与旧帆布有真实粗糙度，冷灰雨光和低位暖火形成纵深，人物保持同源五官与自然皮肤发丝。结尾：洛羽侧蜷在火旁，右手压腹，剩鱼落在左手外侧，缺口仍相同。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 5>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 0–3 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 3> 的洛羽与洛羽成年末世装、<Picture 4> 的末世楼房室内、<Picture 5> 的烤过的丧尸鱼的限定使用。 成年洛羽左手稳住烤鱼，右手从残缺背鳍下方撕下一小块鱼肉，送入口中。鱼身只留下同一个缺口。火焰逐渐变弱；结尾右手从嘴边放低，左手仍持剩鱼。开始前世回忆旁白，气口和雨声与下一镜衔接。 在明确切点直接切到下一镜，保持同场声音连续，不作叠化。 [Shot 2] 3–6 秒，开场采用 <Picture 2> 的构图。人物、动物、场景与关键道具按<Picture 3> 的洛羽与洛羽成年末世装、<Picture 4> 的末世楼房室内、<Picture 5> 的烤过的丧尸鱼的限定使用。 承接前镜同源成年旁白，不重新起句。洛羽右手压住腹部，上身蜷缩，侧倒在小火旁的空地；左手松开，带相同缺口的剩鱼落在左手外侧。摄影机轻轻下移跟住身体，结束时右手仍压腹，窗外冷雨光成为主光。鱼只有一条，火盘不移动，不出现血腥。 全段只念一次连续旁白，从 0.2 秒开始，到 5.8 秒结束，跨切点不断句，不分别重念成员片段。洛羽（同源成年普通话画外旁白，低沉克制）：<d>[Chinese] 我是宠物育种师。末世饿急了，吃条丧尸鱼，没了。</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 固定金属雨窗的连续暴雨声，低位小火逐渐减弱，按动作加入衣料擦动与唯一一次剩鱼落地声；雨声跨切点延续。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 6,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-016.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2361900,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/81660f1fed61bca9c17d80d451aeea0c43d2694478b8a7438d8980ba5b519909"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "SHOT-EP001-017.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2398307,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/912e967e2dfcc86b6bd83b54a9f96c503358fa921a6a7435f0e33454655b3bf9"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "luo-yu-adult.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2325674,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/4f90f780f66de38b8efe766d47a8343a32a31f98e5deafe652e646bb354f48ee"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "flood-flashback-interior.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2505645,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/4bb066ca9af2fa5325de63135fb67a86586b2062f957249365212c58a3ae717f"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 4,
+            "filename": "roasted-fish-states.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2229877,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/c67fa844cb7d1a37ccd9eb55237837c6006f72492dd17e278b99bdf643a7539a"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "f101fa38-36a9-427f-beff-25f4c29ca2bf",
+      "credits": 0,
+      "job_id": "dcd3d46c-d0af-5340-b1ae-2559b5446a9b",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-018": {
+      "fingerprint": "b14fc09cf8c996e677358b3e08362719b3e2a73566d681d605fcb2c4d2c8c883",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "ad7575491fbc47144b18fbf145b136459f74c6f15841abad71b92e5a36148419",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-018.png": "9addf9b0208ee6c4749302d48b11d66ed7989c64f4b8448a386aa3b91585371b",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png": "826c5469e4c5b7456f746219251dea5bf93f97795bea54eecc801f97c18b538f",
+        "剧集/EP001/制作成果/images/ink-octopus-comparison.png": "ddfacd1cd9297d2aab5dc1e7bf62b150c10eacc05b6ca9919ad5a9f53d9fce75"
+      },
+      "prompt_sha256": "b0e4c940458ca1bae2c35d190ac45c87056b3fdd1c9baabd81eac1da95ba2f7e",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-018.mp4",
+      "quote_key": "quote:e6334b5bedda49f8b9ef235bf670733b",
+      "submit_key": "generation:d0e235d54b084f188de9118e813ea5ea",
+      "input": {
+        "title": "MOTION-EP001-018.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第18镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：同一后院的池边视角：低弧形石沿、池外干铺地、灰青浅水，保持石门和日光方向的空间延续。 <Picture 4>：墨水鱼的同尺度物种参考；剧毒个体只取左侧宽圆头罩与暗紫头缘，喷射战士只取右侧窄椭圆头罩与灰青头缘。按本镜指定个体使用，不把对照板的两鱼并排布局带入画面。\n\nsummary: 倒影与饥饿，5 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：他的视线停在暗紫头缘章鱼上，右手从下巴慢慢放低。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 5 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的洛水研究所后院池边、<Picture 4> 的墨水鱼（剧毒）的限定使用。 沿洛羽俯视线向水面缓推。右手露出的指尖摸下巴，水中倒影严格同步，不能成为第二个人。巴掌大小的墨水鱼游过倒影边缘，洛羽目光跟随，轻咽一口唾沫后问出本镜台词。结尾右手从下巴放低，视线停在暗紫头缘的鱼上。 洛羽（普通话，少年清亮中音，呼吸自然、表演克制）：<d>[Chinese] 这章鱼……能吃吗？</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 后院海风、微弱池水声及手掌、衣料与石面的接触声；敲门只出现在育种思路说完后的镜头末段。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 5,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-018.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2812358,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/2da4cf8e1ae67b6b253c1f583385658aa2370fe4fa8ffa7a11404c8bef4f6832"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-courtyard-poolside.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2967385,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/6d4fd1ea6812f30635916031c509a03c39719f29e72a3a4e638f82cf03c328df"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "ink-octopus-comparison.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2132971,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/9897102654a1ddc88b662b2ab60dc8d4bd5862ddfc29bc4e7f686feeadae4bcc"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "9d4696ab-11b6-4d87-b29b-2fa023198199",
+      "credits": 0,
+      "job_id": "43c5cc62-5016-599d-bf45-c1e9afa96d73",
+      "current_source_matches": false
+    },
+    "GROUP-EP001-02-R2": {
+      "fingerprint": "30e280b5baed0eb55b4599f9bc3b13f0299a5f0682b2d7ee41c831c4c46b5aca",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "c1ef9f6d861f8ab58680ee7cae5249da907a5864b9a280a8a6236e430e3193c1",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-014.png": "828044c6bcf982551d5bddd99f1bda1ba4487a71ea73199b80accc1fb5063792",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/institute-courtyard-wide.png": "3873950a220f64df2ebe954938c56fc38cd42a478be69a43c4c6932d12622f8a",
+        "剧集/EP001/制作成果/images/courier-gull-and-satchel.png": "de7063a9707677d26a17dcedd3891821d873bc40d13df88e2312ca300221f550",
+        "剧集/EP001/制作成果/images/cloud-leviathan.png": "4eddd99831a99515a20de9b21c4b09986cb99dd1e6ec36f55bb8a950bdddf47d"
+      },
+      "prompt_sha256": "ece219d2ccc7415c7d16b7abeeb5f85e4ea725827d5186f7ffaa5e5bdd5d2ec4",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/GROUP-EP001-02-R2.mp4",
+      "quote_key": "quote:4e0dbbcd02704987aa6f94d4341aa8e5",
+      "submit_key": "generation:698015bb98cf4653ae9f2412f16b801c",
+      "input": {
+        "title": "GROUP-EP001-02-R2.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：只控制第一子镜起点的仰躺构图、位置与光向，不控制第二子镜。<Picture 2>：只控制第一子镜的洛羽少年身份、定稿五官、黑发与海洋御兽装，蓝晶胸饰保留在定稿上胸挂点，蓝玻璃小瓶仍挂腰带。<Picture 3>：只控制第一子镜浅灰石墙、深木双门、三道浅阶、石铺地及低池沿的空间布局，主光从右上方来。<Picture 4>：只控制第一子镜白灰身体、青色双翼、海蓝制服及单个棕褐帆布邮袋。<Picture 5>：只控制第二子镜巨兽的白鲸般钝额、乳白躯干、银鳞羽胸鳍及水平鲸尾，不照搬全身露出的构图。\n\nsummary: 苏醒与云中巨兽，8 秒、两个镜头，写实奇幻 CG，16:9 横屏、24 帧每秒。前 5 秒在后院看洛羽醒来、吐槽并稳定抬眼；第 5 秒按视线硬切到 3 秒纯天空主观仰拍。第二子镜只显示层云和巨兽，不显示人物或建筑，暖日光与海风延续同一晴天。结尾巨兽隐入云后，画面留在天空。\n\nretention_analysis: <Picture 1> 仅保留第一子镜起点的构图与仰躺姿态，不让此图中的饰品偏位覆盖 <Picture 2> 的上胸挂点。<Picture 2> 保留第一子镜人物身份与造型，<Picture 3> 保留第一子镜固定后院布局，<Picture 4> 保留第一子镜海鸥及邮袋。上述四图中的人物、地面、屋顶、院墙与池塘全部不延续到第二子镜。<Picture 5> 只保留巨兽形制与材质，开场仅局部初露，完整露面程度由时间线决定；不新增图板布局。\n\ndetailed_description: [Shot 1] 0–5 秒，35mm 铺地侧低机位，按 <Picture 1> 的起点构图看见 <Picture 2> 的洛羽仰躺在 <Picture 3> 的后院，远处海鸥外观按 <Picture 4>。0–1.4 秒，他听到鸥鸣睁眼，翻转并撑稳左掌，将上身支起为半坐，不在石面滑移。1.4–3.7 秒，追看海鸥的制服邮袋并说话。洛羽（普通话，少年清亮中音，呼吸自然、表演克制）：<d>[Chinese] 起猛了……海鸥送信？</d> 本句只说一次，3.7 秒前结束。3.7–4.7 秒，右手抬到眉上遮阳，左掌承重，目光落到右上方。4.7–5 秒，姿势和视线落稳，低位缓推停止；背景门窗、三道台阶和池沿始终保持同一位置，不重复抬手。第 5 秒只做一次清楚的视线匹配硬切，直接进入他正在看的天空；不用叠化、身体变形转场、甩镜或从院子摇升到另一套背景。[Shot 2] 5–8 秒，28mm 固定天空仰拍，整个画面只有海蓝天空、层云和 <Picture 5> 定义的巨兽。5–5.7 秒，右上云缝只露一小段钝额和窄鳍缘，其余身体被前景云挡住。5.7–7.2 秒，巨兽由画右向画左缓慢滑过，前躯局部显露，银色鳞羽只反光一次，前后云层遮挡体现巨大体量。7.2–8 秒，前景云遮回巨兽，结束仍是同一片天空，不切回人物。第二子镜不出现洛羽、手、肩、屋顶、院墙、池塘、海面或地平线；院中阴影及洛羽左手指尖收紧留在画外，手指反应只伴极轻擦石声，人物仍维持原半坐姿势，不增加反应插镜。全段无新增对白、字幕、水印或额外切镜。\n\noverall_soundscape: 0–5 秒后院海风、远处鸥鸣、微弱池水及起身时衣料擦石，已指定对白清晰。4.8 秒起轻轻预入高空低频空气震动，跨第 5 秒切点连续，不切断或重置海风；5–8 秒高空风声与宽广低频震动加强，7.6–8 秒有画外左手指尖收紧时极轻的手套擦石声。无敲门声、无新增人声。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 8,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-014.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2895126,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/45f96bc0eef0524aaa54622eebdd58a16f2e90be16d41ff1475e5aaddbc01028"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-courtyard-wide.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2950782,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d69a8eee400d7bac3f6a0e30e5c0be3ca0961ebb974cb53916adc5f6f69b777d"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "courier-gull-and-satchel.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2012103,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/a7226ec5be2cc6cb845198d5b4d3ce11a4fdc7e802b93d31f86778b9114b3c9f"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 4,
+            "filename": "cloud-leviathan.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2172683,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/fc351f900ea0cd2dcae0088a6fee84c9a1a641fc5bd27342b9b1f7c9a9486ec2"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "228ed7ae-3339-4a0b-8a91-939d59ad62a4",
+      "credits": 0,
+      "job_id": "216906ec-744f-5949-a4dd-35053d848cc3",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-019": {
+      "fingerprint": "0e1b3533c0d26f8dd1af17f0e47acb0d09a0fe13b7c594f3f261aa310fdb60a5",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "047543617420cec0e30d3e4c619c9c67bc76cd76e010aa0d8979e67622b2e077",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-019.png": "2cf2231634d861bdde0560bb323cbec8eb6db9e1d3e4bbe1b1e5290945b3fca6",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png": "826c5469e4c5b7456f746219251dea5bf93f97795bea54eecc801f97c18b538f",
+        "剧集/EP001/制作成果/images/ink-octopus-comparison.png": "ddfacd1cd9297d2aab5dc1e7bf62b150c10eacc05b6ca9919ad5a9f53d9fce75"
+      },
+      "prompt_sha256": "58dab870c549c8157bf1859b50176025ad60451cabddebefffe77ad4eab4b769",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-019.mp4",
+      "quote_key": "quote:3c9b353c705d4249bdafd576f8d05d7a",
+      "submit_key": "generation:fb7013a417884dfc9f73ba0ea15593fd",
+      "input": {
+        "title": "MOTION-EP001-019.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第19镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：同一后院的池边视角：低弧形石沿、池外干铺地、灰青浅水，保持石门和日光方向的空间延续。 <Picture 4>：墨水鱼的同尺度物种参考；剧毒个体只取左侧宽圆头罩与暗紫头缘，喷射战士只取右侧窄椭圆头罩与灰青头缘。按本镜指定个体使用，不把对照板的两鱼并排布局带入画面。\n\nsummary: 剧毒与揉眼，4 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：右手倒影遮住一只眼，水面字卡已消失，鱼继续缓游。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 4 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的洛水研究所后院池边、<Picture 4> 的墨水鱼（剧毒）的限定使用。 固定观察水面。0.3–2.2 秒在暗紫头缘个体上方保留清楚的空白水域，供后期叠加剧毒字卡。倒影中的洛羽一愣，约 2.1 秒抬起右手揉右眼，后期字卡随之撤掉。最后只剩自然水纹、鱼与同步倒影。视频本身生成无字底片，不生成人脸在水下独立活动的画面。  固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 后院海风、微弱池水声及手掌、衣料与石面的接触声；敲门只出现在育种思路说完后的镜头末段。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 4,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-019.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2395226,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/8ed19fc2f572d851086e98a79f15dfd68a22b0478b6c79e566cc9aeb0cb7f6b4"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-courtyard-poolside.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2967385,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/6d4fd1ea6812f30635916031c509a03c39719f29e72a3a4e638f82cf03c328df"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "ink-octopus-comparison.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2132971,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/9897102654a1ddc88b662b2ab60dc8d4bd5862ddfc29bc4e7f686feeadae4bcc"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "f20fa7c2-db11-4fa9-bf4a-e9e998dc0baa",
+      "credits": 0,
+      "job_id": "2596620c-b8da-59e7-af7a-1949fe1495cd",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-020": {
+      "fingerprint": "9d59257beac75ea1628d6dd82f636943f9bcae32cd5bae9dde21cc41a003bc28",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "b110cf7a4581705c8d38ed245c08a8ff63fdaa0772041848bf37766d0bea93fd",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-020.png": "13e4e594e0ca5908f618cae0b67bb2b1fb0153b5dd61d2513e9467b2b8e87f19",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png": "826c5469e4c5b7456f746219251dea5bf93f97795bea54eecc801f97c18b538f",
+        "剧集/EP001/制作成果/images/ink-octopus-comparison.png": "ddfacd1cd9297d2aab5dc1e7bf62b150c10eacc05b6ca9919ad5a9f53d9fce75"
+      },
+      "prompt_sha256": "dc77ee191a8c4a34b812c9ccff17371983cf3579d25365bdfadc01384c97ca68",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-020.mp4",
+      "quote_key": "quote:794c532f3b2041848f62217e934f99ba",
+      "submit_key": "generation:2151b142500d4c3787fb32bdcdb14506",
+      "input": {
+        "title": "MOTION-EP001-020.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第20镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：同一后院的池边视角：低弧形石沿、池外干铺地、灰青浅水，保持石门和日光方向的空间延续。 <Picture 3>：墨水鱼的同尺度物种参考；剧毒个体只取左侧宽圆头罩与暗紫头缘，喷射战士只取右侧窄椭圆头罩与灰青头缘。按本镜指定个体使用，不把对照板的两鱼并排布局带入画面。\n\nsummary: 喷射战士与吐槽，4 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：第二鱼留在画中，面板在转入记忆前撤掉。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 4 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛水研究所后院池边、<Picture 3> 的墨水鱼（喷射战士）的限定使用。 摄影机小幅向右转看刚出现的窄椭圆头罩个体。它轻收腕足，在浅水中短距离滑行，不喷墨。洛羽从画外左侧干岸说出吐槽，声线延续少年音色。0.2–3.6 秒留出鱼上方的干净水域供后期字卡使用，最后撤掉图文层；本次视频不生成面板或字幕。 洛羽（洛羽在画外左侧干岸的普通话对白，少年清亮中音，带一点无奈吐槽）：<d>[Chinese] 又是剧毒，又是喷射战士……果然不能吃。</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 后院海风、微弱池水声及手掌、衣料与石面的接触声；敲门只出现在育种思路说完后的镜头末段。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 4,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-020.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2338029,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/78c4a724e7bf3382543394493ace654b47eadaa7d0aa4b7a58df6eaf46801ba9"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "institute-courtyard-poolside.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2967385,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/6d4fd1ea6812f30635916031c509a03c39719f29e72a3a4e638f82cf03c328df"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "ink-octopus-comparison.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2132971,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/9897102654a1ddc88b662b2ab60dc8d4bd5862ddfc29bc4e7f686feeadae4bcc"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "7988bd8d-9dc9-4159-8650-628681e98a6e",
+      "credits": 0,
+      "job_id": "d6b814aa-2fd8-5450-8ef0-3ec8db02e018",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-021": {
+      "fingerprint": "2d270c40efb75b7790801391a28fe7880a34f0424e58b9517f56579490e94de2",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "4e6c4c150c7a0659b6aed16c3b5cb10440d27d7d1e7e4398c19ee9ab28b48c99",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-021.png": "3a5311f1152fdc7c7a5912c5ba446c6a7e5abb1136de2a4d7d349d1e175feaf8",
+        "剧集/EP001/制作成果/images/memory-shipwreck.png": "3a5311f1152fdc7c7a5912c5ba446c6a7e5abb1136de2a4d7d349d1e175feaf8",
+        "剧集/EP001/制作成果/images/institute-courtyard-wide.png": "3873950a220f64df2ebe954938c56fc38cd42a478be69a43c4c6932d12622f8a"
+      },
+      "prompt_sha256": "4d50f1fce2b2998de751ac58d6844908322d03c20ef13bad63a92b0b085f89e3",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-021.mp4",
+      "quote_key": "quote:7689bc046dd24458802f1b3408003a85",
+      "submit_key": "generation:7fe7a789513e4d9d9126f4b788e60e20",
+      "input": {
+        "title": "MOTION-EP001-021.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第21镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：海上遇难记忆：冷灰蓝外海中的翻覆木战船、斜入海水的破桅和起伏浪沫。 <Picture 3>：洛水研究所后院：浅灰石墙、深木双门、三道浅阶、外侧干铺地、低矮平石池沿；海侧低墙外见海，暖光从右上方来，阴面带冷蓝反光。\n\nsummary: 父母遇难记忆，6 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：海沫与后院池水叠化结束，回到熟悉的池沿与水光。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 6 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的海上遇难记忆、<Picture 3> 的洛水研究所后院的限定使用。 前 5.5 秒沿翻覆的湿木船壳极慢推进，灰蓝浪沫起落，维持冷灰色记忆质感。旁白交代父母与研究所，画面只呈现船体、破桅与海浪，不额外展示父母面孔或袭击海兽。最后 0.5 秒用海沫亮斑叠化到后院池水亮斑，回到暖日光下的现实；这是记忆叠化，不是跨越两地的实体飞行运镜。 洛羽（当下少年洛羽的普通话画外旁白，语速清楚紧凑，情绪稍低）：<d>[Chinese] 原身父母去买宠兽，遭海兽袭击。这间研究所，就剩我和这些鱼了。</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 记忆中的灰浪声在末段叠化时变为后院细水声，旁白始终清楚。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 6,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-021.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2693815,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/f79c9cad2ac76df9a8d8d6c62449adfcefa9e493de3d4e9f074bdd58c72d85c9"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "memory-shipwreck.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2693815,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/f79c9cad2ac76df9a8d8d6c62449adfcefa9e493de3d4e9f074bdd58c72d85c9"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-courtyard-wide.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2950782,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d69a8eee400d7bac3f6a0e30e5c0be3ca0961ebb974cb53916adc5f6f69b777d"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "6989016c-da96-471a-b979-b789edc7f59a",
+      "credits": 0,
+      "job_id": "8c6a0548-61c3-529e-842b-adff86805d93",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-022": {
+      "fingerprint": "5696034635e2959d3ffe94ada873105f3086ef4ee392d360e307db2281ccc61b",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "b69c7484a544e07c8fe57c58c6908a607047feadace377c3039ca113cb4d4d73",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-022.png": "3e73356fa52789a933f7232aac0001d9e3ba7f340168bf8099d8b5113f6c1096",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png": "826c5469e4c5b7456f746219251dea5bf93f97795bea54eecc801f97c18b538f",
+        "剧集/EP001/制作成果/images/ink-octopus-breeder.png": "71361b139d4e5127984a71fa66785bfafdf6545b872ed91ed0a64a6694f4aff6"
+      },
+      "prompt_sha256": "ca018d0626bf5681ff6fca482e8b044c66c47f324ad584042215f067eedeb02d",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-022.mp4",
+      "quote_key": "quote:cc16cc9bf82444ab9969e79fc1cad788",
+      "submit_key": "generation:1022c6ab73524798a627d7b6f2c00263",
+      "input": {
+        "title": "MOTION-EP001-022.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第22镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：同一后院的池边视角：低弧形石沿、池外干铺地、灰青浅水，保持石门和日光方向的空间延续。 <Picture 4>：一条繁育标兵墨水鱼：巴掌大小、梨形黑头罩、极淡灰色背斑与八条自然腕足，只采用大视图中的同一个体，不把双视图当成两条鱼。\n\nsummary: 发现繁育标兵，7 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：少年专注望向鱼群，左手仍扶石沿，第三面板淡出。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 7 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的洛水研究所后院池边、<Picture 4> 的墨水鱼（繁育标兵）的限定使用。 0–3.4 秒先看清梨形头罩、淡灰背斑的繁育标兵个体，留出上方干净水面供后期显示天赋说明；洛羽静静阅读，兴趣逐渐升起。3.4 秒后轻移焦到他的脸，他再蹲近一点，眼睛亮起，念出育种的对白。左手始终扶石沿，右手自然放低。结尾视线停在鱼上，视频底片不生成字卡。 洛羽（普通话，少年清亮中音，呼吸自然、表演克制）：<d>[Chinese] 育种……这不就是我的老本行吗？</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 后院海风、微弱池水声及手掌、衣料与石面的接触声；敲门只出现在育种思路说完后的镜头末段。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 7,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-022.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2705425,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/0b70a71133a469c1f2f7cdafb1749b0a6f0ee297bfa19d5a88c556d4f957ff9c"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-courtyard-poolside.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2967385,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/6d4fd1ea6812f30635916031c509a03c39719f29e72a3a4e638f82cf03c328df"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "ink-octopus-breeder.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2089346,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/8df2b3196c7ab4eab992e78593c75f3fd618bf369f2e7e6a77b034c1eddaf04a"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "32b5c0d9-4eb2-40dc-89ff-cab01ede7b92",
+      "credits": 0,
+      "job_id": "01ade169-abf2-5d86-aca3-e977754c3d90",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-023": {
+      "fingerprint": "fe72f068f5b792a2a65508e11a426b951c28bb8f21f93b5b8459811143c1ef8c",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "4d730fc0fef83dce078d4497dea9b639a7b06294d5ef3bfb9addac98f5abb80f",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-023.png": "902d633a2ffab7428ceb58aa19ac1ff7b06c17ae41489f264f7bea513bb3a7be",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png": "826c5469e4c5b7456f746219251dea5bf93f97795bea54eecc801f97c18b538f",
+        "剧集/EP001/制作成果/images/ink-octopus-breeder.png": "71361b139d4e5127984a71fa66785bfafdf6545b872ed91ed0a64a6694f4aff6"
+      },
+      "prompt_sha256": "89dac21b54b855266eabbe9477c5b73d549c1896edc62941e1f2f2a74ef32bf8",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-023.mp4",
+      "quote_key": "quote:c363a75d4a514e9195efb30011315d71",
+      "submit_key": "generation:3a438e7b7e7149aebda116d83878deea",
+      "input": {
+        "title": "MOTION-EP001-023.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第23镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：同一后院的池边视角：低弧形石沿、池外干铺地、灰青浅水，保持石门和日光方向的空间延续。 <Picture 4>：一条繁育标兵墨水鱼：巴掌大小、梨形黑头罩、极淡灰色背斑与八条自然腕足，只采用大视图中的同一个体，不把双视图当成两条鱼。\n\nsummary: 育种思路被敲门打断，7 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：洛羽已抬头转向通道，双脚仍在干地，身体开始起立。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 7 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的洛水研究所后院池边、<Picture 4> 的墨水鱼（繁育标兵）的限定使用。 前 4.5 秒，洛羽先看选中的鱼，再看池内其他个体，平稳说出亲本筛选思路。约 4.8 秒，研究所正门方向响起两下敲门声。他停住，抬眼看通道，再借左掌支撑起身。终点双脚仍在池外干地，左手刚离开池沿，身体开始转向后门。不出现实际繁育、进化或额外法术效果。 洛羽（普通话，少年清亮中音，呼吸自然、表演克制）：<d>[Chinese] 挑天赋好的配对，后代就有机会更强。</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 后院海风、微弱池水声及手掌、衣料与石面的接触声；敲门只出现在育种思路说完后的镜头末段。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 7,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-023.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2781715,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7537c7b9cad502359a68cee08c23bf7ea415b28133a8a6166a0d499051599431"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-courtyard-poolside.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2967385,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/6d4fd1ea6812f30635916031c509a03c39719f29e72a3a4e638f82cf03c328df"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "ink-octopus-breeder.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2089346,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/8df2b3196c7ab4eab992e78593c75f3fd618bf369f2e7e6a77b034c1eddaf04a"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "5ed86004-ca48-40e1-994a-f94c1e685a20",
+      "credits": 0,
+      "job_id": "5bd1e909-d13f-545c-bfb1-6cdadd50929d",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-024": {
+      "fingerprint": "dffe5f0f94c0dfd6263dfdcf717112ce700fc2b06832cb3ff7fb88f083d29c90",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "450fd1851fa061a9efe4096d968b95f9c46212878695bf258a6027685f9c1dbd",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-024.png": "413a51fbfa074bbfa181c0ba523eeb83a9f010632ce975099cea4ffe8fc71c23",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP001/制作成果/images/institute-courtyard-wide.png": "3873950a220f64df2ebe954938c56fc38cd42a478be69a43c4c6932d12622f8a"
+      },
+      "prompt_sha256": "82ddc3ac07431f4add9afdac2827a76e3e0344714fffdc2ab40dda19f02b9caa",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-024.mp4",
+      "quote_key": "quote:4696e2c9acc641c988e4badf07e8a231",
+      "submit_key": "generation:180409d7a5f549ef95ab257ddcdb37e9",
+      "input": {
+        "title": "MOTION-EP001-024.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第24镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：研究所入口与通路：浅石正门门廊、深木双门、短直石铺通道，再连到后门与室外鱼池。池塘始终在建筑后方，正门外为干燥石路。 <Picture 4>：洛水研究所后院：浅灰石墙、深木双门、三道浅阶、外侧干铺地、低矮平石池沿；海侧低墙外见海，暖光从右上方来，阴面带冷蓝反光。\n\nsummary: 穿过通道开门，4 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：正门开启，门外女子只在门缝尽头露出职业装轮廓。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 4 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的洛水研究所入口、<Picture 4> 的洛水研究所后院的限定使用。 开场渔晚的声音来自仍关闭的正门外。洛羽沿短通道走完最后几步，以右手触到门把，打开木门并向后让半步。结尾只露出门外职业装女子的一点轮廓，暂不说身份介绍。后门外才是鱼池，正门外为干燥石路，不能把鱼池放到来访者背后。 渔晚（渔晚从关闭的正门外传来的普通话声音，成年女性中音，礼貌干练）：<d>[Chinese] 有人在吗？</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 安静的石铺通道与门外海风，按动作出现脚步、门栓、木门和翻纸声；人物依序发声，不抢台词。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 4,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-024.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2541757,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/04dc7cfb3fb03703f6f0e3bf1c24481ae8603773ae36341c5cb83d0287bbbf5f"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "institute-courtyard-wide.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2950782,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d69a8eee400d7bac3f6a0e30e5c0be3ca0961ebb974cb53916adc5f6f69b777d"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "66af6c24-d8e4-434e-a6d5-2a99848c0ec1",
+      "credits": 0,
+      "job_id": "cf325d13-26cf-53a5-838a-0b29adf3f713",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-025": {
+      "fingerprint": "239553326810bfea1c00c5f74f41a3eccd2d9c38e971f31467ca62f08bd12639",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "5e698a2b75c2204e96196bf037f91a28e3c467a3d5b63e831dc44725e8e0e82c",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-025.png": "41da3a4c23946752c155d02a213de194b44390699e8549e72279de1fbd46dfef",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP001/制作成果/images/recovery-notice.png": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795"
+      },
+      "prompt_sha256": "f0b9f1c69b90e35438ed8e466f10b1454be9cb7b08de90367d0354663959d819",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-025.mp4",
+      "quote_key": "quote:c942727f654f4e40ace828c23bb259d2",
+      "submit_key": "generation:041023c1c9d140948171092416eaa8fe",
+      "input": {
+        "title": "MOTION-EP001-025.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第25镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：渔晚与职业装：二十八九岁东亚女性的独立五官、深褐眼与黑发低髻，石板海军蓝西装、象牙白衬衫、炭灰直筒裤、黑色低跟鞋，双手裸露。 <Picture 4>：研究所入口与通路：浅石正门门廊、深木双门、短直石铺通道，再连到后门与室外鱼池。池塘始终在建筑后方，正门外为干燥石路。 <Picture 5>：研究所使用权回收通知书：深蓝文件夹与象牙白纸；标题为回收洛水研究所使用权通知书，下方为七天内处置自有资产，其余留白。合住文件夹时不显示纸上文字。\n\nsummary: 办事员送达通知，6 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：渔晚说完等待，文件夹仍合住并由她持有。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 5>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 6 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的渔晚与渔晚职业装、<Picture 4> 的洛水研究所入口、<Picture 5> 的研究所使用权回收通知书的限定使用。 渔晚以平和、干练的办事员语气完整说出身份和来意，镜头稳住她的脸及文件夹。洛羽在左前景的肩线听到回收通知时略微僵住。渔晚不作威胁表情，文件仍合住并留在她左臂。门外背景沿用干燥石路与浅石墙，不出现后院鱼池。 渔晚（普通话，成年女性中音，咬字清晰、干练平和）：<d>[Chinese] 御管局办事员，渔晚。来送研究所使用权回收通知。</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 安静的石铺通道与门外海风，按动作出现脚步、门栓、木门和翻纸声；人物依序发声，不抢台词。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 6,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-025.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2234074,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/e18c48b24b1ff0746a0d48d29f466f42cb658e8a27b59a7143cc230c09479cb6"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 4,
+            "filename": "recovery-notice.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2540502,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/047338f262d3f8bfec5faea7834f12e9ecc1cd594247232851f772cd71772aac"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "eb1cb416-079e-4898-98f4-dce61459a206",
+      "credits": 0,
+      "job_id": "badcb2fd-1c28-58a2-824a-33d615273a36",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-026": {
+      "fingerprint": "344be853e2c0ba24397eb08c2df320589355af3e6c94ddcb016dd37e91380ea4",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "b359dba3ea667c118321d41bc097f381781b3cc03628a7621ad31a8334e15067",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-026.png": "d79946e1183ef938d07c4e86aeafbdedc95dd2f4481410c78d33bbf1751088e3",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP001/制作成果/images/recovery-notice.png": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795"
+      },
+      "prompt_sha256": "887e0c31a7b6c4d7c1f848543c36b17dfa8216a844d89e0d07ebe15a193a0359",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-026.mp4",
+      "quote_key": "quote:fdb0e14533174c368636d01ac1e626bb",
+      "submit_key": "generation:d3c901ed12834539a81a93d9db37174d",
+      "input": {
+        "title": "MOTION-EP001-026.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第26镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：渔晚与职业装：二十八九岁东亚女性的独立五官、深褐眼与黑发低髻，石板海军蓝西装、象牙白衬衫、炭灰直筒裤、黑色低跟鞋，双手裸露。 <Picture 4>：研究所入口与通路：浅石正门门廊、深木双门、短直石铺通道，再连到后门与室外鱼池。池塘始终在建筑后方，正门外为干燥石路。 <Picture 5>：研究所使用权回收通知书：深蓝文件夹与象牙白纸；标题为回收洛水研究所使用权通知书，下方为七天内处置自有资产，其余留白。合住文件夹时不显示纸上文字。\n\nsummary: 旧日游泳老师，6 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：两人在通道前端站定，洛羽左、渔晚右，尚未翻开文件。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 5>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 6 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的渔晚与渔晚职业装、<Picture 4> 的洛水研究所入口、<Picture 5> 的研究所使用权回收通知书的限定使用。 0–0.7 秒，洛羽说请进并让出门口。摄影机轻轻后移，渔晚迈过门槛，洛羽始终在画左、渔晚在画右。1.3–3.6 秒，她带一点旧识的熟悉感提醒游泳课。4.2–5.5 秒，洛羽认出她，短问老师称呼。两人最后停在通道前端，文件夹仍合住由渔晚持有，人物不换位、不换脸。 洛羽（普通话，少年清亮中音，呼吸自然、表演克制）：<d>[Chinese] 请进。</d> 渔晚（普通话，成年女性中音，咬字清晰、干练平和）：<d>[Chinese] 不记得了？游泳课。</d> 洛羽（普通话，少年清亮中音，呼吸自然、表演克制）：<d>[Chinese] 渔晚老师？</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 安静的石铺通道与门外海风，按动作出现脚步、门栓、木门和翻纸声；人物依序发声，不抢台词。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 6,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-026.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2562650,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/bfba0d2760ed61aefacd4b39e788f4b385874be0def427cdcfbe95701b06fb14"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 4,
+            "filename": "recovery-notice.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2540502,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/047338f262d3f8bfec5faea7834f12e9ecc1cd594247232851f772cd71772aac"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "e60e38ab-d0f8-4659-b07c-776084dbc569",
+      "credits": 0,
+      "job_id": "86b537f7-5dac-5a06-b40f-4c8f7c767735",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-027": {
+      "fingerprint": "9a8007790dd48d1db7924fa11fda02ee3e7845c886e033a5605a812f1f09bb93",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "db32344d2063cd517759e44ec000c629e712b3f71a714731c59eb5ec5822d22d",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-027.png": "97715e4d7d8dc9f857005f43dff46fcb38ebd9d968a0f31b73163e39e22c28db",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP001/制作成果/images/recovery-notice.png": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795"
+      },
+      "prompt_sha256": "1d410b6b4d7f517aec20868cf281b9f95456b79d07f517a78df3670c1725b90e",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-027.mp4",
+      "quote_key": "quote:d996080239294f59a375f95410bf9d4a",
+      "submit_key": "generation:8131293f7f1c4c42901624c4c48e854e",
+      "input": {
+        "title": "MOTION-EP001-027.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第27镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：渔晚与职业装：二十八九岁东亚女性的独立五官、深褐眼与黑发低髻，石板海军蓝西装、象牙白衬衫、炭灰直筒裤、黑色低跟鞋，双手裸露。 <Picture 4>：研究所入口与通路：浅石正门门廊、深木双门、短直石铺通道，再连到后门与室外鱼池。池塘始终在建筑后方，正门外为干燥石路。 <Picture 5>：研究所使用权回收通知书：深蓝文件夹与象牙白纸；标题为回收洛水研究所使用权通知书，下方为七天内处置自有资产，其余留白。合住文件夹时不显示纸上文字。\n\nsummary: 七天处置期限，6 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：文件由渔晚双手持住，洛羽没有接过，纸页标题保持准确。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 5>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 6 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的渔晚与渔晚职业装、<Picture 4> 的洛水研究所入口、<Picture 5> 的研究所使用权回收通知书的限定使用。 渔晚稳住打开的文件夹，以原有声线说明七天期限。洛羽戴露指手套的右手伸向通知书，在纸前几厘米处停顿，再略微收回。文件始终由渔晚裸手持住，不转交给洛羽。纸页标题只写回收洛水研究所、使用权通知书两行，下方只写七天内处置自有资产，其余留白，不添加印章、日期、签名、条款或悬浮字幕。 渔晚（持文件的渔晚在画外说话，普通话成年女性中音，客观平和）：<d>[Chinese] 研究所是岛上分配的，七天内得把自有资产处置完毕。</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 安静的石铺通道与门外海风，按动作出现脚步、门栓、木门和翻纸声；人物依序发声，不抢台词。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 6,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-027.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2552693,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/340fa65fc6e03e6779b449e4724b73386bdbc794acab5419c6acee0087bf0a79"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 4,
+            "filename": "recovery-notice.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2540502,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/047338f262d3f8bfec5faea7834f12e9ecc1cd594247232851f772cd71772aac"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "843d5bc4-c500-4c39-9a9e-5bf00ebafeee",
+      "credits": 0,
+      "job_id": "46d5d3f8-de09-5d28-a565-e574d9b89dd8",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-028": {
+      "fingerprint": "3068f3c9e12c4488ef46421de9ff5f6251fdd0652cbfb56b23099a9932bdf89e",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "3d8a3ae5c69337e8ccd68408ad2f818641789a81b75bd3e45bc2e941f6549abf",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-028.png": "f54a3934a72d236c54394df98e928e66039a9ab373aefab2e004876055812611",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP001/制作成果/images/recovery-notice.png": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795"
+      },
+      "prompt_sha256": "83f537c12b730d525f745f85cb0fb5dddca7d77bf463b0389e0ae6da1880a0d8",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-028.mp4",
+      "quote_key": "quote:c972d2e95a8941a1b547c82352dcb0c1",
+      "submit_key": "generation:24598b16585b46cd89dbfb807cff7f60",
+      "input": {
+        "title": "MOTION-EP001-028.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第28镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：渔晚与职业装：二十八九岁东亚女性的独立五官、深褐眼与黑发低髻，石板海军蓝西装、象牙白衬衫、炭灰直筒裤、黑色低跟鞋，双手裸露。 <Picture 4>：研究所入口与通路：浅石正门门廊、深木双门、短直石铺通道，再连到后门与室外鱼池。池塘始终在建筑后方，正门外为干燥石路。 <Picture 5>：研究所使用权回收通知书：深蓝文件夹与象牙白纸；标题为回收洛水研究所使用权通知书，下方为七天内处置自有资产，其余留白。合住文件夹时不显示纸上文字。\n\nsummary: 主动争取研究所，8 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：洛羽直视渔晚，双手收在身前，没有触碰文件。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 5>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 8 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的渔晚与渔晚职业装、<Picture 4> 的洛水研究所入口、<Picture 5> 的研究所使用权回收通知书的限定使用。 前 0.7 秒，洛羽完成回望后院的一眼，再转回渔晚，轻吸一口气后说出完整两句请求。以克制的缓推表现他从迟疑到认真的变化，优先留足对白时间，不加多余手势。双手留在自己身前，不接文件。结束时他看着渔晚，肩背比开场更直。 洛羽（普通话，少年清亮中音，呼吸自然、表演克制）：<d>[Chinese] 我父母的墨水鱼研究还没做完。我给他们当过助手，想继续做下去。</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 安静的石铺通道与门外海风，按动作出现脚步、门栓、木门和翻纸声；人物依序发声，不抢台词。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 8,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-028.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2216475,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/fdb31683a24c3bf02487f12760ab610bfe3aca4d7770bdd84d1f0c6ec1a6d4db"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 4,
+            "filename": "recovery-notice.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2540502,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/047338f262d3f8bfec5faea7834f12e9ecc1cd594247232851f772cd71772aac"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "4a0754ea-d1c2-4b4a-9440-499754027c33",
+      "credits": 0,
+      "job_id": "c1c4459a-0d49-5b80-94c1-f2ddcc9c2ec3",
+      "current_source_matches": true
+    },
+    "MOTION-EP001-029": {
+      "fingerprint": "c638e3f8f951e1161ef1d5e5632a981081d3d05963e1015630a0cfaa4f1d0464",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP001/视频提示词.md": "f04665acff6c4dfe19aef7b4ba0b80cebf1ae3a78c65ddcd69c8f2cfbf91ef46",
+        "剧集/EP001/制作成果/images/首帧90s/SHOT-EP001-029.png": "cbba2b1a1038ac10dc4cc75c6c7d64d06baa425f4a8833492bdb6dd6fae56c31",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP001/制作成果/images/recovery-notice.png": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795"
+      },
+      "prompt_sha256": "a24d8c16c8cb67314e9fc081ca49809672a5e1178d478b109ea4bd0ad746f398",
+      "status": "queued",
+      "output": "剧集/EP001/制作成果/video/MOTION-EP001-029.mp4",
+      "quote_key": "quote:9994d02203574659a982d56d2cd86d56",
+      "submit_key": "generation:6d1fdf410592421b9c6a7aa648db723a",
+      "input": {
+        "title": "MOTION-EP001-029.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：第29镜开场构图，仅限定初始机位、主体位置、光向与姿态。 <Picture 2>：洛羽的少年身份与整套海洋御兽装：定稿五官、蓬松微卷黑短发、修长身形、象牙白连帽长外套、海军蓝拼片与海浪纹下摆、旧黄铜搭扣、蓝晶胸饰、棕色腰带挂袋与蓝玻璃瓶、黑色露指手套、深裤和高筒靴。 <Picture 3>：渔晚与职业装：二十八九岁东亚女性的独立五官、深褐眼与黑发低髻，石板海军蓝西装、象牙白衬衫、炭灰直筒裤、黑色低跟鞋，双手裸露。 <Picture 4>：研究所入口与通路：浅石正门门廊、深木双门、短直石铺通道，再连到后门与室外鱼池。池塘始终在建筑后方，正门外为干燥石路。 <Picture 5>：研究所使用权回收通知书：深蓝文件夹与象牙白纸；标题为回收洛水研究所使用权通知书，下方为七天内处置自有资产，其余留白。合住文件夹时不显示纸上文字。\n\nsummary: 一年之约，7 秒。写实奇幻 CG，16:9 横屏、24 帧每秒，真实比例，细致羽毛、湿石与木纹，浅灰石和海蓝阴影以晴日暖光塑形。结尾：停在洛羽坚定的目光；渔晚尚未答复，文件仍在她手中。\n\nretention_analysis: <Picture 1>：只保留对应镜头的开场构图、可见位置、受光和初始姿态，后续动作依下文推进。 <Picture 2>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 3>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 4>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。 <Picture 5>：保留该图明确指定的身份、造型、物种结构或空间布局，不复制设定板排版和站姿。\n\ndetailed_description: [Shot 1] 7 秒，开场采用 <Picture 1> 的构图。人物、动物、场景与关键道具按<Picture 2> 的洛羽与洛羽少年常服、<Picture 3> 的渔晚与渔晚职业装、<Picture 4> 的洛水研究所入口、<Picture 5> 的研究所使用权回收通知书的限定使用。 0–0.9 秒，渔晚轻合文件，问出有没有把握。洛羽保持目光接触，短吸气后于 1.2–6.7 秒说完一年使用权与研究承诺。摄影机克制侧移并轻推少年，始终保持洛羽左、渔晚右。7 秒结束在少年的坚定目光，渔晚只倾听，不点头批准、不离开，也不补充台词。 渔晚（普通话，成年女性中音，咬字清晰、干练平和）：<d>[Chinese] 你有把握？</d> 洛羽（普通话，少年清亮中音，呼吸自然、表演克制）：<d>[Chinese] 再给我一年使用权。一年内，我会拿出关于墨水鱼的研究成果。</d> 固定人物身份、左右关系、持物手和实在接触点；不新增对白、字幕或水印。\n\noverall_soundscape: 安静的石铺通道与门外海风，按动作出现脚步、门栓、木门和翻纸声；人物依序发声，不抢台词。\n\nnon_diegetic_music: 无，不额外添加背景音乐。",
+        "duration": 7,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "SHOT-EP001-029.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2458203,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/b4c704765b360d20cd2e415ebed2bde0e71281ad03645e3872acd0b709c954ec"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 4,
+            "filename": "recovery-notice.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2540502,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/047338f262d3f8bfec5faea7834f12e9ecc1cd594247232851f772cd71772aac"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "d6200444-ece1-42d2-bede-c1986de926f4",
+      "credits": 0,
+      "job_id": "c2d4000e-b14c-52cc-8a31-d1322bd9b7a8",
+      "current_source_matches": true
+    }
+  }
+}

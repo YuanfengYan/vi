@@ -1,0 +1,63 @@
+{
+  "operation": "builtin_imagegen_reference_refresh",
+  "date": "2026-11-20",
+  "reference_images": [
+    "剧集/EP001/制作成果/images/yu-wan-sheet.png",
+    "剧集/EP001/制作成果/images/institute-entrance.png"
+  ],
+  "assets": [
+    {
+      "id": "SHOT-EP001-024",
+      "output": "剧集\\EP001\\制作成果\\images\\首帧90s\\SHOT-EP001-024.png",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1f350-ba84-7d42-8104-a1d780a7b2be\\exec-771fa0d4-7961-4367-b256-093069e7122d.png",
+      "sha256": "a99987bc6c472458c2ea915c4b7f8fe2d4bdf029974d41a11bb744089d1bf752",
+      "status": "complete"
+    },
+    {
+      "id": "SHOT-EP001-025",
+      "output": "剧集\\EP001\\制作成果\\images\\首帧90s\\SHOT-EP001-025.png",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1f350-ba84-7d42-8104-a1d780a7b2be\\exec-8b29643d-7c5c-42da-8a83-cc3cf1baee56.png",
+      "sha256": "1a1f3d4b705b430bce36f42d213b6978343f938dca8a92d59f55945476673399",
+      "status": "complete"
+    },
+    {
+      "id": "SHOT-EP001-026",
+      "output": "剧集\\EP001\\制作成果\\images\\首帧90s\\SHOT-EP001-026.png",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1f350-ba84-7d42-8104-a1d780a7b2be\\exec-b33d0db4-15a7-4805-af50-f45cd6c37735.png",
+      "sha256": "06b387abfcc02f7ec3c3d7509e1c159d23f3841dcc24a0a18f8e775f632a1c37",
+      "status": "complete"
+    },
+    {
+      "id": "SHOT-EP001-027",
+      "output": "剧集\\EP001\\制作成果\\images\\首帧90s\\SHOT-EP001-027.png",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1f350-ba84-7d42-8104-a1d780a7b2be\\exec-0b1f70a0-6e12-4cbe-96fa-6554d3f2d622.png",
+      "sha256": "ab1dc852416a0e1feab24b7be925a94ed15b548793b469c5aa456f2041924243",
+      "status": "complete"
+    },
+    {
+      "id": "SHOT-EP001-028",
+      "output": "剧集\\EP001\\制作成果\\images\\首帧90s\\SHOT-EP001-028.png",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1f350-ba84-7d42-8104-a1d780a7b2be\\exec-c991e810-08b1-495e-9953-f1b367e15696.png",
+      "sha256": "24a53b9b1bf174eed6801d83f5c86b8d0cd3e062faefb0407c80d36067fbfd19",
+      "status": "complete"
+    },
+    {
+      "id": "SHOT-EP001-029",
+      "output": "剧集\\EP001\\制作成果\\images\\首帧90s\\SHOT-EP001-029.png",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1f350-ba84-7d42-8104-a1d780a7b2be\\exec-63c72de1-25f1-4353-8cc9-88464f807355.png",
+      "sha256": "9d56b654a73d3e8063d040e0c651caf8cc1638cb3d6bada8512402290a03c087",
+      "status": "complete"
+    },
+    {
+      "id": "IMG-EP002-DIVINATION-TABLE",
+      "output": "剧集\\EP002\\制作成果\\images\\entrance-divination-table.png",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1f350-ba84-7d42-8104-a1d780a7b2be\\exec-2ac13c2e-d3af-49b8-a909-10c8b5f86f59.png",
+      "sha256": "7af10ac99442bcbc1a14c8d5a38a43f622077de4290aa71c285793f8660689db",
+      "status": "complete"
+    }
+  ],
+  "reference_sha256": {
+    "剧集/EP001/制作成果/images/yu-wan-sheet.png": "c8d934614db82f2fb6cf378eddda73f705317415db22893dd87fd00386046ba9",
+    "剧集/EP001/制作成果/images/institute-entrance.png": "1ef5e02f966ffa05850e3ead20b4a214f8f1b696385c102e0e379a7ece45069d"
+  }
+}

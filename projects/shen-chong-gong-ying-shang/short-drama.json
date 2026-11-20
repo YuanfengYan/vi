@@ -12,10 +12,13 @@
     "production_profile": {
       "choices": {
         "audio_generation": "same_pass",
+        "continuation_route": "independent_starts",
+        "multi_shot_containers": false,
         "native_duration_seconds": {
           "max": 15,
-          "min": 4
+          "min": 3
         },
+        "notes": "视频提示词统一使用 h3-prompt-expert 按官方 MiniMax H3 格式生成，可复制正文统一输出英文，角色对白、VO、OS 与指定画内文字保留剧本中文原句，创作者说明仍用中文。生成任务只提交并记录任务 ID，不轮询、不等待完成、不自动下载；用户主动要求下载时才取回。",
         "supported_generation_modes": [
           "text",
           "first_frame",
@@ -36,7 +39,7 @@
         "look_development": null,
         "production_form": "3d",
         "style_reference": "输入/参考图/电影CG画风参考.png",
-        "visual_style": "cinematic realistic CG animation"
+        "visual_style": "写实奇幻CG"
       },
       "status": "accepted"
     }
@@ -49,7 +52,7 @@
       "spoken_characters_per_second": null
     },
     "prompt_language": "en",
-    "target_seconds_per_episode": 60
+    "target_seconds_per_episode": 90.0
   },
   "language": "zh-CN",
   "project_id": "SD-59A58D4C5CE7",

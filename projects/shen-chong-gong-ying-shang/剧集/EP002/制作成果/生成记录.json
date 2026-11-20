@@ -1,0 +1,58 @@
+{
+  "episode": "EP002",
+  "script_target_seconds": 90,
+  "assets": [
+    {
+      "id": "IMG-EP002-OCTOPUS-BW",
+      "operation": "builtin_imagegen",
+      "status": "complete",
+      "source": "剧集/EP002/图片提示词.md",
+      "source_entry": "IMG-EP002-OCTOPUS-BW",
+      "prompt": "Realistic cinematic fantasy CG, one full-bleed 16:9 single-creature reference. Use the supplied ink octopus comparison only for species anatomy: a palm-sized rounded mantle, two natural eyes and exactly eight tapering sucker-bearing arms. Show ONE black-and-white individual in shallow teal-gray pond water. A black cap covers the upper mantle, irregular ivory patches mark its sides, and the arm undersides are pale; keep these markings natural rather than luminous. Arrange eight individually traceable arms with separated tips, complete body inside frame. Warm coastal daylight, wet skin microtexture, restrained refraction, matching the supplied species. No violet or teal identification band, second specimen, weapons, ice, halo, hologram, text, labels or watermark. This is the living animal; hidden ability does not alter its anatomy.",
+      "generated_source": "C:/Users/ABC/.codex/generated_images/01a1f350-ba84-7d42-8104-a1d780a7b2be/exec-9d874dbf-12ff-4f02-8791-51f42fc8d9e3.png",
+      "output": "images/ink-octopus-black-white.png",
+      "sha256": "1b72338c342d3913d4b3586a056e7fc83f31449785f5105df6de28e2cf9c5212",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "IMG-EP002-EIGHT-BLADES",
+      "operation": "builtin_imagegen",
+      "status": "complete",
+      "source": "剧集/EP002/图片提示词.md",
+      "source_entry": "IMG-EP002-EIGHT-BLADES",
+      "prompt": "Realistic cinematic fantasy CG effect reference, one 16:9 static frame. One ivory pearl with blue nacre and two shallow dimples rests at lower center on dark wood, matching the pearl reference. Immediately above it floats ONE translucent miniature ink octopus, using only species anatomy from the creature reference. Its mantle has a black cap and irregular ivory side patches, with pale arm undersides. Exactly eight connected arms spread in a shallow separated fan facing the camera. Each of the eight tips curls around ONE short white ice-blade-shaped projection: exactly eight arms and exactly eight blades, all tips and blades visible with clean gaps and generous frame margins. Blades and animal are equally translucent cyan-white divination light, not physical ice or solid weapons. Gentle light reflects on the unchanged pearl and wood. No cow, orca, second animal, extra limbs, extra weapons, dense particles, text, diagrams or watermark. Do not show multiple stages or a collage.",
+      "generated_source": "C:/Users/ABC/.codex/generated_images/01a1f350-ba84-7d42-8104-a1d780a7b2be/exec-558f445a-fa5c-445a-a194-aea8842852ce.png",
+      "output": "images/eight-blade-projection.png",
+      "sha256": "8365ce3ddabd3fa9a3b3fd494fe8fe83b6ccd5f83667bfc1edfd22d9d5b3bd77",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "reference_images": [
+        "剧集/EP002/制作成果/images/ink-octopus-black-white.png",
+        "剧集/EP002/制作成果/images/star-shell-pearl.png"
+      ],
+      "revision": "Removed two extra unarmed central appendage tips; retained eight blade-bearing arms and eight blades.",
+      "initial_generated_source": "C:/Users/ABC/.codex/generated_images/01a1f350-ba84-7d42-8104-a1d780a7b2be/exec-1301264b-1222-4187-9d91-914431fd032b.png"
+    },
+    {
+      "id": "IMG-EP002-DIVINATION-TABLE",
+      "operation": "builtin_imagegen",
+      "status": "complete",
+      "source": "剧集/EP002/图片提示词.md",
+      "source_entry": "IMG-EP002-DIVINATION-TABLE",
+      "prompt": "Realistic cinematic fantasy CG environment reference, 16:9, one coherent empty scene. Reframe the supplied pale-stone institute entrance from INSIDE the short passage looking toward the front doorway, preserving the timber frames and original fixed architecture. Place one low dark wooden table against the side wall, leaving the central walking route clear. One closed plain navy folder lies flat at the table's far corner; one palm-sized ivory pearl with blue nacre and two shallow dimples rests at table center. Leave clear air above the pearl for later projections. Preserve warm daylight entering through the front opening and cool blue-gray ambient shadows. Show dry stone paving outside the front entrance, no pond or water immediately behind the visitor position. The courtyard is behind this camera, not a new room. No people, open paper, animal projection, emitted light, extra furniture, labels or watermark.",
+      "generated_source": "C:/Users/ABC/.codex/generated_images/01a1f350-ba84-7d42-8104-a1d780a7b2be/exec-a58d2643-6d5f-4055-ba02-7c03bde733af.png",
+      "output": "images/entrance-divination-table.png",
+      "sha256": "00f8d845d4adc86d975815fdbb78cd0d6c98e23c80b83a2223ef21a53a977a08",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "updated_at": "2026-11-20T09:54:20+08:00"
+}

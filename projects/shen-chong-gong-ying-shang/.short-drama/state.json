@@ -38,25 +38,30 @@
     }
   },
   "authority": {
-    "/creator_authority/production_profile/choices": {
-      "decision": "创作者决策/制作配置.jsonl#CD-H3",
-      "set_at": "2026-11-16T07:46:03.409090Z",
-      "value_sha256": "7cf8f9635bc0ae62f3f0460689297fed5f994bbed5b946c67ad553969fc7de21"
+    "/creator_authority/production_profile": {
+      "decision": "direct:configure",
+      "set_at": "2026-11-20T05:54:18.092637Z",
+      "value_sha256": "c49264e6796181ff52ad295f0a30a8893e78862f947a88e62dfdd0e876199e77"
     },
-    "/creator_authority/visual_direction/choices": {
-      "decision": "创作者决策/视觉方向.jsonl#CD-VISUAL-CINEMATIC-CG",
-      "set_at": "2026-11-16T08:37:20.768977Z",
-      "value_sha256": "9c92f6f51bd82d72f92d8d6b05013739831294aebc61f3f9f82dbc2099865f6e"
+    "/creator_authority/visual_direction": {
+      "decision": "direct:configure",
+      "set_at": "2026-11-19T02:52:30.123316Z",
+      "value_sha256": "cdb3e566ea4e7da9f1db762722ba7a31ca4b901b22032837369fac2a207a5e14"
+    },
+    "/format/aspect_ratio": {
+      "decision": "direct:configure",
+      "set_at": "2026-11-19T02:52:30.123316Z",
+      "value_sha256": "0c607131a93856ed93d33dad0c3829fbc410504ac4110e992486dbe75102427b"
     },
     "/format/target_seconds_per_episode": {
-      "decision": "创作者决策/制作配置.jsonl#CD-SERIES-DURATION",
-      "set_at": "2026-11-16T07:46:03.559298Z",
-      "value_sha256": "39fa9ec190eee7b6f4dff1100d6343e10918d044c75eac8f9e9a2596173f80c9"
+      "decision": "direct:configure",
+      "set_at": "2026-11-19T03:24:56.195919Z",
+      "value_sha256": "17e70b2fd0afd679e7d0c9741b940b06fff6bc980929f83ce4991be53b09dbbd"
     }
   },
-  "last_action": "authority_set",
+  "last_action": "configured",
   "project_id": "SD-59A58D4C5CE7",
   "project_layout_mode": "canonical",
   "schema_version": "2.0",
-  "updated_at": "2026-11-16T08:37:20.769011Z"
+  "updated_at": "2026-11-20T05:54:18.092731Z"
 }

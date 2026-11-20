@@ -1,0 +1,339 @@
+{
+  "episode": "EP001",
+  "script_target_seconds": 90,
+  "aspect_ratio": "16:9",
+  "style": "写实奇幻CG",
+  "shot_count": 18,
+  "production_job_count": 15,
+  "first_video_entry": "GROUP-EP001-01",
+  "first_video_seconds": 6,
+  "images": [
+    {
+      "id": "SHOT-EP001-012",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-bc15b556-aab6-4943-a43a-8d95c709780d.png",
+      "output": "images/首帧90s/SHOT-EP001-012.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/mirror-moon-harbor.png",
+        "剧集/EP001/制作成果/images/courier-gull-and-satchel.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-012",
+      "sha256": "06c9463ca08b1fcbaa6551b2fe7bb879818f284e03299c6c0418a49ed6f7e6e6",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-013",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-44d6754e-651c-4af4-a514-51608307cf66.png",
+      "output": "images/首帧90s/SHOT-EP001-013.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/mirror-moon-harbor.png",
+        "剧集/EP001/制作成果/images/courier-gull-and-satchel.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-013",
+      "sha256": "ef829327cbcee127956d7e7640fa014bd6e66c752fe0cf96cefc11caf92dd264",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-014",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-75112901-6b9e-424f-af52-24b410b41490.png",
+      "output": "images/首帧90s/SHOT-EP001-014.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/institute-courtyard-wide.png",
+        "剧集/EP001/制作成果/images/courier-gull-and-satchel.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-014",
+      "sha256": "828044c6bcf982551d5bddd99f1bda1ba4487a71ea73199b80accc1fb5063792",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-015",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-fa230415-d671-4501-96ad-85672f4736a9.png",
+      "output": "images/首帧90s/SHOT-EP001-015.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/institute-courtyard-wide.png",
+        "剧集/EP001/制作成果/images/cloud-leviathan.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-015",
+      "sha256": "c2d12dea15dc38070656db548f8077e8d2260993b2fe6f46ad28940198c21be3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-016",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-67cf0920-f8ab-4453-b87b-759262aa8a80.png",
+      "output": "images/首帧90s/SHOT-EP001-016.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-adult.png",
+        "剧集/EP001/制作成果/images/flood-flashback-interior.png",
+        "剧集/EP001/制作成果/images/roasted-fish-states.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-016",
+      "sha256": "31e34df85656ccf0b48c5f5acfdcd8f9341f8dc8a266bdd30d5904e6f17c97e9",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-017",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-07d9ad46-9f6e-4438-95bd-28a7d20f12fa.png",
+      "output": "images/首帧90s/SHOT-EP001-017.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-adult.png",
+        "剧集/EP001/制作成果/images/flood-flashback-interior.png",
+        "剧集/EP001/制作成果/images/roasted-fish-states.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-017",
+      "sha256": "0a67370b248b3ba23a7416bfe7e8ce40487bf039fb8af1ee52a1f4aa8f2ee815",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-018",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-b37c8615-e6ea-4ba5-8e9d-ae40571c6b05.png",
+      "output": "images/首帧90s/SHOT-EP001-018.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png",
+        "剧集/EP001/制作成果/images/ink-octopus-comparison.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-018",
+      "sha256": "9addf9b0208ee6c4749302d48b11d66ed7989c64f4b8448a386aa3b91585371b",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-019",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-5c60f149-311c-47be-859f-b5acc3894eb1.png",
+      "output": "images/首帧90s/SHOT-EP001-019.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png",
+        "剧集/EP001/制作成果/images/ink-octopus-comparison.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-019",
+      "sha256": "2cf2231634d861bdde0560bb323cbec8eb6db9e1d3e4bbe1b1e5290945b3fca6",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-020",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-4dced3d4-8c08-42df-b01e-44661e11fb7c.png",
+      "output": "images/首帧90s/SHOT-EP001-020.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png",
+        "剧集/EP001/制作成果/images/ink-octopus-comparison.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-020",
+      "sha256": "13e4e594e0ca5908f618cae0b67bb2b1fb0153b5dd61d2513e9467b2b8e87f19",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-021",
+      "operation": "adopt_existing_reference",
+      "generated_source": "D:/workspace-new/my2/video/projects/shen-chong-gong-ying-shang/剧集/EP001/制作成果/images/memory-shipwreck.png",
+      "output": "images/首帧90s/SHOT-EP001-021.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/memory-shipwreck.png",
+        "剧集/EP001/制作成果/images/institute-courtyard-wide.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-021",
+      "sha256": "3a5311f1152fdc7c7a5912c5ba446c6a7e5abb1136de2a4d7d349d1e175feaf8",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-022",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-ca9402cb-624c-40a2-92a2-6f0a41b11d07.png",
+      "output": "images/首帧90s/SHOT-EP001-022.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png",
+        "剧集/EP001/制作成果/images/ink-octopus-breeder.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-022",
+      "sha256": "3e73356fa52789a933f7232aac0001d9e3ba7f340168bf8099d8b5113f6c1096",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-023",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-23e9814c-5220-4d11-8d29-5136967ca2a6.png",
+      "output": "images/首帧90s/SHOT-EP001-023.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png",
+        "剧集/EP001/制作成果/images/ink-octopus-breeder.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-023",
+      "sha256": "902d633a2ffab7428ceb58aa19ac1ff7b06c17ae41489f264f7bea513bb3a7be",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-024",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-5cc760f9-2e9f-41e6-9307-a495d7171baa.png",
+      "output": "images/首帧90s/SHOT-EP001-024.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/institute-entrance.png",
+        "剧集/EP001/制作成果/images/institute-courtyard-wide.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-024",
+      "sha256": "413a51fbfa074bbfa181c0ba523eeb83a9f010632ce975099cea4ffe8fc71c23",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-025",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-0e13c892-45cc-4a9f-91e1-837e6d64dbaa.png",
+      "output": "images/首帧90s/SHOT-EP001-025.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png",
+        "剧集/EP001/制作成果/images/institute-entrance.png",
+        "剧集/EP001/制作成果/images/recovery-notice.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-025",
+      "revision": "correct_front_entrance_background",
+      "sha256": "41da3a4c23946752c155d02a213de194b44390699e8549e72279de1fbd46dfef",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-026",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-9ca07bd5-9ee1-4b89-8ea1-31e4f1fe9a7e.png",
+      "output": "images/首帧90s/SHOT-EP001-026.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png",
+        "剧集/EP001/制作成果/images/institute-entrance.png",
+        "剧集/EP001/制作成果/images/recovery-notice.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-026",
+      "sha256": "d79946e1183ef938d07c4e86aeafbdedc95dd2f4481410c78d33bbf1751088e3",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-027",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-5b79686f-84af-40a2-b788-435ef32f2c71.png",
+      "output": "images/首帧90s/SHOT-EP001-027.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png",
+        "剧集/EP001/制作成果/images/institute-entrance.png",
+        "剧集/EP001/制作成果/images/recovery-notice.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-027",
+      "sha256": "97715e4d7d8dc9f857005f43dff46fcb38ebd9d968a0f31b73163e39e22c28db",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-028",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-c2449cf4-eaad-4edf-b9a9-9d3630458e93.png",
+      "output": "images/首帧90s/SHOT-EP001-028.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png",
+        "剧集/EP001/制作成果/images/institute-entrance.png",
+        "剧集/EP001/制作成果/images/recovery-notice.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-028",
+      "sha256": "f54a3934a72d236c54394df98e928e66039a9ab373aefab2e004876055812611",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "SHOT-EP001-029",
+      "operation": "builtin_imagegen",
+      "generated_source": "C:\\Users\\ABC\\.codex\\generated_images\\01a1e337-e952-7d72-8867-e65fd0803d6b\\exec-37c615dc-9d77-4eea-867b-34f3f957a87c.png",
+      "output": "images/首帧90s/SHOT-EP001-029.png",
+      "reference_images": [
+        "剧集/EP001/制作成果/images/luo-yu-teen.png",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png",
+        "剧集/EP001/制作成果/images/institute-entrance.png",
+        "剧集/EP001/制作成果/images/recovery-notice.png"
+      ],
+      "prompt_source": "剧集/EP001/分镜.md",
+      "prompt_entry": "SHOT-EP001-029",
+      "sha256": "cbba2b1a1038ac10dc4cc75c6c7d64d06baa425f4a8833492bdb6dd6fae56c31",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "updated_at": "2026-11-19T14:18:50+08:00"
+}

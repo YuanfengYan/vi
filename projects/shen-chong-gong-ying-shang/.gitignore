@@ -1,0 +1,4 @@
+.env.local
+scripts/__pycache__/
+scripts/tests/__pycache__/
+.short-drama/production/supervideo/

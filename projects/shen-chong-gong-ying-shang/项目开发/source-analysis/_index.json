@@ -1,29 +1,1275 @@
 {
-  "chapter_count": 1,
-  "chapter_unit": "\u7ae0",
-  "chapters": [
-    {
-      "char_count": 5738,
-      "heading": "\u7b2c\u4e00\u7ae0\uff1a\u6d77\u6d0b\u65f6\u4ee3",
-      "line_end": 352,
-      "line_start": 1,
-      "sequence": 1,
-      "source_number": 1,
-      "title": "\uff1a\u6d77\u6d0b\u65f6\u4ee3",
-      "unit": "\u7ae0"
-    }
-  ],
-  "contents_entries_dropped": 0,
+  "schema_version": "1.0.0-draft",
+  "record_type": "novel_chapter_index",
+  "source": {
+    "artifact": "神宠供应商.txt",
+    "char_count": 462484,
+    "line_count": 13066
+  },
+  "chapter_unit": "章",
   "ignored_heading_units": {},
   "long_heading_lines_skipped": 0,
-  "problems": [],
-  "record_type": "novel_chapter_index",
-  "schema_version": "1.0.0-draft",
-  "source": {
-    "artifact": "\u7b2c\u4e00\u7ae0\uff1a\u6d77\u6d0b\u65f6\u4ee3.txt",
-    "char_count": 5738,
-    "line_count": 352
-  },
+  "contents_entries_dropped": 0,
+  "text_before_first_chapter": 209,
+  "volume_numbering_restarts": false,
   "volume_count": 1,
-  "volume_numbering_restarts": false
+  "chapter_count": 125,
+  "chapters": [
+    {
+      "sequence": 1,
+      "source_number": 1,
+      "unit": "章",
+      "title": "：海洋时代",
+      "heading": "第一章：海洋时代",
+      "line_start": 14,
+      "line_end": 191,
+      "char_count": 5744
+    },
+    {
+      "sequence": 2,
+      "source_number": 2,
+      "unit": "章",
+      "title": "：占卜",
+      "heading": "第二章：占卜",
+      "line_start": 192,
+      "line_end": 338,
+      "char_count": 4692
+    },
+    {
+      "sequence": 3,
+      "source_number": 3,
+      "unit": "章",
+      "title": "：宠兽店",
+      "heading": "第三章：宠兽店",
+      "line_start": 339,
+      "line_end": 475,
+      "char_count": 3910
+    },
+    {
+      "sequence": 4,
+      "source_number": 4,
+      "unit": "章",
+      "title": "：行走的火山",
+      "heading": "第四章：行走的火山",
+      "line_start": 476,
+      "line_end": 582,
+      "char_count": 3473
+    },
+    {
+      "sequence": 5,
+      "source_number": 5,
+      "unit": "章",
+      "title": "：天赋",
+      "heading": "第五章：天赋",
+      "line_start": 583,
+      "line_end": 700,
+      "char_count": 3674
+    },
+    {
+      "sequence": 6,
+      "source_number": 6,
+      "unit": "章",
+      "title": "：开局一艘幽灵船",
+      "heading": "第六章：开局一艘幽灵船",
+      "line_start": 701,
+      "line_end": 829,
+      "char_count": 3988
+    },
+    {
+      "sequence": 7,
+      "source_number": 7,
+      "unit": "章",
+      "title": "：繁育计划！",
+      "heading": "第七章：繁育计划！",
+      "line_start": 830,
+      "line_end": 928,
+      "char_count": 3664
+    },
+    {
+      "sequence": 8,
+      "source_number": 8,
+      "unit": "章",
+      "title": "：御海者联盟",
+      "heading": "第八章：御海者联盟",
+      "line_start": 929,
+      "line_end": 1036,
+      "char_count": 3523
+    },
+    {
+      "sequence": 9,
+      "source_number": 9,
+      "unit": "章",
+      "title": "：那是一天暴雨",
+      "heading": "第九章：那是一天暴雨",
+      "line_start": 1037,
+      "line_end": 1125,
+      "char_count": 2700
+    },
+    {
+      "sequence": 10,
+      "source_number": 10,
+      "unit": "章",
+      "title": "：再次伟大！",
+      "heading": "第十章：再次伟大！",
+      "line_start": 1126,
+      "line_end": 1245,
+      "char_count": 3875
+    },
+    {
+      "sequence": 11,
+      "source_number": 11,
+      "unit": "章",
+      "title": "：首次交配",
+      "heading": "第十一章：首次交配",
+      "line_start": 1246,
+      "line_end": 1341,
+      "char_count": 3261
+    },
+    {
+      "sequence": 12,
+      "source_number": 12,
+      "unit": "章",
+      "title": "：洛羽研究所",
+      "heading": "第十二章：洛羽研究所",
+      "line_start": 1342,
+      "line_end": 1447,
+      "char_count": 3499
+    },
+    {
+      "sequence": 13,
+      "source_number": 13,
+      "unit": "章",
+      "title": "：远古的呼唤",
+      "heading": "第十三章：远古的呼唤",
+      "line_start": 1448,
+      "line_end": 1538,
+      "char_count": 3411
+    },
+    {
+      "sequence": 14,
+      "source_number": 14,
+      "unit": "章",
+      "title": "：大帝之资，独钓万古",
+      "heading": "第十四章：大帝之资，独钓万古",
+      "line_start": 1539,
+      "line_end": 1654,
+      "char_count": 3509
+    },
+    {
+      "sequence": 15,
+      "source_number": 15,
+      "unit": "章",
+      "title": "：咕咕嘎嘎",
+      "heading": "第十五章：咕咕嘎嘎",
+      "line_start": 1655,
+      "line_end": 1758,
+      "char_count": 3436
+    },
+    {
+      "sequence": 16,
+      "source_number": 16,
+      "unit": "章",
+      "title": "：早产",
+      "heading": "第十六章：早产",
+      "line_start": 1759,
+      "line_end": 1845,
+      "char_count": 3524
+    },
+    {
+      "sequence": 17,
+      "source_number": 17,
+      "unit": "章",
+      "title": "：生物学家的战斗方式",
+      "heading": "第十七章：生物学家的战斗方式",
+      "line_start": 1846,
+      "line_end": 1933,
+      "char_count": 3394
+    },
+    {
+      "sequence": 18,
+      "source_number": 18,
+      "unit": "章",
+      "title": "：新兽上岗",
+      "heading": "第十八章：新兽上岗",
+      "line_start": 1934,
+      "line_end": 2043,
+      "char_count": 3587
+    },
+    {
+      "sequence": 19,
+      "source_number": 19,
+      "unit": "章",
+      "title": "：繁育成果！你管这叫入门？",
+      "heading": "第十九章：繁育成果！你管这叫入门？",
+      "line_start": 2044,
+      "line_end": 2137,
+      "char_count": 3535
+    },
+    {
+      "sequence": 20,
+      "source_number": 20,
+      "unit": "章",
+      "title": "：别人家的孩子",
+      "heading": "第二十章：别人家的孩子",
+      "line_start": 2138,
+      "line_end": 2220,
+      "char_count": 3516
+    },
+    {
+      "sequence": 21,
+      "source_number": 21,
+      "unit": "章",
+      "title": "：群贤毕至",
+      "heading": "第二十一章：群贤毕至",
+      "line_start": 2221,
+      "line_end": 2313,
+      "char_count": 3278
+    },
+    {
+      "sequence": 22,
+      "source_number": 22,
+      "unit": "章",
+      "title": "：墨水鱼进化，水魔兽！",
+      "heading": "第二十二章：墨水鱼进化，水魔兽！",
+      "line_start": 2314,
+      "line_end": 2438,
+      "char_count": 3720
+    },
+    {
+      "sequence": 23,
+      "source_number": 23,
+      "unit": "章",
+      "title": "：DIY君王",
+      "heading": "第二十三章：DIY君王",
+      "line_start": 2439,
+      "line_end": 2528,
+      "char_count": 3102
+    },
+    {
+      "sequence": 24,
+      "source_number": 24,
+      "unit": "章",
+      "title": "：增加契约位的方法",
+      "heading": "第二十四章：增加契约位的方法",
+      "line_start": 2529,
+      "line_end": 2589,
+      "char_count": 2516
+    },
+    {
+      "sequence": 25,
+      "source_number": 25,
+      "unit": "章",
+      "title": "：全新研究，眷属进化法！",
+      "heading": "第二十五章：全新研究，眷属进化法！",
+      "line_start": 2590,
+      "line_end": 2681,
+      "char_count": 3256
+    },
+    {
+      "sequence": 26,
+      "source_number": 26,
+      "unit": "章",
+      "title": "：斗兽！",
+      "heading": "第二十六章：斗兽！",
+      "line_start": 2682,
+      "line_end": 2804,
+      "char_count": 4564
+    },
+    {
+      "sequence": 27,
+      "source_number": 27,
+      "unit": "章",
+      "title": "：你这宠兽不合法吧？",
+      "heading": "第二十七章：你这宠兽不合法吧？",
+      "line_start": 2805,
+      "line_end": 2906,
+      "char_count": 3098
+    },
+    {
+      "sequence": 28,
+      "source_number": 28,
+      "unit": "章",
+      "title": "：镜月岛的守护神",
+      "heading": "第二十八章：镜月岛的守护神",
+      "line_start": 2907,
+      "line_end": 3004,
+      "char_count": 3600
+    },
+    {
+      "sequence": 29,
+      "source_number": 29,
+      "unit": "章",
+      "title": "：繁育标兵配繁育标兵",
+      "heading": "第二十九章：繁育标兵配繁育标兵",
+      "line_start": 3005,
+      "line_end": 3094,
+      "char_count": 3471
+    },
+    {
+      "sequence": 30,
+      "source_number": 30,
+      "unit": "章",
+      "title": "：美女保镖",
+      "heading": "第三十章：美女保镖",
+      "line_start": 3095,
+      "line_end": 3191,
+      "char_count": 3421
+    },
+    {
+      "sequence": 31,
+      "source_number": 31,
+      "unit": "章",
+      "title": "：我跟他姓！",
+      "heading": "第三十一章：我跟他姓！",
+      "line_start": 3192,
+      "line_end": 3281,
+      "char_count": 3179
+    },
+    {
+      "sequence": 32,
+      "source_number": 32,
+      "unit": "章",
+      "title": "：辣手摧花！",
+      "heading": "第三十二章：辣手摧花！",
+      "line_start": 3282,
+      "line_end": 3376,
+      "char_count": 3748
+    },
+    {
+      "sequence": 33,
+      "source_number": 33,
+      "unit": "章",
+      "title": "：神奇海螺",
+      "heading": "第三十三章：神奇海螺",
+      "line_start": 3377,
+      "line_end": 3454,
+      "char_count": 3019
+    },
+    {
+      "sequence": 34,
+      "source_number": 34,
+      "unit": "章",
+      "title": "：你的脸怎么肿肿的？",
+      "heading": "第三十四章：你的脸怎么肿肿的？",
+      "line_start": 3455,
+      "line_end": 3549,
+      "char_count": 3856
+    },
+    {
+      "sequence": 35,
+      "source_number": 35,
+      "unit": "章",
+      "title": "：谁赞同，谁反对？",
+      "heading": "第三十五章：谁赞同，谁反对？",
+      "line_start": 3550,
+      "line_end": 3639,
+      "char_count": 3643
+    },
+    {
+      "sequence": 36,
+      "source_number": 36,
+      "unit": "章",
+      "title": "：行走的打火机",
+      "heading": "第三十六章：行走的打火机",
+      "line_start": 3640,
+      "line_end": 3733,
+      "char_count": 3601
+    },
+    {
+      "sequence": 37,
+      "source_number": 37,
+      "unit": "章",
+      "title": "：多子多福",
+      "heading": "第三十七章：多子多福",
+      "line_start": 3734,
+      "line_end": 3843,
+      "char_count": 3643
+    },
+    {
+      "sequence": 38,
+      "source_number": 38,
+      "unit": "章",
+      "title": "：组建海贼团！",
+      "heading": "第三十八章：组建海贼团！",
+      "line_start": 3844,
+      "line_end": 3934,
+      "char_count": 3632
+    },
+    {
+      "sequence": 39,
+      "source_number": 39,
+      "unit": "章",
+      "title": "：远古进化石",
+      "heading": "第三十九章：远古进化石",
+      "line_start": 3935,
+      "line_end": 4034,
+      "char_count": 3637
+    },
+    {
+      "sequence": 40,
+      "source_number": 40,
+      "unit": "章",
+      "title": "：七月进化关键属性！",
+      "heading": "第四十章：七月进化关键属性！",
+      "line_start": 4035,
+      "line_end": 4155,
+      "char_count": 3836
+    },
+    {
+      "sequence": 41,
+      "source_number": 41,
+      "unit": "章",
+      "title": "：恐龙主题自然公园",
+      "heading": "第四十一章：恐龙主题自然公园",
+      "line_start": 4156,
+      "line_end": 4225,
+      "char_count": 2955
+    },
+    {
+      "sequence": 42,
+      "source_number": 42,
+      "unit": "章",
+      "title": "：洛羽刺杀守护神",
+      "heading": "第四十二章：洛羽刺杀守护神",
+      "line_start": 4226,
+      "line_end": 4326,
+      "char_count": 3633
+    },
+    {
+      "sequence": 43,
+      "source_number": 43,
+      "unit": "章",
+      "title": "：采花大盗",
+      "heading": "第四十三章：采花大盗",
+      "line_start": 4327,
+      "line_end": 4417,
+      "char_count": 3664
+    },
+    {
+      "sequence": 44,
+      "source_number": 44,
+      "unit": "章",
+      "title": "：速通，再次进化！",
+      "heading": "第四十四章：速通，再次进化！",
+      "line_start": 4418,
+      "line_end": 4530,
+      "char_count": 4622
+    },
+    {
+      "sequence": 45,
+      "source_number": 45,
+      "unit": "章",
+      "title": "：钓鱼佬的专业素养",
+      "heading": "第四十五章：钓鱼佬的专业素养",
+      "line_start": 4531,
+      "line_end": 4607,
+      "char_count": 3139
+    },
+    {
+      "sequence": 46,
+      "source_number": 46,
+      "unit": "章",
+      "title": "：新船员，考古学家",
+      "heading": "第四十六章：新船员，考古学家",
+      "line_start": 4608,
+      "line_end": 4713,
+      "char_count": 3831
+    },
+    {
+      "sequence": 47,
+      "source_number": 47,
+      "unit": "章",
+      "title": "：团灭发动机",
+      "heading": "第四十七章：团灭发动机",
+      "line_start": 4714,
+      "line_end": 4801,
+      "char_count": 3015
+    },
+    {
+      "sequence": 48,
+      "source_number": 48,
+      "unit": "章",
+      "title": "：我把手臂，赌在了……",
+      "heading": "第四十八章：我把手臂，赌在了……",
+      "line_start": 4802,
+      "line_end": 4900,
+      "char_count": 4111
+    },
+    {
+      "sequence": 49,
+      "source_number": 49,
+      "unit": "章",
+      "title": "：除了鱼什么都能钓到",
+      "heading": "第四十九章：除了鱼什么都能钓到",
+      "line_start": 4901,
+      "line_end": 4994,
+      "char_count": 2956
+    },
+    {
+      "sequence": 50,
+      "source_number": 50,
+      "unit": "章",
+      "title": "：遭遇海盗",
+      "heading": "第五十章：遭遇海盗",
+      "line_start": 4995,
+      "line_end": 5084,
+      "char_count": 3584
+    },
+    {
+      "sequence": 51,
+      "source_number": 51,
+      "unit": "章",
+      "title": "：幽灵船会飞",
+      "heading": "第五十一章：幽灵船会飞",
+      "line_start": 5085,
+      "line_end": 5173,
+      "char_count": 2893
+    },
+    {
+      "sequence": 52,
+      "source_number": 52,
+      "unit": "章",
+      "title": "：臭外地的",
+      "heading": "第五十二章：臭外地的",
+      "line_start": 5174,
+      "line_end": 5295,
+      "char_count": 4695
+    },
+    {
+      "sequence": 53,
+      "source_number": 53,
+      "unit": "章",
+      "title": "：神通广大的乡下人",
+      "heading": "第五十三章：神通广大的乡下人",
+      "line_start": 5296,
+      "line_end": 5426,
+      "char_count": 3551
+    },
+    {
+      "sequence": 54,
+      "source_number": 54,
+      "unit": "章",
+      "title": "：初次掌握，岩浆之力！",
+      "heading": "第五十四章：初次掌握，岩浆之力！",
+      "line_start": 5427,
+      "line_end": 5552,
+      "char_count": 3535
+    },
+    {
+      "sequence": 55,
+      "source_number": 55,
+      "unit": "章",
+      "title": "：QQ牧场",
+      "heading": "第五十五章：QQ牧场",
+      "line_start": 5553,
+      "line_end": 5656,
+      "char_count": 3135
+    },
+    {
+      "sequence": 56,
+      "source_number": 56,
+      "unit": "章",
+      "title": "：突发，幽灵之海！",
+      "heading": "第五十六章：突发，幽灵之海！",
+      "line_start": 5657,
+      "line_end": 5771,
+      "char_count": 3237
+    },
+    {
+      "sequence": 57,
+      "source_number": 57,
+      "unit": "章",
+      "title": "：再遇天赋怪",
+      "heading": "第五十七章：再遇天赋怪",
+      "line_start": 5772,
+      "line_end": 5867,
+      "char_count": 3039
+    },
+    {
+      "sequence": 58,
+      "source_number": 58,
+      "unit": "章",
+      "title": "：契约，幽灵宠！",
+      "heading": "第五十八章：契约，幽灵宠！",
+      "line_start": 5868,
+      "line_end": 5959,
+      "char_count": 3352
+    },
+    {
+      "sequence": 59,
+      "source_number": 59,
+      "unit": "章",
+      "title": "：虫族天灾！",
+      "heading": "第五十九章：虫族天灾！",
+      "line_start": 5960,
+      "line_end": 6058,
+      "char_count": 3495
+    },
+    {
+      "sequence": 60,
+      "source_number": 60,
+      "unit": "章",
+      "title": "：大地之神与天空之王",
+      "heading": "第六十章：大地之神与天空之王",
+      "line_start": 6059,
+      "line_end": 6150,
+      "char_count": 3219
+    },
+    {
+      "sequence": 61,
+      "source_number": 61,
+      "unit": "章",
+      "title": "：情感收割机",
+      "heading": "第六十一章：情感收割机",
+      "line_start": 6151,
+      "line_end": 6241,
+      "char_count": 3093
+    },
+    {
+      "sequence": 62,
+      "source_number": 62,
+      "unit": "章",
+      "title": "：蜂女皇发威！",
+      "heading": "第六十二章：蜂女皇发威！",
+      "line_start": 6242,
+      "line_end": 6359,
+      "char_count": 3492
+    },
+    {
+      "sequence": 63,
+      "source_number": 63,
+      "unit": "章",
+      "title": "：QQ农场",
+      "heading": "第六十三章：QQ农场",
+      "line_start": 6360,
+      "line_end": 6450,
+      "char_count": 2778
+    },
+    {
+      "sequence": 64,
+      "source_number": 64,
+      "unit": "章",
+      "title": "：地企鹅进化，刃岩企！",
+      "heading": "第六十四章：地企鹅进化，刃岩企！",
+      "line_start": 6451,
+      "line_end": 6562,
+      "char_count": 3660
+    },
+    {
+      "sequence": 65,
+      "source_number": 65,
+      "unit": "章",
+      "title": "：S1赛季，陆地时代",
+      "heading": "第六十五章：S1赛季，陆地时代",
+      "line_start": 6563,
+      "line_end": 6645,
+      "char_count": 3360
+    },
+    {
+      "sequence": 66,
+      "source_number": 66,
+      "unit": "章",
+      "title": "：虎鲸！",
+      "heading": "第六十六章：虎鲸！",
+      "line_start": 6646,
+      "line_end": 6763,
+      "char_count": 3935
+    },
+    {
+      "sequence": 67,
+      "source_number": 67,
+      "unit": "章",
+      "title": "：养殖大王王德发",
+      "heading": "第六十七章：养殖大王王德发",
+      "line_start": 6764,
+      "line_end": 6851,
+      "char_count": 3278
+    },
+    {
+      "sequence": 68,
+      "source_number": 68,
+      "unit": "章",
+      "title": "：镜月大鳄！",
+      "heading": "第六十八章：镜月大鳄！",
+      "line_start": 6852,
+      "line_end": 6956,
+      "char_count": 3672
+    },
+    {
+      "sequence": 69,
+      "source_number": 69,
+      "unit": "章",
+      "title": "：七月立于大地之上！",
+      "heading": "🍎 第69章：七月立于大地之上！",
+      "line_start": 6957,
+      "line_end": 7101,
+      "char_count": 4788
+    },
+    {
+      "sequence": 70,
+      "source_number": 70,
+      "unit": "章",
+      "title": "：这企鹅合法吗？",
+      "heading": "🍎 第70章：这企鹅合法吗？",
+      "line_start": 7102,
+      "line_end": 7212,
+      "char_count": 3566
+    },
+    {
+      "sequence": 71,
+      "source_number": 71,
+      "unit": "章",
+      "title": "：稳定君王种进化路线",
+      "heading": "🍎 第71章：稳定君王种进化路线",
+      "line_start": 7213,
+      "line_end": 7299,
+      "char_count": 3383
+    },
+    {
+      "sequence": 72,
+      "source_number": 72,
+      "unit": "章",
+      "title": "：首只水魔兽！",
+      "heading": "🍎 第72章：首只水魔兽！",
+      "line_start": 7300,
+      "line_end": 7422,
+      "char_count": 3676
+    },
+    {
+      "sequence": 73,
+      "source_number": 73,
+      "unit": "章",
+      "title": "：洛羽的超级大饼",
+      "heading": "🍎 第73章：洛羽的超级大饼",
+      "line_start": 7423,
+      "line_end": 7524,
+      "char_count": 3488
+    },
+    {
+      "sequence": 74,
+      "source_number": 74,
+      "unit": "章",
+      "title": "：博之英勇，千古无二",
+      "heading": "🍎 第74章：博之英勇，千古无二",
+      "line_start": 7525,
+      "line_end": 7625,
+      "char_count": 3479
+    },
+    {
+      "sequence": 75,
+      "source_number": 75,
+      "unit": "章",
+      "title": "：最佳辅助异能",
+      "heading": "🍎 第75章：最佳辅助异能",
+      "line_start": 7626,
+      "line_end": 7736,
+      "char_count": 3516
+    },
+    {
+      "sequence": 76,
+      "source_number": 76,
+      "unit": "章",
+      "title": "：突破，初级御兽师！",
+      "heading": "🍎 第76章：突破，初级御兽师！",
+      "line_start": 7737,
+      "line_end": 7843,
+      "char_count": 3619
+    },
+    {
+      "sequence": 77,
+      "source_number": 77,
+      "unit": "章",
+      "title": "：蜜水蜂进化实验！",
+      "heading": "🍎 第77章：蜜水蜂进化实验！",
+      "line_start": 7844,
+      "line_end": 7953,
+      "char_count": 3537
+    },
+    {
+      "sequence": 78,
+      "source_number": 78,
+      "unit": "章",
+      "title": "：诞生，皇家骑士蜂！",
+      "heading": "🍎 第78章：诞生，皇家骑士蜂！",
+      "line_start": 7954,
+      "line_end": 8093,
+      "char_count": 4299
+    },
+    {
+      "sequence": 79,
+      "source_number": 79,
+      "unit": "章",
+      "title": "：冰火厨娘",
+      "heading": "🍎 第79章：冰火厨娘",
+      "line_start": 8094,
+      "line_end": 8202,
+      "char_count": 3742
+    },
+    {
+      "sequence": 80,
+      "source_number": 80,
+      "unit": "章",
+      "title": "：契约，灵魂眷属！",
+      "heading": "🍎 第80章：契约，灵魂眷属！",
+      "line_start": 8203,
+      "line_end": 8341,
+      "char_count": 4323
+    },
+    {
+      "sequence": 81,
+      "source_number": 81,
+      "unit": "章",
+      "title": "：没一只合法的！",
+      "heading": "🍎 第81章：没一只合法的！",
+      "line_start": 8342,
+      "line_end": 8461,
+      "char_count": 3796
+    },
+    {
+      "sequence": 82,
+      "source_number": 82,
+      "unit": "章",
+      "title": "：上流人士",
+      "heading": "🍎 第82章：上流人士",
+      "line_start": 8462,
+      "line_end": 8561,
+      "char_count": 3508
+    },
+    {
+      "sequence": 83,
+      "source_number": 83,
+      "unit": "章",
+      "title": "：真·爆兵",
+      "heading": "🍎 第83章：真·爆兵",
+      "line_start": 8562,
+      "line_end": 8644,
+      "char_count": 3367
+    },
+    {
+      "sequence": 84,
+      "source_number": 84,
+      "unit": "章",
+      "title": "：扎针2.0时代",
+      "heading": "🍎 第84章：扎针2.0时代",
+      "line_start": 8645,
+      "line_end": 8743,
+      "char_count": 3773
+    },
+    {
+      "sequence": 85,
+      "source_number": 85,
+      "unit": "章",
+      "title": "：洛羽恋爱了",
+      "heading": "🍎 第85章：洛羽恋爱了",
+      "line_start": 8744,
+      "line_end": 8849,
+      "char_count": 3541
+    },
+    {
+      "sequence": 86,
+      "source_number": 86,
+      "unit": "章",
+      "title": "：错误进化！",
+      "heading": "🍎 第86章：错误进化！",
+      "line_start": 8850,
+      "line_end": 8940,
+      "char_count": 3938
+    },
+    {
+      "sequence": 87,
+      "source_number": 87,
+      "unit": "章",
+      "title": "：七星商会",
+      "heading": "🍎 第87章：七星商会",
+      "line_start": 8941,
+      "line_end": 9023,
+      "char_count": 3506
+    },
+    {
+      "sequence": 88,
+      "source_number": 88,
+      "unit": "章",
+      "title": "：时间系，五五开！",
+      "heading": "🍎 第88章：时间系，五五开！",
+      "line_start": 9024,
+      "line_end": 9127,
+      "char_count": 3599
+    },
+    {
+      "sequence": 89,
+      "source_number": 89,
+      "unit": "章",
+      "title": "：可以给我采一下吗？",
+      "heading": "🍎 第89章：可以给我采一下吗？",
+      "line_start": 9128,
+      "line_end": 9229,
+      "char_count": 3489
+    },
+    {
+      "sequence": 90,
+      "source_number": 90,
+      "unit": "章",
+      "title": "：我打君王？",
+      "heading": "🍎 第90章：我打君王？",
+      "line_start": 9230,
+      "line_end": 9415,
+      "char_count": 6803
+    },
+    {
+      "sequence": 91,
+      "source_number": 91,
+      "unit": "章",
+      "title": "：诱骗回岛",
+      "heading": "🍎 第91章：诱骗回岛",
+      "line_start": 9416,
+      "line_end": 9514,
+      "char_count": 3481
+    },
+    {
+      "sequence": 92,
+      "source_number": 92,
+      "unit": "章",
+      "title": "：研究所二号实验体",
+      "heading": "🍎 第92章：研究所二号实验体",
+      "line_start": 9515,
+      "line_end": 9620,
+      "char_count": 3644
+    },
+    {
+      "sequence": 93,
+      "source_number": 93,
+      "unit": "章",
+      "title": "：眷属进化实验",
+      "heading": "🍎 第93章：眷属进化实验",
+      "line_start": 9621,
+      "line_end": 9765,
+      "char_count": 4994
+    },
+    {
+      "sequence": 94,
+      "source_number": 94,
+      "unit": "章",
+      "title": "：七月成王之路！",
+      "heading": "🍎 第94章：七月成王之路！",
+      "line_start": 9766,
+      "line_end": 9877,
+      "char_count": 4339
+    },
+    {
+      "sequence": 95,
+      "source_number": 95,
+      "unit": "章",
+      "title": "：科技与狠活",
+      "heading": "🍎 第95章：科技与狠活",
+      "line_start": 9878,
+      "line_end": 9966,
+      "char_count": 3402
+    },
+    {
+      "sequence": 96,
+      "source_number": 96,
+      "unit": "章",
+      "title": "：地企鹅的新进化形！",
+      "heading": "🍎 第96章：地企鹅的新进化形！",
+      "line_start": 9967,
+      "line_end": 10076,
+      "char_count": 4061
+    },
+    {
+      "sequence": 97,
+      "source_number": 97,
+      "unit": "章",
+      "title": "：空间漩涡与光阴长河",
+      "heading": "🍎 第97章：空间漩涡与光阴长河",
+      "line_start": 10077,
+      "line_end": 10190,
+      "char_count": 4158
+    },
+    {
+      "sequence": 98,
+      "source_number": 98,
+      "unit": "章",
+      "title": "：前世的仰望对象",
+      "heading": "🍎 第98章：前世的仰望对象",
+      "line_start": 10191,
+      "line_end": 10274,
+      "char_count": 3394
+    },
+    {
+      "sequence": 99,
+      "source_number": 99,
+      "unit": "章",
+      "title": "：远古霸主的遗物",
+      "heading": "🍎 第99章：远古霸主的遗物",
+      "line_start": 10275,
+      "line_end": 10363,
+      "char_count": 3551
+    },
+    {
+      "sequence": 100,
+      "source_number": 100,
+      "unit": "章",
+      "title": "：乡下路子野，我要回沧澜",
+      "heading": "🍎 第100章：乡下路子野，我要回沧澜",
+      "line_start": 10364,
+      "line_end": 10487,
+      "char_count": 4677
+    },
+    {
+      "sequence": 101,
+      "source_number": 101,
+      "unit": "章",
+      "title": "：时间系资源生产线",
+      "heading": "🍎 第101章：时间系资源生产线",
+      "line_start": 10488,
+      "line_end": 10578,
+      "char_count": 3582
+    },
+    {
+      "sequence": 102,
+      "source_number": 102,
+      "unit": "章",
+      "title": "：七月，统领级！",
+      "heading": "🍎 第102章：七月，统领级！",
+      "line_start": 10579,
+      "line_end": 10678,
+      "char_count": 3720
+    },
+    {
+      "sequence": 103,
+      "source_number": 103,
+      "unit": "章",
+      "title": "：挂逼组队",
+      "heading": "🍎 第103章：挂逼组队",
+      "line_start": 10679,
+      "line_end": 10795,
+      "char_count": 4078
+    },
+    {
+      "sequence": 104,
+      "source_number": 104,
+      "unit": "章",
+      "title": "：把船靠过去！",
+      "heading": "🍎 第104章：把船靠过去！",
+      "line_start": 10796,
+      "line_end": 10901,
+      "char_count": 3935
+    },
+    {
+      "sequence": 105,
+      "source_number": 105,
+      "unit": "章",
+      "title": "：天空树果实",
+      "heading": "🍎 第105章：天空树果实",
+      "line_start": 10902,
+      "line_end": 10999,
+      "char_count": 3621
+    },
+    {
+      "sequence": 106,
+      "source_number": 106,
+      "unit": "章",
+      "title": "：商业版图的裂痕",
+      "heading": "🍎 第106章：商业版图的裂痕",
+      "line_start": 11000,
+      "line_end": 11098,
+      "char_count": 4207
+    },
+    {
+      "sequence": 107,
+      "source_number": 107,
+      "unit": "章",
+      "title": "：永昼海",
+      "heading": "🍎 第107章：永昼海",
+      "line_start": 11099,
+      "line_end": 11171,
+      "char_count": 3453
+    },
+    {
+      "sequence": 108,
+      "source_number": 108,
+      "unit": "章",
+      "title": "：七月大战水魔兽",
+      "heading": "🍎 第108章：七月大战水魔兽",
+      "line_start": 11172,
+      "line_end": 11300,
+      "char_count": 4449
+    },
+    {
+      "sequence": 109,
+      "source_number": 109,
+      "unit": "章",
+      "title": "：进化！高级天赋？顶级天赋！",
+      "heading": "🍎 第109章：进化！高级天赋？顶级天赋！",
+      "line_start": 11301,
+      "line_end": 11401,
+      "char_count": 3623
+    },
+    {
+      "sequence": 110,
+      "source_number": 110,
+      "unit": "章",
+      "title": "：你是我滴~情人~",
+      "heading": "🍎 第110章：你是我滴~情人~",
+      "line_start": 11402,
+      "line_end": 11496,
+      "char_count": 3878
+    },
+    {
+      "sequence": 111,
+      "source_number": 111,
+      "unit": "章",
+      "title": "：掌管农业的神",
+      "heading": "🍎 第111章：掌管农业的神",
+      "line_start": 11497,
+      "line_end": 11602,
+      "char_count": 4083
+    },
+    {
+      "sequence": 112,
+      "source_number": 112,
+      "unit": "章",
+      "title": "：多子多福，时间天赋诞生！",
+      "heading": "🍎 第112章：多子多福，时间天赋诞生！",
+      "line_start": 11603,
+      "line_end": 11701,
+      "char_count": 3578
+    },
+    {
+      "sequence": 113,
+      "source_number": 113,
+      "unit": "章",
+      "title": "：墨水鱼的新异能",
+      "heading": "🍎 第113章：墨水鱼的新异能",
+      "line_start": 11702,
+      "line_end": 11780,
+      "char_count": 3520
+    },
+    {
+      "sequence": 114,
+      "source_number": 114,
+      "unit": "章",
+      "title": "：新产品，博士胶囊",
+      "heading": "🍎 第114章：新产品，博士胶囊",
+      "line_start": 11781,
+      "line_end": 11889,
+      "char_count": 4055
+    },
+    {
+      "sequence": 115,
+      "source_number": 115,
+      "unit": "章",
+      "title": "：水魔兽军团！",
+      "heading": "🍎 第115章：水魔兽军团！",
+      "line_start": 11890,
+      "line_end": 11984,
+      "char_count": 3719
+    },
+    {
+      "sequence": 116,
+      "source_number": 116,
+      "unit": "章",
+      "title": "：欺负一只滴雨蝶？",
+      "heading": "🍎 第116章：欺负一只滴雨蝶？",
+      "line_start": 11985,
+      "line_end": 12088,
+      "char_count": 4321
+    },
+    {
+      "sequence": 117,
+      "source_number": 117,
+      "unit": "章",
+      "title": "：专属战船",
+      "heading": "🍎 第117章：专属战船",
+      "line_start": 12089,
+      "line_end": 12187,
+      "char_count": 3720
+    },
+    {
+      "sequence": 118,
+      "source_number": 118,
+      "unit": "章",
+      "title": "：功夫海豹！",
+      "heading": "🍎 第118章：功夫海豹！",
+      "line_start": 12188,
+      "line_end": 12283,
+      "char_count": 3650
+    },
+    {
+      "sequence": 119,
+      "source_number": 119,
+      "unit": "章",
+      "title": "：顶级僚机",
+      "heading": "🍎 第119章：顶级僚机",
+      "line_start": 12284,
+      "line_end": 12372,
+      "char_count": 3625
+    },
+    {
+      "sequence": 120,
+      "source_number": 120,
+      "unit": "章",
+      "title": "：乡下人进城",
+      "heading": "第120章：乡下人进城",
+      "line_start": 12373,
+      "line_end": 12472,
+      "char_count": 3544
+    },
+    {
+      "sequence": 121,
+      "source_number": 121,
+      "unit": "章",
+      "title": "：进化之海！",
+      "heading": "第121章：进化之海！",
+      "line_start": 12473,
+      "line_end": 12604,
+      "char_count": 4482
+    },
+    {
+      "sequence": 122,
+      "source_number": 122,
+      "unit": "章",
+      "title": "：企鹅大战北极熊",
+      "heading": "第122章：企鹅大战北极熊",
+      "line_start": 12605,
+      "line_end": 12707,
+      "char_count": 3711
+    },
+    {
+      "sequence": 123,
+      "source_number": 123,
+      "unit": "章",
+      "title": "：乔依天王",
+      "heading": "第123章：乔依天王",
+      "line_start": 12708,
+      "line_end": 12796,
+      "char_count": 3567
+    },
+    {
+      "sequence": 124,
+      "source_number": 124,
+      "unit": "章",
+      "title": "：出乎意料的进化",
+      "heading": "第124章：出乎意料的进化",
+      "line_start": 12797,
+      "line_end": 12903,
+      "char_count": 3567
+    },
+    {
+      "sequence": 125,
+      "source_number": 125,
+      "unit": "章",
+      "title": "：最无敌的水魔兽诞生！",
+      "heading": "第125章：最无敌的水魔兽诞生！",
+      "line_start": 12904,
+      "line_end": 13066,
+      "char_count": 5446
+    }
+  ],
+  "problems": [],
+  "warnings": [],
+  "indexing_notes": [
+    "69–119 章标题前的苹果符号仅在内存中去除后识别章节；heading 与行号仍逐字指向原文件。",
+    "第 1–13 行为书名、作者、简介和卷名，正文从第 14 行的第一章开始。"
+  ]
 }

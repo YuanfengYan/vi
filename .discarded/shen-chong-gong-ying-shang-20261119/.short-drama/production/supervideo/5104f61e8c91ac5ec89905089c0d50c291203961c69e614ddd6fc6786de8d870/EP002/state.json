@@ -1,0 +1,790 @@
+{
+  "schema_version": 1,
+  "identity": {
+    "base": "https://api.isupervideo.com",
+    "channel": "172c1482-00b4-4bb2-89e4-e8bde879c77c",
+    "user_id": "3a7e3571-0145-4437-afec-8688540a5275"
+  },
+  "uploads": {
+    "bd1640ef54e7786734b49665ca72c1c0b36803480c13df92c44915fe7b09b963": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778",
+      "sha256": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f"
+    },
+    "35bd9906c1bd71d21794a57723f6d62b92d4415b3f09cd16982643512d25b97c": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27",
+      "sha256": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5"
+    },
+    "4af571a7c2a1346213ae340cc2443de77cdea7c82cfe16a9a0b72a63e08bf742": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b",
+      "sha256": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c"
+    },
+    "e659bd52eb7bb117b864d976e9b5c842c33cfd550faada49b768c0f617b2bfd9": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/047338f262d3f8bfec5faea7834f12e9ecc1cd594247232851f772cd71772aac",
+      "sha256": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795"
+    },
+    "ebd7dc3be006f8568584d2666ea3909a29183b93fb3bf8049641894ebccb6df3": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/1b9e74f1f97b49f0db9ce88abd9e52615bff45be2e8e98f80551bce0da4bd381",
+      "sha256": "1f5c622c548e08a0bed5d37f48eb8561aa3342f4a79f06526c60970fe0e7d371"
+    },
+    "ace0a34d927a8bd5837b022961eadedd5abbd9ac13941f3c97e1c396c9692966": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/9897102654a1ddc88b662b2ab60dc8d4bd5862ddfc29bc4e7f686feeadae4bcc",
+      "sha256": "ddfacd1cd9297d2aab5dc1e7bf62b150c10eacc05b6ca9919ad5a9f53d9fce75"
+    },
+    "7a481925beedc380efc29bd41f76c89b19e8afebaf2544f55211ede82d532d4d": {
+      "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/6d4fd1ea6812f30635916031c509a03c39719f29e72a3a4e638f82cf03c328df",
+      "sha256": "826c5469e4c5b7456f746219251dea5bf93f97795bea54eecc801f97c18b538f"
+    }
+  },
+  "tasks": {
+    "MOTION-EP002-001": {
+      "fingerprint": "55681dc16d8f4b21ce2db38d20e3bfe7e5a786c4dfe00d3e5f5e785d40c17e1a",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "5a648cb71f248dfc04615c857e664ef4238755084f33196564727b9766dc8c00",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP001/制作成果/images/recovery-notice.png": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795"
+      },
+      "prompt_sha256": "75766ea8b1d816d78db1243badab84657de5d4827e0558917cfe40adacf7c8f7",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-001.mp4",
+      "quote_key": "quote:40a2956710094328976bcece1ac76df1",
+      "submit_key": "generation:6567932f60b04e00a031c4d2159a5d6d",
+      "input": {
+        "title": "MOTION-EP002-001.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：回收通知，保留文件外形与尺寸。\n\nsummary: 续用有条件，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：回收通知，保留文件外形与尺寸。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义少年洛羽，使用 <Picture 2> 定义渔晚，使用 <Picture 3> 定义研究所入口，使用 <Picture 4> 定义回收通知。双人中景，门内向外，洛羽画左、渔晚画右，渔晚右手托着合拢的文件夹。0–2 秒接洛羽请续租的目光，渔晚合稳文件夹。2–8 秒她看着洛羽，平实说出条件，洛羽听完才抬了抬眉。8–9 秒稳住两人视线。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 纸页轻响，门外低风。仅渔晚开口，普通话同期口型，其他人安静听：「局长可以给你宽限。想留下，得是御兽师，还得有培育资质。」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "recovery-notice.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2540502,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/047338f262d3f8bfec5faea7834f12e9ecc1cd594247232851f772cd71772aac"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "ea20d1fa-b6ae-40dd-8112-fdf07482b99a",
+      "credits": 0,
+      "job_id": "4d6b0a6e-28eb-53ed-9783-5bf04ee4a42c",
+      "current_source_matches": true
+    },
+    "MOTION-EP002-002": {
+      "fingerprint": "223e34816012825e75c9e71534028a1842c91e740bd88272cce60029a99b5de1",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "8bc2c867277e3b127447253bb8c677640ea9d6dc2944e2d5fc23aafd526715d0",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c"
+      },
+      "prompt_sha256": "0e64152d8e260146146c1b7e51018e6627222e4d3f56237684b55b6e8861f979",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-002.mp4",
+      "quote_key": "quote:eb6fd183a9ef414ab7c5a993911dc33d",
+      "submit_key": "generation:3d833fe697904d62be76b753f35833a0",
+      "input": {
+        "title": "MOTION-EP002-002.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。\n\nsummary: 只剩两天，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义少年洛羽，使用 <Picture 2> 定义渔晚，使用 <Picture 3> 定义研究所入口。渔晚近景，洛羽的肩在前景左侧虚焦，文件夹靠在渔晚腰前。0–2 秒渔晚收紧手指。2–7 秒她说话时视线一直落在洛羽脸上，语调从说明转成试探。7–9 秒留两秒给他消化。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 通道风声，衣料轻擦。仅渔晚开口，普通话同期口型，其他人安静听：「后天就考。你连第一只宠兽都没契约，来得及吗？」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "33533c23-e1d3-4d0f-9ebd-66bfaeb50c91",
+      "credits": 0,
+      "job_id": "815ff38e-8df5-5f27-a29a-ad1805225967",
+      "current_source_matches": true
+    },
+    "MOTION-EP002-003": {
+      "fingerprint": "d2bda46a5d9e44d6e05fa31053148c4cec1dc03ca37bfbe6458669522d1e36df",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "67f69a8b0e3f0773a22338819adfb0e2b095d40cff104a048ba4f41d3d111774",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c"
+      },
+      "prompt_sha256": "d9c1d06e46aea7ae04cc375fc145740cf7b792a09d078927c24c7375b701949e",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-003.mp4",
+      "quote_key": "quote:6c0feada9d17413091369efed8fed4a8",
+      "submit_key": "generation:27306f74aed74bf8b110c1b58003e6df",
+      "input": {
+        "title": "MOTION-EP002-003.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。\n\nsummary: 找第一只宠兽，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义少年洛羽，使用 <Picture 2> 定义渔晚，使用 <Picture 3> 定义研究所入口。反打洛羽近景，脸仍朝画右，后院水光在他身后。0–2 秒洛羽低头算了一下时间。2–7 秒抬眼开口，问到店时声音放轻。7–9 秒他等回答，渔晚虚焦肩线略前倾。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 远处池水和鞋底微响。仅洛羽开口，普通话同期口型，其他人安静听：「来得及。老师，岛上哪家宠兽店值得去？」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "1d8dec04-1264-42c2-81bb-a5f1c7fbfc1a",
+      "credits": 0,
+      "job_id": "cacdc129-df4f-5a20-8876-a9804a350fa3",
+      "current_source_matches": true
+    },
+    "MOTION-EP002-004": {
+      "fingerprint": "72aaa1a51f07edd583755facce17e13851bb26180106341a8761c3574acd149f",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "6ad0d370f9e54707b65220a41dbefbed876a43acec196cc89ba0982af6a5452d",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP001/制作成果/images/recovery-notice.png": "f3bfa32fc222fd6fcc123a9203139605fb0686f84bf3d8a48a5f7c1a07c4c795"
+      },
+      "prompt_sha256": "808666183de1cf4d118a684bf62cd911130d84a3df99e889d5a8ff7a8face693",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-004.mp4",
+      "quote_key": "quote:ed9a7ddbbf924820b134f49fc6643e2a",
+      "submit_key": "generation:f4104e1d8c624189b6e6ab9e76420124",
+      "input": {
+        "title": "MOTION-EP002-004.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：回收通知，保留文件外形与尺寸。\n\nsummary: 领航员的办法，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：回收通知，保留文件外形与尺寸。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义少年洛羽，使用 <Picture 2> 定义渔晚，使用 <Picture 3> 定义研究所入口，使用 <Picture 4> 定义回收通知。同轴双人中景，通道一侧有矮木台，渔晚把文件夹平放在台的远角。0–2 秒渔晚放好文件夹，转向洛羽。2–7 秒她说起过去的领航经验，眼睛亮了一下。7–9 秒她右手伸向腰侧随身革包，洛羽侧目看她的手。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 文件夹轻碰木台、革包摩擦。仅渔晚开口，普通话同期口型，其他人安静听：「我以前在船上靠星象领航。要不，先帮你占一卦？」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "recovery-notice.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2540502,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/047338f262d3f8bfec5faea7834f12e9ecc1cd594247232851f772cd71772aac"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "59c92fbb-ab4c-4153-9ee6-c1a5d708f27a",
+      "credits": 0,
+      "job_id": "b78852f7-13a8-5e4b-9ae6-9247fdd80717",
+      "current_source_matches": true
+    },
+    "MOTION-EP002-005": {
+      "fingerprint": "a7904fd3a297dc0d6ce7fa338a03584364f8d4d698253ad92649f19745666b80",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "d150de0b2a302a0ee2588aa90d0fd393cfc99220431923e46ad498333cc3d86c",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP002/制作成果/images/star-shell-pearl.png": "1f5c622c548e08a0bed5d37f48eb8561aa3342f4a79f06526c60970fe0e7d371"
+      },
+      "prompt_sha256": "ee061bc108257063d9a6cf5da87ca18f356c3dd032ff49601530e3f4f41d51f0",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-005.mp4",
+      "quote_key": "quote:7831f142f92542f3ad308156d0891b72",
+      "submit_key": "generation:08b92ba1c3dc4abf9ad643e8136eebe7",
+      "input": {
+        "title": "MOTION-EP002-005.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。\n\nsummary: 星贝珍珠，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义少年洛羽，使用 <Picture 2> 定义渔晚，使用 <Picture 3> 定义研究所入口，使用 <Picture 4> 定义星贝珍珠。木台斜侧双人中近景，文件夹在远角，渔晚右手从革包取出珍珠。0–2 秒渔晚把珍珠放在木台中央，左手扶台稳住身体。2–6 秒她把右手悬在珍珠上方，说完才低眼。6–9 秒珍珠内部浮起一点青白光，光映到两人的指节。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 掌心轻擦、珍珠闷响、很轻的泛音。仅渔晚开口，普通话同期口型，其他人安静听：「这是星贝留下的珍珠，能借一点星光。」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "star-shell-pearl.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2044944,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/1b9e74f1f97b49f0db9ce88abd9e52615bff45be2e8e98f80551bce0da4bd381"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "2584a53f-a3cd-4c0a-8299-2f15c63313ad",
+      "credits": 0,
+      "job_id": "e4a1639e-ab7a-552b-8069-7123106cc00e",
+      "current_source_matches": true
+    },
+    "MOTION-EP002-006": {
+      "fingerprint": "c3ff2c8cc1d43572443674446b453b837f797f9b24662c54ce2802b58773e982",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "e940f3121cdbcf632cef6bedadd39141a0b5f9381aa4331412e7c79f9088845a",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP002/制作成果/images/star-shell-pearl.png": "1f5c622c548e08a0bed5d37f48eb8561aa3342f4a79f06526c60970fe0e7d371"
+      },
+      "prompt_sha256": "9e8b389161f458e92aaf67aca51f58457cc434db93ddc0512b14d00517331dd7",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-006.mp4",
+      "quote_key": "quote:8fdf2a98327744cdb9b337261e3ecd5a",
+      "submit_key": "generation:9719cc05a5974f159997becc320dfab1",
+      "input": {
+        "title": "MOTION-EP002-006.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。\n\nsummary: 第一卦是奶牛，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义少年洛羽，使用 <Picture 2> 定义渔晚，使用 <Picture 3> 定义研究所入口，使用 <Picture 4> 定义星贝珍珠。从木台高度看珍珠和渔晚脸部，洛羽在左侧边缘，珍珠已发微光。0–4 秒青白光在珠上方聚成一头黑白花奶牛的半透明侧影，四蹄清楚，影像悬空。4–7 秒渔晚眨一下眼，迟疑开口。7–9 秒奶牛虚影化为碎光，珍珠留在原位。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 细碎泛音、短促吸气，幻象无实体叫声。仅渔晚开口，普通话同期口型，其他人安静听：「奶牛？我明明只算了镜月岛。」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "star-shell-pearl.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2044944,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/1b9e74f1f97b49f0db9ce88abd9e52615bff45be2e8e98f80551bce0da4bd381"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "319ad61b-9f42-4579-abf7-9d38db87fefb",
+      "credits": 0,
+      "job_id": "3e7b76d4-5ba4-54f7-b6cb-1398aa0637d3",
+      "current_source_matches": true
+    },
+    "MOTION-EP002-007": {
+      "fingerprint": "bee58d251e4e687772f8c0852bbeebc1f33eac99d5724fc6df30a4a72580e5d7",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "75479b41c516de1a551eaa4076c20d368f6da18eabab98d0053abcdce4e5f1b6",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP002/制作成果/images/star-shell-pearl.png": "1f5c622c548e08a0bed5d37f48eb8561aa3342f4a79f06526c60970fe0e7d371"
+      },
+      "prompt_sha256": "1b7185c3bf5d54ba7a45a4d5719e7db7381438f436856fe5e4647b98ee66893d",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-007.mp4",
+      "quote_key": "quote:167748a34d8949df809941bce402f065",
+      "submit_key": "generation:329d88a54f4a45bdbf03de5fc42b038a",
+      "input": {
+        "title": "MOTION-EP002-007.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。\n\nsummary: 第二卦是虎鲸，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：渔晚，保留脸型、发型及职业装。 <Picture 3>：研究所入口，保留石门、通道、后门及光向。 <Picture 4>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义少年洛羽，使用 <Picture 2> 定义渔晚，使用 <Picture 3> 定义研究所入口，使用 <Picture 4> 定义星贝珍珠。略俯拍木台和两人上半身，珠光很低，奶牛虚影已散。0–4 秒渔晚再抬手，第二个幻象缓慢侧转，露出虎鲸的黑背、白眼斑与背鳍，大小限于木台上方。4–7 秒洛羽看着虎鲸，忍住笑再开口。7–9 秒虚影散去，渔晚的手仍悬着。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 星光低鸣、洛羽的短呼气。仅洛羽开口，普通话同期口型，其他人安静听：「老师，我上哪儿契约一头虎鲸？」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 3,
+            "filename": "star-shell-pearl.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2044944,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/1b9e74f1f97b49f0db9ce88abd9e52615bff45be2e8e98f80551bce0da4bd381"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "57b1b2a7-390e-4bdf-90d4-2150be9a55a5",
+      "credits": 0,
+      "job_id": "5353ee27-267b-56cf-ae69-ddf50ef32483",
+      "current_source_matches": true
+    },
+    "MOTION-EP002-008": {
+      "fingerprint": "e35290ea35f14d800f3be17324225f82292948c93974ea302084ad3c3ebb58e9",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "ece8f7c6383a582238b53f7f4e18c642e60412a2ffd057348616c8fe7143f176",
+        "剧集/EP001/制作成果/images/yu-wan-sheet.png": "a86944d1a1c22ecd49187ea9696f6b9310756a78bb25d65ebd5003e54bc3f9b5",
+        "剧集/EP001/制作成果/images/institute-entrance.png": "db769d88924379dad70329b1316e1a70c039f460b53e878ea707385915e3b84c",
+        "剧集/EP002/制作成果/images/star-shell-pearl.png": "1f5c622c548e08a0bed5d37f48eb8561aa3342f4a79f06526c60970fe0e7d371"
+      },
+      "prompt_sha256": "73baebc7c5e21d0baa9929745d48d0619bec4a52e513ac076286ed53d334fc2b",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-008.mp4",
+      "quote_key": "quote:5bcaa191abfe436ca634298e0364cce7",
+      "submit_key": "generation:47b86624fd084872a64fe56028889c96",
+      "input": {
+        "title": "MOTION-EP002-008.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：渔晚，保留脸型、发型及职业装。 <Picture 2>：研究所入口，保留石门、通道、后门及光向。 <Picture 3>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。\n\nsummary: 最后一次，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：渔晚，保留脸型、发型及职业装。 <Picture 2>：研究所入口，保留石门、通道、后门及光向。 <Picture 3>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义渔晚，使用 <Picture 2> 定义研究所入口，使用 <Picture 3> 定义星贝珍珠。渔晚右侧近景，额角汗光可见，珠子位于画面下缘。0–3 秒渔晚用左袖碰一下额角，说完就屏息。3–7 秒她把右手悬回珠顶，两圈青白光贴着珠面转动。7–9 秒光稳定下来，刚好照亮她的眼睛，留出上方空位。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 袖料轻擦、压住的一口气、珠光泛音。仅渔晚开口，普通话同期口型，其他人安静听：「最后一次。这次我再把范围缩小点。」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "yu-wan-sheet.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2202527,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/7aff441b3791b77249825a7ef91226f3c790697a32cb720bc7af9b07a301ad27"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "institute-entrance.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2827434,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/d2558c4bb2bb6673a9105ace1dab6f7ba9e5105273dbd652d67e47fdb57e270b"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "star-shell-pearl.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2044944,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/1b9e74f1f97b49f0db9ce88abd9e52615bff45be2e8e98f80551bce0da4bd381"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "ea7e8af2-5a93-499b-b31e-8e374e223d54",
+      "credits": 0,
+      "job_id": "e1de37f8-3277-5f3d-acfb-709a6dc576b5",
+      "current_source_matches": true
+    },
+    "MOTION-EP002-009": {
+      "fingerprint": "1d878e16da7ea32a2bec7cf00ec82ca8525692655522f055faea8638e27c1d64",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "39dc46de735b753718c6b47edab2ac669c48f02e927cf9cccedb9e76704e49a7",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP002/制作成果/images/star-shell-pearl.png": "1f5c622c548e08a0bed5d37f48eb8561aa3342f4a79f06526c60970fe0e7d371",
+        "剧集/EP001/制作成果/images/ink-octopus-comparison.png": "ddfacd1cd9297d2aab5dc1e7bf62b150c10eacc05b6ca9919ad5a9f53d9fce75"
+      },
+      "prompt_sha256": "95ca598bb5ced7be3fd12293dc8d78205a91f165fc8ea3e2cbed0f93a037510f",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-009.mp4",
+      "quote_key": "quote:d71b32bfd0c040c5a93d36fee4a29b17",
+      "submit_key": "generation:d04c7525f4da4cb4a7110ab75a4cd111",
+      "input": {
+        "title": "MOTION-EP002-009.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。 <Picture 3>：墨水鱼，保留物种头罩、眼睛与腕足形态，黑白个体依当镜描述。\n\nsummary: 八刀流，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：星贝珍珠，保留乳白球体、掌心尺度、偏蓝珍珠光泽与两处细小凹点。 <Picture 3>：墨水鱼，保留物种头罩、眼睛与腕足形态，黑白个体依当镜描述。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义少年洛羽，使用 <Picture 2> 定义星贝珍珠，使用 <Picture 3> 定义墨水鱼。珠子特写，青白光刚稳定，正上方留出完整投影空间，背景为虚化木台。0–4 秒珍珠上方长出一只半透明黑白墨水鱼幻象，头罩参考墨水鱼，八条触手逐条舒展开，每条末端卷住一枚短白冰刃。4–7 秒八条触手和八枚冰刃在同一画面中清楚停留，冰刃始终是占卜光影。7–9 秒焦点轻移向后方洛羽骤然抬起的眼睛，保持幻象轮廓。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 冰晶般清响，洛羽画外内心声。洛羽保持闭嘴，以下台词是单独的低声内心旁白：「八刀流？」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "star-shell-pearl.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2044944,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/1b9e74f1f97b49f0db9ce88abd9e52615bff45be2e8e98f80551bce0da4bd381"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "ink-octopus-comparison.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2132971,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/9897102654a1ddc88b662b2ab60dc8d4bd5862ddfc29bc4e7f686feeadae4bcc"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "6386800e-bb11-4e0c-b953-cbf7302da68d",
+      "credits": 0,
+      "job_id": "58f47d6d-30d2-57c3-a633-88b84e1a52f2",
+      "current_source_matches": true
+    },
+    "MOTION-EP002-010": {
+      "fingerprint": "9481ee1639c62d63a17ab6797722db1170a33705b7fadda27d357b27d7f186e8",
+      "resolution_selection": "00000000-0000-4000-8000-000000000005",
+      "resolution_name": "768P",
+      "resolution": {
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1
+      },
+      "input_hashes": {
+        "剧集/EP002/视频提示词.md": "ed9423dbf5dac88d79a4387de076fc5eb1913712d60a53f0dbed999c4539ef4f",
+        "剧集/EP001/制作成果/images/luo-yu-teen.png": "a31991171b00d32139d402d04d52d614d21c131946fd539095c2f1c00a2d6c6f",
+        "剧集/EP001/制作成果/images/institute-courtyard-poolside.png": "826c5469e4c5b7456f746219251dea5bf93f97795bea54eecc801f97c18b538f",
+        "剧集/EP001/制作成果/images/ink-octopus-comparison.png": "ddfacd1cd9297d2aab5dc1e7bf62b150c10eacc05b6ca9919ad5a9f53d9fce75"
+      },
+      "prompt_sha256": "eb2ad6329f246db99a3183143cc80bf0f8b5a67910602800101c6d398431208c",
+      "status": "queued",
+      "output": "剧集/EP002/制作成果/video/MOTION-EP002-010.mp4",
+      "quote_key": "quote:ab85712aca79479d9654d3a367d726a6",
+      "submit_key": "generation:a765bf8989d9430d92dc9cc54dc088f8",
+      "input": {
+        "title": "MOTION-EP002-010.mp4",
+        "workflow": "hot",
+        "mode": "r2v",
+        "prompt": "subject_definitions: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：研究所后院池边，保留后门、池沿、干地与水面布局。 <Picture 3>：墨水鱼，保留物种头罩、眼睛与腕足形态，黑白个体依当镜描述。\n\nsummary: 池里就有一只，9 秒，16:9 横屏、24 帧每秒，写实奇幻 CG。浅灰石的暖日光与海蓝阴影，有真实木纹、织物与水面反光。\n\nretention_analysis: <Picture 1>：少年洛羽，保留脸型、发型、年龄、体态与衣着。 <Picture 2>：研究所后院池边，保留后门、池沿、干地与水面布局。 <Picture 3>：墨水鱼，保留物种头罩、眼睛与腕足形态，黑白个体依当镜描述。 按镜头重新构图，画面为连贯的实景空间，人物身份、服饰、相对位置及道具尺度稳定。\n\ndetailed_description: [Shot 1] 全段一个镜头。使用 <Picture 1> 定义少年洛羽，使用 <Picture 2> 定义研究所后院池边，使用 <Picture 3> 定义墨水鱼。后院池边低机位，池外干地在画左，浅石池沿和青水在画右。洛羽刚跨出后门。0–3 秒硬切后院，洛羽走到池沿，随俯身动作向水下缓慢拉焦。3–7 秒其他墨水鱼游出画面，一只小黑白墨水鱼从石沿下转出，把一条触手卷在自己身前。7–9 秒它停在洛羽倒影下方，水滴声后切黑。实物保留自然墨水鱼体态，冰刃只出现于上一镜幻象。 只出现明确指定的角色和幻象，保持视线、手指与道具接触自然，无字幕、标题或水印。\n\noverall_soundscape: 脚步停下、浅水声、洛羽画外内心声。洛羽保持闭嘴，以下台词是单独的低声内心旁白：「我这池子里……就有一只。」\n\nnon_diegetic_music: N/A",
+        "duration": 9,
+        "aspectRatio": "16:9",
+        "audioMode": "generate",
+        "acceleratorEnabled": true,
+        "optimizePrompt": false,
+        "resolutionOptionId": "00000000-0000-4000-8000-000000000005",
+        "resolutionRevision": 23,
+        "megapixels": 1,
+        "referenceMedia": [
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 0,
+            "filename": "luo-yu-teen.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2557317,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/391e435f13eef97ded0f96605fb2a3773fd93ada34603492b15d33c75bd36778"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 1,
+            "filename": "institute-courtyard-poolside.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2967385,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/6d4fd1ea6812f30635916031c509a03c39719f29e72a3a4e638f82cf03c328df"
+          },
+          {
+            "scope": "segment",
+            "kind": "image",
+            "index": 2,
+            "filename": "ink-octopus-comparison.png",
+            "mimeType": "image/png",
+            "sizeBytes": 2132971,
+            "storageKey": "2026-11-19/input/3a7e3571-0145-4437-afec-8688540a5275/cos/9897102654a1ddc88b662b2ab60dc8d4bd5862ddfc29bc4e7f686feeadae4bcc"
+          }
+        ],
+        "commonEnabled": false,
+        "refImageSize": "match"
+      },
+      "quote_id": "ca4062dd-0408-40ff-b49c-0caa56beef69",
+      "credits": 0,
+      "job_id": "a0baf023-2a7e-522f-aecd-641f3d3f1dcc",
+      "current_source_matches": true
+    }
+  }
+}

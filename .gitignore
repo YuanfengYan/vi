@@ -1,0 +1,9 @@
+/node_modules
+/.idea
+/.yarn
+.yarnrc.yml
+/yarn.lock
+*/.env
+*.env.local
+*.env.local.example
+*.env.example
